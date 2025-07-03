@@ -3,7 +3,7 @@ CS 467 Escape Room Game
 
 How to:
 1. Download GitHub Desktop
-2. >File >Clone Repository
+2. File > Clone Repository
 
 Changelog
 7/1: Initialized Unity Game -Larisa
