@@ -6,7 +6,11 @@ using UnityEngine;
 public class FirstPersonController : MonoBehaviour
 {
     [Header("Movement Speeds")]
-    [SerializeField] private float walkSpeed = 6.0f;
+    [SerializeField] private float walkSpeed = 1.0f;
+
+    [Header("Jump Parameters")]
+    [SerializeField] private float jumpForce = 2.0f;
+    [SerializeField] private float gravityMultiplier = 3.0f;
 
     [Header("Look Parameters")]
     [SerializeField] private float mouseSensitivity = 0.1f;
@@ -43,11 +47,31 @@ public class FirstPersonController : MonoBehaviour
         return worldDirection.normalized;
     }
 
+    private void HandleJumping()
+    {
+        if (characterController.isGrounded)
+        {
+            currentMovement.y = -0.5f;
+            
+            if (playerInputHandler.JumpTriggered)
+            {
+                currentMovement.y = jumpForce;
+                currentMovement.x = walkSpeed / 2;
+            }
+        }
+        else
+        {
+            currentMovement.y += Physics.gravity.y * gravityMultiplier * Time.deltaTime;
+        }
+    }
+
     private void HandleMovement()
     {
         Vector3 worldDirection = CalculateWorldDirection();
         currentMovement.x = worldDirection.x * walkSpeed;
         currentMovement.z = worldDirection.z * walkSpeed;
+
+        HandleJumping();
 
         characterController.Move(currentMovement * Time.deltaTime);
 
@@ -61,7 +85,7 @@ public class FirstPersonController : MonoBehaviour
     private void ApplyVerticalRotation(float rotationAmount)
     {
         verticalRotation = Mathf.Clamp(verticalRotation - rotationAmount, -upDownLookRange, upDownLookRange);
-        mainCamera.transform.localRotation = Quaternion.Euler(verticalRotation, 0, 0);
+        mainCamera.transform.localRotation = Quaternion.Euler(verticalRotation, 30, 0);
     }
 
     private void HandleRotation()
