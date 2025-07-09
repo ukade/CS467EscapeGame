@@ -16,6 +16,8 @@ Changelog
 
 7/8: Brian's first commit
 
+7/8: Katrine's first commit
+
 --------------------------------------------------
 Sources:
 Unity 6 - Complete Beginners Tutorial (2025)
