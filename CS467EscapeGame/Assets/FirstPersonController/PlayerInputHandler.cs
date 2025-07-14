@@ -28,6 +28,7 @@ public class PlayerInputHandler : MonoBehaviour
     public bool JumpTriggered { get; private set; }
 
     private void Awake()
+
     {
         InputActionMap mapReference = playerControls.FindActionMap(actionMapName);
 

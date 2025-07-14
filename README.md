@@ -22,6 +22,8 @@ Changelog
 
 7/13: Update to Tools Used
 
+7/13: Added Interaction System, organized file location - Larisa
+
 --------------------------------------------------
 Sources Cited:
 
