@@ -20,6 +20,8 @@ Changelog
 
 7/12: Nicks first commit
 
+7/13: Update to Tools Used
+
 --------------------------------------------------
 Sources Cited:
 
@@ -69,4 +71,4 @@ https://unity.com/download Accessed: June-July 2025.
 https://docs.unity3d.com/hub/manual/InstallHub.html#install-hub-linux Accessed: June-July 2025. 
 
 Tools Used: 
-- Unity Editor, VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub
+- Unity Editor, VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com
