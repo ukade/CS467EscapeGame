@@ -70,7 +70,25 @@ https://www.youtube.com/watch?v=Bfl-V-39JlU Accessed: June-July 2025.
 https://unity.com/download Accessed: June-July 2025.
 
 15. Unity Technologies. (2025). *Install the Unity Hub.* Unity Technologies.
-https://docs.unity3d.com/hub/manual/InstallHub.html#install-hub-linux Accessed: June-July 2025. 
+https://docs.unity3d.com/hub/manual/InstallHub.html#install-hub-linux Accessed: June-July 2025.
+
+16. Gates, Ami. (2025). *HOW TO: Git and GitHub.* Gates Bolton Analytics.
+https://gatesboltonanalytics.com/?page_id=795 Accessed: June-July 2025.
+
+17. Purdue OWL. (2025). *Reference List: Electronic Sources.* Purdue University.
+https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/reference_list_electronic_sources.html Accessed: June-July 2025.
+
+18. Purdue OWL. (2025). *APA Formatting and Style Guide (7th Edition).* Purdue University.
+https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/index.html Accessed: June-July 2025.
+
+19. American Psychological Association. (2019, Sept.) *Style and Grammar Guidelines.* American Psychological Association.
+https://apastyle.apa.org/style-grammar-guidelines Accessed: June-July 2025.
+
+20. Pandazole. (2022, July 20). *Pandazole - Lowpoly Asset Bundle.* (Version 1.0.2). Unity Asset Store.
+https://assetstore.unity.com/packages/3d/props/pandazole-lowpoly-asset-bundle-226938 Accessed: June-July 2025.
+
+21. Unity Technologies. (2025, June 11). *Unity 6.1.* (Version 6000.1.7f1). Unity Technologies.
+https://unity.com/download and https://unity.com/releases/editor/archive Accessed: June-July 2025.
 
 Tools Used: 
-- Unity Editor, VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com
+VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com
