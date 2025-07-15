@@ -45,6 +45,7 @@ public class Pickup : MonoBehaviour
     private void OnMouseDown()
     {
         // upon clicking and holding left mouse button, the object will be picked up
+        Debug.Log("Left Mouse Click");
 
         if (tempParent != null)
         {
