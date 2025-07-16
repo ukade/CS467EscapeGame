@@ -24,6 +24,8 @@ Changelog
 
 7/13: Added Interaction System, organized file location - Larisa
 
+7/15: Update to Tools Used - Katrine
+
 --------------------------------------------------
 Sources Cited:
 
@@ -91,4 +93,4 @@ https://assetstore.unity.com/packages/3d/props/pandazole-lowpoly-asset-bundle-22
 https://unity.com/download and https://unity.com/releases/editor/archive Accessed: June-July 2025.
 
 Tools Used: 
-VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com
+VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com, canva.com for 2D mockup stock images
