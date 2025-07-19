@@ -26,6 +26,8 @@ Changelog
 
 7/15: Update to Tools Used - Katrine
 
+7/19: Added Cosmetic Changes to Room1
+
 --------------------------------------------------
 Sources Cited:
 
