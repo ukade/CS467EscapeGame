@@ -24,6 +24,8 @@ Changelog
 
 7/13: Added Interaction System, organized file location - Larisa
 
+7/19: Building environment for Room 3
+
 --------------------------------------------------
 Sources Cited:
 
@@ -98,6 +100,9 @@ https://www.youtube.com/watch?v=L-81sc7Alx4 Accessed: June-July 2025.
 
 24. Unity Technologies. (2025). *Programming in Unity.* Unity Technologies. 
 https://unity.com/solutions/programming Accessed: June-July 2025.
+
+25. DuckDuckGo. (2025). *DuckDuckGo Search: "What programming language does unity use?"* DuckDuckGo.
+https://duckduckgo.com/?t=lm&q=What+programming+language+does+unity+use%3F&ia=web Accessed: July 2025.
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com
