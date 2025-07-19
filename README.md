@@ -24,6 +24,10 @@ Changelog
 
 7/13: Added Interaction System, organized file location - Larisa
 
+7/15: Update to Tools Used - Katrine
+
+7/19: Added Cosmetic Changes to Room1
+
 7/19: Building environment for Room 3
 
 --------------------------------------------------
@@ -105,4 +109,4 @@ https://unity.com/solutions/programming Accessed: June-July 2025.
 https://duckduckgo.com/?t=lm&q=What+programming+language+does+unity+use%3F&ia=web Accessed: July 2025.
 
 Tools Used: 
-VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com
+VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com, canva.com for 2D mockup stock images
