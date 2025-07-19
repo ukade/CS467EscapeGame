@@ -28,6 +28,8 @@ Changelog
 
 7/19: Added Cosmetic Changes to Room1
 
+7/19: Building environment for Room 3
+
 --------------------------------------------------
 Sources Cited:
 
@@ -93,6 +95,18 @@ https://assetstore.unity.com/packages/3d/props/pandazole-lowpoly-asset-bundle-22
 
 21. Unity Technologies. (2025, June 11). *Unity 6.1.* (Version 6000.1.7f1). Unity Technologies.
 https://unity.com/download and https://unity.com/releases/editor/archive Accessed: June-July 2025.
+
+22. Vegas, Jimmy. [Jimmy Vegas]. (20244, December 9). *UNITY 6 TUTORIAL PART 1 - LEARN THE BASICS - HOW TO MAKE A GAME FOR BEGINNERS.* [Video] Youtube. 
+https://www.youtube.com/watch?v=HwI90YLqMaY Accessed: June-July 2025.
+
+23. Vegas, Jimmy. [Jimmy Vegas]. (2025, June 16). *HOW TO MAKE A GAME IN UNITY 6 - FULL COURSE TUTORIAL - HOW TO MAKE A GAME FOR BEGINNERS.* [Video]. Youtube.
+https://www.youtube.com/watch?v=L-81sc7Alx4 Accessed: June-July 2025.
+
+24. Unity Technologies. (2025). *Programming in Unity.* Unity Technologies. 
+https://unity.com/solutions/programming Accessed: June-July 2025.
+
+25. DuckDuckGo. (2025). *DuckDuckGo Search: "What programming language does unity use?"* DuckDuckGo.
+https://duckduckgo.com/?t=lm&q=What+programming+language+does+unity+use%3F&ia=web Accessed: July 2025.
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com, canva.com for 2D mockup stock images
