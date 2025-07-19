@@ -73,12 +73,6 @@ public class Pickup : MonoBehaviour
         Drop();
     }
 
-    //private void OnMouseExit()
-    //    // the object moving away from where the mouse is on the screen will drop the object
-    //{
-    //    Drop();
-    //}
-
     private void Hold()
         // function that defines what behavior should be checked every frame while holding an object
     {
