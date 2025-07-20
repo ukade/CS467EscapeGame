@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 508 285.74999"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="Start Menu 01.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.68862935"
+     inkscape:cx="955.52128"
+     inkscape:cy="506.07776"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="0.99999997"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Background"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#afc6e9;stroke-width:0.264116"
+       id="rect1"
+       width="507.55109"
+       height="287.77878"
+       x="0.38421738"
+       y="-0.7684347"
+       inkscape:label="Wall" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Floor">
+    <rect
+       style="fill:#8787de;stroke-width:0.267722"
+       id="rect2"
+       width="508.70377"
+       height="87.985786"
+       x="-0.38421679"
+       y="199.4088"
+       inkscape:label="Carpet" />
+    <rect
+       style="fill:#d7d7f4;stroke-width:0.264084"
+       id="rect3"
+       width="508.31955"
+       height="20.363518"
+       x="-0.76843464"
+       y="183.65588"
+       inkscape:label="Floor board" />
+    <rect
+       style="fill:#8080ff;fill-opacity:1;stroke-width:0.191491"
+       id="rect4"
+       width="509.08798"
+       height="4.2263899"
+       x="-0.76843464"
+       y="203.25096"
+       inkscape:label="Floor Board Shadow" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Tent"
+     style="display:inline">
+    <g
+       id="g16">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.257455px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 98.008799,92.592204 C 65.698354,239.37425 65.698354,239.37425 65.698354,239.37425 l 98.367366,-17.13107 z"
+         id="path4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 97.975419,92.212159 37.653298,209.01423 66.085381,239.3674 65.316946,238.59896 Z"
+         id="path5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 102.69605,137.19975 Z"
+         id="path6" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 102.42437,134.21124 c 0,0 -9.237211,41.56745 -20.376201,50.80466 0,0 3.803559,11.68236 -5.977018,59.7702"
+         id="path7" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 76.342832,244.24273 -7.607115,-6.2487 8.693846,-53.24981 -18.474423,54.06485 6.792069,0.27169 4.075239,-0.81505 z"
+         id="path8" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 102.69605,134.21124 c 0,0 24.17976,45.37101 32.05856,43.46923 0,0 5.43365,43.19755 12.76909,51.34803 l 8.42216,-5.70533 c 0,0 8.69385,0.27168 8.42216,-1.35842"
+         id="path10" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Toy Box" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Light Switch" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Drawings" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Layer 1" />
+</svg>
