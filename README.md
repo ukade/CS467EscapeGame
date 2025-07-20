@@ -30,6 +30,8 @@ Changelog
 
 7/19: Building environment for Room 3
 
+7/20: Changed lighting for Room 3
+
 --------------------------------------------------
 Sources Cited:
 
@@ -92,6 +94,7 @@ https://apastyle.apa.org/style-grammar-guidelines Accessed: June-July 2025.
 
 20. Pandazole. (2022, July 20). *Pandazole - Lowpoly Asset Bundle.* (Version 1.0.2). Unity Asset Store.
 https://assetstore.unity.com/packages/3d/props/pandazole-lowpoly-asset-bundle-226938 Accessed: June-July 2025.
+Terms/EULA: https://unity.com/legal/as-terms and https://assetstore.unity.com/browse/eula-faq
 
 21. Unity Technologies. (2025, June 11). *Unity 6.1.* (Version 6000.1.7f1). Unity Technologies.
 https://unity.com/download and https://unity.com/releases/editor/archive Accessed: June-July 2025.
@@ -107,6 +110,13 @@ https://unity.com/solutions/programming Accessed: June-July 2025.
 
 25. DuckDuckGo. (2025). *DuckDuckGo Search: "What programming language does unity use?"* DuckDuckGo.
 https://duckduckgo.com/?t=lm&q=What+programming+language+does+unity+use%3F&ia=web Accessed: July 2025.
+
+26. Fist Full of Shrimp. [Fist Full of Shrimp]. (2024, January 4). *Light Up Your Game : Unity Lighting Essentials!* Youtube.
+https://www.youtube.com/watch?v=5rxMdiCkQGk. Accessed: July 2025. 
+
+27. Imphenzia. [Imphenzia]. (2020, July 24). *LEARN UNITY - THe Most BASIC TUTORIAL I'll Ever Make.* Youtube. https://www.youtube.com/watch?v=pwZpJzpE2lQ Accessed: Several years ago and then in July 2025. 
+
+28. Durkin, Michael. [Michael.Durkin]. (2025, June 25) *Iteration over everything #gamedev #indie #unrealengine.* https://www.youtube.com/shorts/_CmxMkPfbNs Accessed: July 2025.
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com, canva.com for 2D mockup stock images
