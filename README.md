@@ -99,7 +99,7 @@ Terms/EULA: https://unity.com/legal/as-terms and https://assetstore.unity.com/br
 21. Unity Technologies. (2025, June 11). *Unity 6.1.* (Version 6000.1.7f1). Unity Technologies.
 https://unity.com/download and https://unity.com/releases/editor/archive Accessed: June-July 2025.
 
-22. Vegas, Jimmy. [Jimmy Vegas]. (20244, December 9). *UNITY 6 TUTORIAL PART 1 - LEARN THE BASICS - HOW TO MAKE A GAME FOR BEGINNERS.* [Video] Youtube. 
+22. Vegas, Jimmy. [Jimmy Vegas]. (2024, December 9). *UNITY 6 TUTORIAL PART 1 - LEARN THE BASICS - HOW TO MAKE A GAME FOR BEGINNERS.* [Video] Youtube. 
 https://www.youtube.com/watch?v=HwI90YLqMaY Accessed: June-July 2025.
 
 23. Vegas, Jimmy. [Jimmhttps://www.youtube.com/shorts/_CmxMkPfbNsy Vegas]. (2025, June 16). *HOW TO MAKE A GAME IN UNITY 6 - FULL COURSE TUTORIAL - HOW TO MAKE A GAME FOR BEGINNERS.* [Video]. Youtube.
