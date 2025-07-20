@@ -102,7 +102,7 @@ https://unity.com/download and https://unity.com/releases/editor/archive Accesse
 22. Vegas, Jimmy. [Jimmy Vegas]. (20244, December 9). *UNITY 6 TUTORIAL PART 1 - LEARN THE BASICS - HOW TO MAKE A GAME FOR BEGINNERS.* [Video] Youtube. 
 https://www.youtube.com/watch?v=HwI90YLqMaY Accessed: June-July 2025.
 
-23. Vegas, Jimmy. [Jimmy Vegas]. (2025, June 16). *HOW TO MAKE A GAME IN UNITY 6 - FULL COURSE TUTORIAL - HOW TO MAKE A GAME FOR BEGINNERS.* [Video]. Youtube.
+23. Vegas, Jimmy. [Jimmhttps://www.youtube.com/shorts/_CmxMkPfbNsy Vegas]. (2025, June 16). *HOW TO MAKE A GAME IN UNITY 6 - FULL COURSE TUTORIAL - HOW TO MAKE A GAME FOR BEGINNERS.* [Video]. Youtube.
 https://www.youtube.com/watch?v=L-81sc7Alx4 Accessed: June-July 2025.
 
 24. Unity Technologies. (2025). *Programming in Unity.* Unity Technologies. 
@@ -114,7 +114,7 @@ https://duckduckgo.com/?t=lm&q=What+programming+language+does+unity+use%3F&ia=we
 26. Fist Full of Shrimp. [Fist Full of Shrimp]. (2024, January 4). *Light Up Your Game : Unity Lighting Essentials!* Youtube.
 https://www.youtube.com/watch?v=5rxMdiCkQGk. Accessed: July 2025. 
 
-27. Imphenzia. [Imphenzia]. (2020, July 24). *LEARN UNITY - THe Most BASIC TUTORIAL I'll Ever Make.* Youtube. https://www.youtube.com/watch?v=pwZpJzpE2lQ Accessed: Several years ago and then in July 2025. 
+27. Imphenzia. [Imphenzia]. (2020, July 24). *LEARN UNITY - THe Most BASIC TUTORIAL I'll Ever Make.* Youtube. https://www.youtube.com/watch?v=pwZpJzpE2lQ Accessed: A couple/few years ago and then in July 2025. 
 
 28. Durkin, Michael. [Michael.Durkin]. (2025, June 25) *Iteration over everything #gamedev #indie #unrealengine.* https://www.youtube.com/shorts/_CmxMkPfbNs Accessed: July 2025.
 
