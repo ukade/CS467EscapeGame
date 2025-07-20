@@ -120,5 +120,27 @@ https://www.youtube.com/watch?v=5rxMdiCkQGk. Accessed: July 2025.
 
 28. Durkin, Michael. [Michael.Durkin]. (2025, June 25) *Iteration over everything #gamedev #indie #unrealengine.* https://www.youtube.com/shorts/_CmxMkPfbNs Accessed: July 2025.
 
+29. Unity Technologies. (2025). *Unity Documentation, Programming in Unity.* Unity Technologies. https://docs.unity3d.com/Manual/scripting.html Accessed: July 2025. 
+
+30. Unity Technologies. (2025). *Unity Documentation, Get started with programming in Unity.* https://docs.unity3d.com/Manual/scripting-get-started.html Accessed: July 2025. 
+
+31. Unity Technologies. (2025). *Unity Documentation, Introduction to Scripting.* Unity Technologies. https://docs.unity3d.com/Manual/intro-to-scripting.html Accessed: July 2025. 
+
+32. Unity Technologies. (2025). *Unity Documentation, Creating Scripts.* Unity Technologies. https://docs.unity3d.com/Manual/creating-scripts.html Accessed: July 2025. 
+
+33. Unity Technologies. (2025). *Unity Documentation, MonoBehavior.* Unity Technologies. https://docs.unity3d.com/Manual/class-MonoBehaviour.html Accessed: July 2025. 
+
+34. Unity Technologies. (2025). *Unity Documentation, Event functions.*
+Unity Technologies. https://docs.unity3d.com/Manual/event-functions.html
+Accessed: July 2025. 
+
+35. Unity Technologies. (2025). *Unity Documentation, MonoBehavior.OnMouseDown().* Unity Technologies. https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnMouseDown.html Accessed: July 2025. 
+
+36. Microsoft. (2025). *Microsoft Ignite, C# Language Reference.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/ Accessed: July 2025.
+
+37. W3Schools. (2025). *C# Syntax.* W3Schools. https://www.w3schools.com/cs/cs_syntax.php Accessed: July 2025. 
+
+38. W3Schools. (2025). *C# Comments* W3Schools. https://www.w3schools.com/cs/cs_comments.php Accessed: July 2025. 
+
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com, canva.com for 2D mockup stock images
