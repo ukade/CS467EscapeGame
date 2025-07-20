@@ -32,6 +32,8 @@ Changelog
 
 7/20: Changed lighting for Room 3
 
+7/20: Added animations and other elements for Room 3
+
 --------------------------------------------------
 Sources Cited:
 
