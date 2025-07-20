@@ -14,6 +14,7 @@ public class TempParent : MonoBehaviour
     private void Awake()
         // this ensures there is one tempParent object present in the game
         // meaning we do not have to attach this script to every object in the game
+        // the player this script is attached to will assume parent status of the valid object they pick up
     {
         if(Instance == null)
         {

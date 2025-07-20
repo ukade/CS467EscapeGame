@@ -22,12 +22,6 @@ public class Count_Objects : MonoBehaviour
 
     OnTriggerEnter box;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider other)
     // counts objects that enter the container once, ignores player
     {
@@ -41,11 +35,5 @@ public class Count_Objects : MonoBehaviour
 
             }
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
