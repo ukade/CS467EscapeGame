@@ -32,7 +32,9 @@ Changelog
 
 7/20: Changed lighting for Room 3
 
-7/20: Added animations and other elements for Room 3
+7/20: Added animation and other elements for Room 3
+
+7/20: Working on Room 3 Puzzle 2 Script
 
 --------------------------------------------------
 Sources Cited:
