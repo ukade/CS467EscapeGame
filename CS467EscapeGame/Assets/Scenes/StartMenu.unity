@@ -318,7 +318,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7239932}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: QuitApp
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
