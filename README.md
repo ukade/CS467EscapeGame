@@ -34,6 +34,8 @@ Changelog
 
 7/20: Added animations and other elements for Room 3
 
+7/21: Updated Citations - Katrine
+
 --------------------------------------------------
 Sources Cited:
 
@@ -119,6 +121,23 @@ https://www.youtube.com/watch?v=5rxMdiCkQGk. Accessed: July 2025.
 27. Imphenzia. [Imphenzia]. (2020, July 24). *LEARN UNITY - THe Most BASIC TUTORIAL I'll Ever Make.* Youtube. https://www.youtube.com/watch?v=pwZpJzpE2lQ Accessed: A couple/few years ago and then in July 2025. 
 
 28. Durkin, Michael. [Michael.Durkin]. (2025, June 25) *Iteration over everything #gamedev #indie #unrealengine.* https://www.youtube.com/shorts/_CmxMkPfbNs Accessed: July 2025.
+
+29. User interface design and implementation in Unity. Unity. https://unity.com/resources/user-interface-design-and-implementation-in-unity Accessed July 15, 2025.
+  
+30. Rehope Games. [RehopeGames]. (2023, May 8) *Make Your MAIN MENU Quickly! | Unity UI Tutorial for Beginners* YouTube. https://www.youtube.com/watch?v=DX7HyN7oJjE Accessed July 15, 2025.
+
+31. Game Dev Guide. [GameDevGuide]. (2024, April 3). *Building Runtime UI with UI Toolkit in Unity* YouTube. https://www.youtube.com/watch?v=6DcwHPxCE54 Accessed July 17, 2025.
+
+32. Brush, Thomas. [ThomasBrush]. (2019, January 22). *Make A Gorgeous Start Menu (Unity UI Tutorial)!* YouTube. https://www.youtube.com/watch?v=vqZjZ6yv1lA Accessed July 17, 2025.
+
+33. AIA. [AIADev]. (2021, August 10). *Unity UI Tutorial | An introduction* YouTube. https://www.youtube.com/watch?v=IuuKUaZQiSU Accessed July 17, 2025.
+
+34. AIA. [AIADev]. (2021, August 13). *Unity Button Tutorial* YouTube. https://www.youtube.com/watch?v=Dn8fCuaL-RA Accessed July 19, 2025.
+
+35. DA LAB. [DA-LAB]. (2022, August 6). *Unity - Quit with Button Click or Keyboard Input* YouTube. https://www.youtube.com/watch?v=coEs4hKFoes Accessed July 20, 2025.
+    
+36. Dąbrowski, Damian. (2024, February 20). Quit application on Escape button in Unity. Medium. https://damiandabrowski.medium.com/quit-application-on-escape-button-in-unity-bf02b8091b5f Accessed 7/21/2025.
+
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com, canva.com for 2D mockup stock images
