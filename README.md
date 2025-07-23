@@ -26,7 +26,7 @@ Changelog
 
 7/15: Update to Tools Used - Katrine
 
-7/19: Added Cosmetic Changes to Room1
+7/19: Added Cosmetic Changes to Room 1 - Larisa
 
 7/19: Building environment for Room 3
 
@@ -36,6 +36,7 @@ Changelog
 
 7/21: Updated Citations - Katrine
 
+7/22: Added SceneLoader - Larisa
 --------------------------------------------------
 Sources Cited:
 
