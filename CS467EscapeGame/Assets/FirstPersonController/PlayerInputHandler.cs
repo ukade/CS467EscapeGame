@@ -30,6 +30,7 @@ public class PlayerInputHandler : MonoBehaviour
     private void Awake()
 
     {
+
         InputActionMap mapReference = playerControls.FindActionMap(actionMapName);
 
         movementAction = mapReference.FindAction(movement);
@@ -54,11 +55,17 @@ public class PlayerInputHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        playerControls.FindActionMap(actionMapName).Enable();
+        if (playerControls != null)
+        {
+            playerControls.FindActionMap(actionMapName).Enable();
+        }
     }
     private void OnDisable()
     {
-        playerControls.FindActionMap(actionMapName).Disable();
+        if (playerControls != null)
+        {
+            playerControls.FindActionMap(actionMapName).Disable();
+        }
     }
 }
 
