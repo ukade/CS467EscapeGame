@@ -9556,6 +9556,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Bed_06
       objectReference: {fileID: 0}
+    - target: {fileID: 4885174586392756926, guid: b3f6fbe225e78ce4c81a2adb6f9a49d2, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5224299588504295428, guid: b3f6fbe225e78ce4c81a2adb6f9a49d2, type: 3}
       propertyPath: m_LocalScale.x
       value: 15
@@ -9615,13 +9619,64 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4885174586392756926, guid: b3f6fbe225e78ce4c81a2adb6f9a49d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1788129440}
+    - targetCorrespondingSourceObject: {fileID: 4885174586392756926, guid: b3f6fbe225e78ce4c81a2adb6f9a49d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1788129439}
   m_SourcePrefab: {fileID: 100100000, guid: b3f6fbe225e78ce4c81a2adb6f9a49d2, type: 3}
 --- !u!4 &1788129437 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5224299588504295428, guid: b3f6fbe225e78ce4c81a2adb6f9a49d2, type: 3}
   m_PrefabInstance: {fileID: 1788129436}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788129438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885174586392756926, guid: b3f6fbe225e78ce4c81a2adb6f9a49d2, type: 3}
+  m_PrefabInstance: {fileID: 1788129436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1788129439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788129438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1af6f9af0e5f274ea74623d64157367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1788129440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788129438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1788129439}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadNext
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactText: Press E to Sleep
 --- !u!1001 &1796886848
 PrefabInstance:
   m_ObjectHideFlags: 0

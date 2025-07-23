@@ -138,6 +138,10 @@ https://www.youtube.com/watch?v=5rxMdiCkQGk. Accessed: July 2025.
     
 36. Dąbrowski, Damian. (2024, February 20). Quit application on Escape button in Unity. Medium. https://damiandabrowski.medium.com/quit-application-on-escape-button-in-unity-bf02b8091b5f Accessed 7/21/2025.
 
+37. Lumo-Art 3D. (2023, May 13). *FREE Stylized PBR Textures Pack* (Version 2017.3.0). Unity Asset Store.
+https://assetstore.unity.com/packages/2d/textures-materials/free-stylized-pbr-textures-pack-111778 Accessed: June-July 2025.
+
+
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com, canva.com for 2D mockup stock images
