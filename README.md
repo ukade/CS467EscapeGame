@@ -144,5 +144,12 @@ Accessed: July 2025.
 
 38. W3Schools. (2025). *C# Comments* W3Schools. https://www.w3schools.com/cs/cs_comments.php Accessed: July 2025. 
 
+Other Sources Used (Needs Cites):
+- https://docs.unity3d.com/Manual/properties.html
+- https://docs.unity3d.com/Manual/scripting-vectors.html
+- https://docs.unity3d.com/Manual/environment-and-tools.html
+- https://docs.unity3d.com/Manual/Input.html
+- 
+
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com, canva.com for 2D mockup stock images
