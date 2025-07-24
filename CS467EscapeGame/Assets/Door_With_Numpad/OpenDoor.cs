@@ -50,7 +50,7 @@ public class OpenDoor : MonoBehaviour
             CodePanel.SetActive(false);
         }
 
-        if(codeTextValue.Length >= 4)
+        if(codeTextValue.Length >= 9)
         {
             codeTextValue = "";
         }
