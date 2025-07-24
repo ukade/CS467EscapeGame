@@ -149,6 +149,8 @@ Other Sources Used (Needs Cites):
 - https://docs.unity3d.com/Manual/scripting-vectors.html
 - https://docs.unity3d.com/Manual/environment-and-tools.html
 - https://docs.unity3d.com/Manual/Input.html
+- https://docs.unity3d.com/Manual/InputLegacy.html
+- https://docs.unity3d.com/Manual/class-InputManager.html
 - 
 
 Tools Used: 
