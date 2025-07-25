@@ -144,14 +144,17 @@ Accessed: July 2025.
 
 38. W3Schools. (2025). *C# Comments* W3Schools. https://www.w3schools.com/cs/cs_comments.php Accessed: July 2025. 
 
-Other Sources Used (Needs Cites):
-- https://docs.unity3d.com/Manual/properties.html
-- https://docs.unity3d.com/Manual/scripting-vectors.html
-- https://docs.unity3d.com/Manual/environment-and-tools.html
-- https://docs.unity3d.com/Manual/Input.html
-- https://docs.unity3d.com/Manual/InputLegacy.html
-- https://docs.unity3d.com/Manual/class-InputManager.html
-- 
+39. Unity Technologies. (2025, July 23). *Adding functionality to objects at runtime.* Unity Technologies. https://docs.unity3d.com/Manual/properties.html Accessed: July 2025.
+
+40. Unity Technologies. (2025, July 23). *Moving objects with vectors.* Unity Technologies. https://docs.unity3d.com/Manual/scripting-vectors.html Accessed: July 2025.
+
+41. Unity Technologies. (2025, July 23). *Environment and tools.* Unity Technologies. https://docs.unity3d.com/Manual/environment-and-tools.html Accessed: July 2025.
+
+42. Unity Technologies. (2025, July 23) *Input.* Unity Technologies. https://docs.unity3d.com/Manual/Input.html Accessed: July 2025.
+
+43. Unity Technologies. (2025, July 23). *Legacy Input.* Unity Technologies. https://docs.unity3d.com/Manual/InputLegacy.html Accessed: July 2025.
+
+44. Unity Technologies. (2025, July 23) *Input Manager.* Unity Technologies. https://docs.unity3d.com/Manual/class-InputManager.html Accessed: July 2025.
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com, canva.com for 2D mockup stock images
