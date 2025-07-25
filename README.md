@@ -38,6 +38,8 @@ Changelog
 
 7/22: Added SceneLoader - Larisa
 
+7/23: Added KeyPad to Room1, Interact E reveals Keypad, CorrectCode opens door, Room1Puzzle1 is done - Larisa
+
 
 --------------------------------------------------
 Sources Cited:
