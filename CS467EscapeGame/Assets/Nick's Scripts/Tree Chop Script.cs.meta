@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: 68a18d53aac13049b93c474896c5412d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tree_fall: {instanceID: 0}
+  - tf: {fileID: 7400000, guid: 87101848e91229a42a96513379987b38, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

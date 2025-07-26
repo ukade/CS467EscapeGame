@@ -156,5 +156,48 @@ Accessed: July 2025.
 
 44. Unity Technologies. (2025, July 23) *Input Manager.* Unity Technologies. https://docs.unity3d.com/Manual/class-InputManager.html Accessed: July 2025.
 
+More Citations:
+- https://docs.unity3d.com/ScriptReference/GameObject.html
+- https://docs.unity3d.com/ScriptReference/Animation.html
+- https://docs.unity3d.com/Manual/AnimationOverview.html
+- https://docs.unity3d.com/Manual/AnimationClips.html
+- https://docs.unity3d.com/Manual/class-AnimatorController.html
+- https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
+- https://docs.unity3d.com/Manual/class-GameObject.html#AccessingOtherGameObjects
+-https://docs.unity3d.com/Manual/gameobject-fundamentals.html
+- https://docs.unity3d.com/Manual/class-GameObject.html
+- https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/keywords/public
+-https://duckduckgo.com/?t=lm&q=C%23+documentation+public+keyword&ia=web
+- https://docs.unity3d.com/ScriptReference/AnimationClip.html
+- https://docs.unity3d.com/ScriptReference/Animation.AddClip.html
+- https://docs.unity3d.com/ScriptReference/AnimationClip.html
+- https://docs.unity3d.com/ScriptReference/AnimationClip-ctor.html
+- https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/void
+- xed? https://github.com/linuxmint/xed
+- https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/reference-types
+- https://docs.unity3d.com/ScriptReference/Animation.Play.html
+- https://docs.unity3d.com/ScriptReference/Animation-clip.html
+- https://docs.unity3d.com/ScriptReference/GameObject.html
+-https://docs.unity3d.com/6000.1/Documentation/Manual/class-Animation.html
+- https://docs.unity3d.com/ScriptReference/Component.html
+-https://docs.unity3d.com/Manual/class-Animation.html
+-https://docs.unity3d.com/Manual/class-Animator.html
+- https://docs.unity3d.com/6000.1/Documentation/Manual/class-Animator.html
+-https://docs.unity3d.com/6000.1/Documentation/Manual/class-AnimatorController.html
+- https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Animator.html
+-https://docs.unity3d.com/6000.1/Documentation/ScriptReference/AnimatorControllerParameter.html
+- https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/built-in-types
+- https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/
+- https://learn.microsoft.com/en-au/dotnet/csharp/fundamentals/program-structure/
+- https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/bool
+-https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/jump-statements
+- https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/selection-statements
+- https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/operators/equality-operators
+- https://docs.unity3d.com/ScriptReference/Object.Destroy.html
+- https://docs.unity3d.com/ScriptReference/Component-gameObject.html
+- https://docs.unity3d.com/6000.1/Documentation/Manual/first-time-user.html
+- https://docs.unity3d.com/Manual/managed-code-debugging.html
+- https://docs.unity3d.com/Manual/class-Debug.html
+
 Tools Used: 
-VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com, canva.com for 2D mockup stock images
+VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
