@@ -40,6 +40,7 @@ Changelog
 
 7/23: Added KeyPad to Room1, Interact E reveals Keypad, CorrectCode opens door, Room1Puzzle1 is done - Larisa
 
+7/26: Updated Citations in README.md; Added Inventory System scripts for testing - Katrine
 
 --------------------------------------------------
 Sources Cited:
@@ -146,6 +147,7 @@ https://www.youtube.com/watch?v=5rxMdiCkQGk. Accessed: July 2025.
 37. Lumo-Art 3D. (2023, May 13). *FREE Stylized PBR Textures Pack* (Version 2017.3.0). Unity Asset Store.
 https://assetstore.unity.com/packages/2d/textures-materials/free-stylized-pbr-textures-pack-111778 Accessed: June-July 2025.
 
+38. RumpledCode. [RumpledCode]. (2025, February 24) . _Unity Tutorial - Simple Inventory System_ YouTube. https://www.youtube.com/watch?v=y5NiylHo7rw Accessed 7/22/2025.
 
 
 Tools Used: 
