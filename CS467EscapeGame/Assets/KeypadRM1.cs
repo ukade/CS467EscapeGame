@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 
 
-public class Keypad : MonoBehaviour
+public class KeypadRM1 : MonoBehaviour
 {
 
     [SerializeField] private string CodeHere = "Insert Code Here";
