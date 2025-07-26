@@ -114,7 +114,7 @@ https://www.youtube.com/watch?v=L-81sc7Alx4 Accessed: June-July 2025.
 24. Unity Technologies. (2025). *Programming in Unity.* Unity Technologies. 
 https://unity.com/solutions/programming Accessed: June-July 2025.
 
-25. DuckDuckGo. (2025). *DuckDuckGo Search: "What programming language does unity use?"* DuckDuckGo.
+25. DuckDuckGo. (2025). *DuckDuckGo Search: "What programming language does unity use?".* DuckDuckGo.
 https://duckduckgo.com/?t=lm&q=What+programming+language+does+unity+use%3F&ia=web Accessed: July 2025.
 
 26. Fist Full of Shrimp. [Fist Full of Shrimp]. (2024, January 4). *Light Up Your Game : Unity Lighting Essentials!* Youtube.
@@ -178,47 +178,67 @@ Accessed: July 2025.
 
 53. Unity Technologies. (2025, July 25). *Unity Documentation, The GameObject class.* Unity Technologies. https://docs.unity3d.com/Manual/class-GameObject.html Accessed: July 2025. 
 
-54. Microsoft. (2024, December 03). *Microsoft Ignite, public (C# Reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/keywords/public Accessed: July 2025.
+54. Microsoft. (2024, March 12). *Microsoft Ignite, public (C# Reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/keywords/public Accessed: July 2025.
 
 55. DuckDuckGo. (2025) *DuckDuckGo Search: "C# documentation public keyword".* DuckDuckGo. https://duckduckgo.com/?t=lm&q=C%23+documentation+public+keyword&ia=web Accessed: July 2025. 
 
 56. Unity Technologies. (2025, July 25). *Unity Documentation, Animation Clip.* Unity Technologies. https://docs.unity3d.com/ScriptReference/AnimationClip.html Accessed: July 2025. 
 
+57. Unity Technologies. (2025, July 25). *Unity Documentation, Animation.AddClip.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Animation.AddClip.html Accessed: July 2025.
+
+58. Unity Technologies. (2025, July 25). *Unity Documentation, AnimationClip Constructor.* Unity Technologies. https://docs.unity3d.com/ScriptReference/AnimationClip-ctor.html Accessed: July 2025. 
+
+59. Microsoft. (2024, March 30). *Microsoft Ignite, voice (C# Reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/void Accessed: July 2025.
+
+60. Microsoft. (2023, February 25). *Microsoft Ignite, Built-in reference types (C# Reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/reference-types Accessed: July 2025.
+
+61. Unity Technologies. (2025, July 25). *Unity Documentation, Animation.Play.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Animation.Play.html Accessed: July 2025. 
+
+62. Unity Technologies. (2025, July 25). *Unity Documentation, Animation.clip.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Animation-clip.html Accessed: July 2025.
+
+63. Unity Technologies. (2025, July 25). *Unity Documentation, Legacy Animation componenet.* https://docs.unity3d.com/6000.1/Documentation/Manual/class-Animation.html Accessed: July 2025.
+
+64. Unity Technologies. (2025, July 25). *Unity Documentation, Component.* https://docs.unity3d.com/ScriptReference/Component.html Accessed: July 2025. 
+
+65. Unity Technologies. (2025, July 25). *Unity Documentation, Legacy Animation component.* https://docs.unity3d.com/Manual/class-Animation.html Accessed: July 2025.
+
+66. Unity Technologies. (2025, July 25). *Unity Documentation, Animator component.* https://docs.unity3d.com/Manual/class-Animator.html Accessed: July 2025. 
+
+67. Unity Technologies. (2025, July 25). *Unity Documentation, Animator component.* https://docs.unity3d.com/6000.1/Documentation/Manual/class-Animator.html Accessed: July 2025. 
+
+68. Unity Technologies. (2025, July 25). *Unity Documentation, Animator Controller.* https://docs.unity3d.com/6000.1/Documentation/Manual/class-AnimatorController.html Accessed: July 2025. 
+
+69. Unity Technologies. (2025, July 25). *Unity Documentation, Animator.* https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Animator.html Accessed: July 2025. 
+
+70. Unity Technologies. (2025, July 25). *Unity Documentation, AnimatorControllerParameter.* https://docs.unity3d.com/6000.1/Documentation/ScriptReference/AnimatorControllerParameter.html Accessed: July 2025. 
+
+71. Microsoft. (2025, March 11). *Microsoft Ignite, Built-in types (C# Reference).* https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/built-in-types Accessed: July 2025. 
+
+72. Microsoft. (2025). *Microsoft Ignite, C# Language Reference.* https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/ Accessed: July 2025. 
+
+73. Microsoft. (2025, July 1). *Microsoft Ignite, General Structure of a C# Program.* https://learn.microsoft.com/en-au/dotnet/csharp/fundamentals/program-structure/ Accessed: July 2025.
+
+74. 
+
 More Citations:
 
 
-56. - https://docs.unity3d.com/ScriptReference/AnimationClip.html
-57. - https://docs.unity3d.com/ScriptReference/Animation.AddClip.html
-~~58. - https://docs.unity3d.com/ScriptReference/AnimationClip.html~~
-59. - https://docs.unity3d.com/ScriptReference/AnimationClip-ctor.html
-60. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/void
-61. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/reference-types
-62. - https://docs.unity3d.com/ScriptReference/Animation.Play.html
-63. - https://docs.unity3d.com/ScriptReference/Animation-clip.html
-64. - https://docs.unity3d.com/ScriptReference/GameObject.html
-65. -https://docs.unity3d.com/6000.1/Documentation/Manual/class-Animation.html
-66. - https://docs.unity3d.com/ScriptReference/Component.html
-67. -https://docs.unity3d.com/Manual/class-Animation.html
-68. -https://docs.unity3d.com/Manual/class-Animator.html
-69. - https://docs.unity3d.com/6000.1/Documentation/Manual/class-Animator.html
-70. -https://docs.unity3d.com/6000.1/Documentation/Manual/class-AnimatorController.html
-71. - https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Animator.html
-72. -https://docs.unity3d.com/6000.1/Documentation/ScriptReference/AnimatorControllerParameter.html
-73. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/built-in-types
-74. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/
-75. - https://learn.microsoft.com/en-au/dotnet/csharp/fundamentals/program-structure/
-76. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/bool
-77. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/jump-statements
-78. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/selection-statements
-79. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/operators/equality-operators
-80. - https://docs.unity3d.com/ScriptReference/Object.Destroy.html
-81. - https://docs.unity3d.com/ScriptReference/Component-gameObject.html
-82. - https://docs.unity3d.com/6000.1/Documentation/Manual/first-time-user.html
-83. - https://docs.unity3d.com/Manual/managed-code-debugging.html
-84. - https://docs.unity3d.com/Manual/class-Debug.html
-85. - https://docs.unity3d.com/Manual/DeactivatingGameObjects.html
-86. - https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html
-87. - https://docs.unity3d.com/ScriptReference/Object.html
+
+
+
+
+74. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/bool
+75. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/jump-statements
+76. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/selection-statements
+77. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/operators/equality-operators
+78. - https://docs.unity3d.com/ScriptReference/Object.Destroy.html
+79. - https://docs.unity3d.com/ScriptReference/Component-gameObject.html
+80. - https://docs.unity3d.com/6000.1/Documentation/Manual/first-time-user.html
+81. - https://docs.unity3d.com/Manual/managed-code-debugging.html
+82. - https://docs.unity3d.com/Manual/class-Debug.html
+83. - https://docs.unity3d.com/Manual/DeactivatingGameObjects.html
+84. - https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html
+85. - https://docs.unity3d.com/ScriptReference/Object.html
 
 
 Tools Used: 
@@ -237,3 +257,27 @@ Done:
 53. - https://docs.unity3d.com/Manual/class-GameObject.html
 54. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/keywords/public
 55. -https://duckduckgo.com/?t=lm&q=C%23+documentation+public+keyword&ia=web
+56. - https://docs.unity3d.com/ScriptReference/AnimationClip.html
+57. - https://docs.unity3d.com/ScriptReference/Animation.AddClip.html
+58. - https://docs.unity3d.com/ScriptReference/AnimationClip-ctor.html
+59. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/void
+60. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/reference-types
+61. - https://docs.unity3d.com/ScriptReference/Animation.Play.html
+62. - https://docs.unity3d.com/ScriptReference/Animation-clip.html
+63. -https://docs.unity3d.com/6000.1/Documentation/Manual/class-Animation.html
+64. - https://docs.unity3d.com/ScriptReference/Component.html
+65. -https://docs.unity3d.com/Manual/class-Animation.html
+66. -https://docs.unity3d.com/Manual/class-Animator.html
+67. - https://docs.unity3d.com/6000.1/Documentation/Manual/class-Animator.html
+68. -https://docs.unity3d.com/6000.1/Documentation/Manual/class-AnimatorController.html
+69. - https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Animator.html
+70. -https://docs.unity3d.com/6000.1/Documentation/ScriptReference/AnimatorControllerParameter.html
+71. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/built-in-types
+72. - https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/
+73. - https://learn.microsoft.com/en-au/dotnet/csharp/fundamentals/program-structure/
+
+
+
+Duplicates:
+~~58. - https://docs.unity3d.com/ScriptReference/AnimationClip.html~~
+~~63. - https://docs.unity3d.com/ScriptReference/GameObject.html~~
