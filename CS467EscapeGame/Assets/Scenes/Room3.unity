@@ -7693,6 +7693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tent_03
       objectReference: {fileID: 0}
+    - target: {fileID: 5881322572288954473, guid: ae6144c3c0f672f4f82e7c767258e392, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6591267202752751854, guid: ae6144c3c0f672f4f82e7c767258e392, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
