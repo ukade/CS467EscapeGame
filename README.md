@@ -200,6 +200,10 @@ More Citations:
 - https://docs.unity3d.com/6000.1/Documentation/Manual/first-time-user.html
 - https://docs.unity3d.com/Manual/managed-code-debugging.html
 - https://docs.unity3d.com/Manual/class-Debug.html
+- https://docs.unity3d.com/Manual/DeactivatingGameObjects.html
+- https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html
+- https://docs.unity3d.com/ScriptReference/Object.html
+
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
