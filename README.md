@@ -36,6 +36,8 @@ Changelog
 
 7/20: Working on Room 3 Puzzle 2 Script
 
+7/26: Working on Room 3 scripting
+
 --------------------------------------------------
 Sources Cited:
 

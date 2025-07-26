@@ -16,6 +16,7 @@ using UnityEngine;
 public class TreeChopScript : MonoBehaviour
 {
     public Animation tree_fall;
+    public bool axe;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,9 +33,21 @@ public class TreeChopScript : MonoBehaviour
     
     void OnMouseDown()
     {        
-        tree_fall.Play();
-        Debug.Log("Tree");
+        // Temp line until we get the inventory system online.
+        axe = true;
 
+        if (axe == true)
+        {
+            Debug.Log("Player has an axe.");
+            tree_fall.Play();
+        }
+        else 
+        {
+            Debug.Log("Error 404: Axe not found.");
+            
+            // Temporary line for testing
+            tree_fall.Play();
+        }
     }
 
 }
