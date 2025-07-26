@@ -1,11 +1,10 @@
 // author: Brian Swanson
-// adapted from: https://www.youtube.com/watch?v=fApXEL0xsx4
 // accessed: 7/13/2025
 // CS 467, Summer 2025
 // Description: A script to enable picking up, dropping, and throwing solid objects
 // Note: Any objects being picked up must have a Colider and RigidBody set up for this to work
 // Also: ensure the player is set to scale 1, 1, 1 or the object it grabs will get its shape distorted
-
+// Adapted from source: Pick Up and Throw Stuff in Unity 6! 2024 Tutorial. (2024, December 15). [Video]. YouTube. https://www.youtube.com/watch?v=fApXEL0xsx4
 using UnityEngine;
 
 public class Pickup : MonoBehaviour
@@ -55,6 +54,7 @@ public class Pickup : MonoBehaviour
             {
                 holding = true;
                 rb.useGravity = false;
+                rb.isKinematic = false;
                 rb.detectCollisions = true;
 
                 this.transform.SetParent(tempParent.transform);

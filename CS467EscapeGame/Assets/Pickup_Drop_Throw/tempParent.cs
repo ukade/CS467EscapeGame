@@ -1,9 +1,9 @@
 // author: Brian Swanson
-// adapted from: https://www.youtube.com/watch?v=fApXEL0xsx4
 // accessed: 7/13/2025
 // CS 467, Summer 2025
 // Description: A script to enable picking up, dropping, and throwing solid objects
 // Note: Any objects being picked up must have a Colider and RigidBody set up for this to work
+// Adapted from source: Pick Up and Throw Stuff in Unity 6! 2024 Tutorial. (2024, December 15). [Video]. YouTube. https://www.youtube.com/watch?v=fApXEL0xsx4
 
 using UnityEngine;
 
