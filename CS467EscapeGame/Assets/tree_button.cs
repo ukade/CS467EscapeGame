@@ -16,6 +16,8 @@
  *  Technologies. (n.d.). Light component settings (URP). Unity Documentation. https://docs.unity3d.com/6000.1/Documentation/Manual/urp/light-component.html#General
  */
 
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 
@@ -26,30 +28,28 @@ public class tree_button : MonoBehaviour
     bool isPressed = false;
     [SerializeField]
     int buttonId;
+    [SerializeField]
+    bool isComplete = false;
+    [SerializeField]
+    HashSet<int> buttonsPressed = new HashSet<int>();
 
-    private bool isAtButton = false;
+    public GameObject sign3;
+
+    private int[] solution = { 2, 3, 4, 5, 7, 9, 10, 11, 15 };
+
     private bool mouseOnButton = false;
     private Light light;
+    public puzzle2_console console;
 
     private void Start()
     {
         light = GetComponent<Light>();
     }
 
-    private void OnTriggerEnter(Collider other)
-    // triggered by a trigger collider at the button console
-    // will give player ability to press the button
-    {
-        if (other.CompareTag("Player"))
-        {
-            isAtButton = true;
-        }
-    }
-
     private void OnMouseEnter()
     // will set mouseOnButton to true if the player is in the trigger collider and has the mouse over the button
     {
-        if (isAtButton)
+        if (console.isAtConsole)
         {
             mouseOnButton = true;
         }
@@ -69,8 +69,22 @@ public class tree_button : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F) && mouseOnButton)
         {
             isPressed = !isPressed;
+            if (!buttonsPressed.Contains(buttonId))
+            {
+                buttonsPressed.Add(buttonId);
+            }
+            else
+            {
+                buttonsPressed.Remove(buttonId);
+            }
         }
 
         light.enabled = isPressed;
+
+        if (solution.All(buttonsPressed.Contains))
+        {
+            isComplete = true;
+            sign3.SetActive(isComplete);
+        }
     }
 }

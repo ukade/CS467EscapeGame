@@ -9,9 +9,7 @@
 
 
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 public class Count_Objects : MonoBehaviour
 {
@@ -19,8 +17,11 @@ public class Count_Objects : MonoBehaviour
     int held = 0;
     [SerializeField]
     HashSet<int> balls_in_bin = new HashSet<int>();
+    [SerializeField]
+    bool isComplete = false;
 
-    OnTriggerEnter box;
+    public GameObject Stairs;
+    public GameObject sign2;
 
     private void OnTriggerEnter(Collider other)
     // counts objects that enter the container once, ignores player
@@ -34,6 +35,16 @@ public class Count_Objects : MonoBehaviour
                 Debug.Log($"{other.gameObject.GetInstanceID()} added to bin");
 
             }
+        }
+    }
+
+    private void Update()
+    {
+        if (balls_in_bin.Count == 8)
+        {
+            isComplete = true;
+            Stairs.SetActive(isComplete);
+            sign2.SetActive(isComplete);
         }
     }
 }
