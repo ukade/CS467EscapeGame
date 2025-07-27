@@ -46,6 +46,8 @@ Changelog
 
 7/26: Working on Room 3 scripting - Nick
 
+7/27: Working on Room 3 scripting - Nick
+
 --------------------------------------------------
 Sources Cited:
 
