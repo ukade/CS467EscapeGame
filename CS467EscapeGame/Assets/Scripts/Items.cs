@@ -1,6 +1,6 @@
 using UnityEngine;
 
-//Code referenced the following YouTube Tutorial:
+//Code referenced and adapted from the following YouTube Tutorial:
 //RumpledCode. [RumpledCode]. (2025, February 24). Unity Tutorial - Simple Inventory System. YouTube. 
 //https://www.youtube.com/watch?v=y5NiylHo7rw Accessed 7/24/2025
 
