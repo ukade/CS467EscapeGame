@@ -3,6 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
+//CS 467,  Summer 2025
+//Description: Script for testing: defines adding and removing items from a Serialized Dictionary, a portion for inventory system
+//in 3D space
+
+//Code referenced and adapted from:
+//RumpledCode. [RumpledCode]. (2025, February 24) . Unity Tutorial - Simple Inventory System YouTube.
+//https://www.youtube.com/watch?v=y5NiylHo7rw Accessed 7/22/2025.
+
 [RequireComponent(typeof(Collider))]
 public class Inventory : MonoBehaviour
 {
