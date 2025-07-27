@@ -32,7 +32,9 @@ Changelog
 
 7/20: Changed lighting for Room 3
 
-7/20: Added animations and other elements for Room 3
+7/20: Added animation and other elements for Room 3
+
+7/20: Working on Room 3 Puzzle 2 Script
 
 7/21: Updated Citations - Katrine
 
@@ -41,6 +43,8 @@ Changelog
 7/23: Added KeyPad to Room1, Interact E reveals Keypad, CorrectCode opens door, Room1Puzzle1 is done - Larisa
 
 7/26: Updated Citations in README.md; Added Inventory System scripts for testing - Katrine
+
+7/26: Working on Room 3 scripting - Nick
 
 --------------------------------------------------
 Sources Cited:
@@ -118,7 +122,7 @@ https://www.youtube.com/watch?v=L-81sc7Alx4 Accessed: June-July 2025.
 24. Unity Technologies. (2025). *Programming in Unity.* Unity Technologies. 
 https://unity.com/solutions/programming Accessed: June-July 2025.
 
-25. DuckDuckGo. (2025). *DuckDuckGo Search: "What programming language does unity use?"* DuckDuckGo.
+25. DuckDuckGo. (2025). *DuckDuckGo Search: "What programming language does unity use?".* DuckDuckGo.
 https://duckduckgo.com/?t=lm&q=What+programming+language+does+unity+use%3F&ia=web Accessed: July 2025.
 
 26. Fist Full of Shrimp. [Fist Full of Shrimp]. (2024, January 4). *Light Up Your Game : Unity Lighting Essentials!* Youtube.
@@ -128,27 +132,142 @@ https://www.youtube.com/watch?v=5rxMdiCkQGk. Accessed: July 2025.
 
 28. Durkin, Michael. [Michael.Durkin]. (2025, June 25) *Iteration over everything #gamedev #indie #unrealengine.* https://www.youtube.com/shorts/_CmxMkPfbNs Accessed: July 2025.
 
-29. User interface design and implementation in Unity. Unity. https://unity.com/resources/user-interface-design-and-implementation-in-unity Accessed July 15, 2025.
+29. Unity Technologies. (2025). *Unity Documentation, Programming in Unity.* Unity Technologies. https://docs.unity3d.com/Manual/scripting.html Accessed: July 2025. 
+
+30. Unity Technologies. (2025). *Unity Documentation, Get started with programming in Unity.* https://docs.unity3d.com/Manual/scripting-get-started.html Accessed: July 2025. 
+
+31. Unity Technologies. (2025). *Unity Documentation, Introduction to Scripting.* Unity Technologies. https://docs.unity3d.com/Manual/intro-to-scripting.html Accessed: July 2025. 
+
+32. Unity Technologies. (2025). *Unity Documentation, Creating Scripts.* Unity Technologies. https://docs.unity3d.com/Manual/creating-scripts.html Accessed: July 2025. 
+
+33. Unity Technologies. (2025). *Unity Documentation, MonoBehavior.* Unity Technologies. https://docs.unity3d.com/Manual/class-MonoBehaviour.html Accessed: July 2025. 
+
+34. Unity Technologies. (2025). *Unity Documentation, Event functions.* Unity Technologies. https://docs.unity3d.com/Manual/event-functions.html Accessed: July 2025. 
+
+35. Unity Technologies. (2025). *Unity Documentation, MonoBehavior.OnMouseDown().* Unity Technologies. https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnMouseDown.html Accessed: July 2025. 
+
+36. Microsoft. (2025). *Microsoft Ignite, C# Language Reference.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/ Accessed: July 2025.
+
+37. W3Schools. (2025). *C# Syntax.* W3Schools. https://www.w3schools.com/cs/cs_syntax.php Accessed: July 2025. 
+
+38. W3Schools. (2025). *C# Comments* W3Schools. https://www.w3schools.com/cs/cs_comments.php Accessed: July 2025. 
+
+39. Unity Technologies. (2025, July 23). *Unity Documentation, Adding functionality to objects at runtime.* Unity Technologies. https://docs.unity3d.com/Manual/properties.html Accessed: July 2025.
+
+40. Unity Technologies. (2025, July 23). *Unity Documentation, Moving objects with vectors.* Unity Technologies. https://docs.unity3d.com/Manual/scripting-vectors.html Accessed: July 2025.
+
+41. Unity Technologies. (2025, July 23). *Unity Documentation, Environment and tools.* Unity Technologies. https://docs.unity3d.com/Manual/environment-and-tools.html Accessed: July 2025.
+
+42. Unity Technologies. (2025, July 23) *Unity Documentation, Input.* Unity Technologies. https://docs.unity3d.com/Manual/Input.html Accessed: July 2025.
+
+43. Unity Technologies. (2025, July 23). *Unity Documentation, Legacy Input.* Unity Technologies. https://docs.unity3d.com/Manual/InputLegacy.html Accessed: July 2025.
+
+44. Unity Technologies. (2025, July 23) *Unity Documentation, Input Manager.* Unity Technologies. https://docs.unity3d.com/Manual/class-InputManager.html Accessed: July 2025.
+
+45. Unity Technologies. (2025, July 25). *Unity Documentation, Game Object.* Unity Technologies. https://docs.unity3d.com/ScriptReference/GameObject.html Accessed: July 2025.
+
+46. Unity Technologies. (2025, July 25). *Unity Documentation, Animation.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Animation.html Accessed: July 2025. 
+
+47. Unity Technologies. (2025, July 25). *Unity Documentation, Mecanim Animation System.* Unity Technologies. https://docs.unity3d.com/Manual/AnimationOverview.html Accessed: July 2025.
+
+48. Unity Technologies. (2025, July 25). *Unity Documentation, Animation Clips.* Unity Technologies. https://docs.unity3d.com/Manual/AnimationClips.html Accessed: July 2025.
+
+49. Unity Technologies. (2025, July 25). *Unity Documentation, Animator Controller.* Unity Technologies. https://docs.unity3d.com/Manual/class-AnimatorController.html Accessed: July 2025. 
+
+50. Unity Technologies. (2025, July 25). *Unity Documentation, Component.GetComponent.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Component.GetComponent.html Accessed: July 2025. 
+
+51. Unity Technologies. (2025, July 25). *Unity Documentation, The GameObject class, Access components on other GameObjects.* Unity Technologies. https://docs.unity3d.com/Manual/class-GameObject.html#AccessingOtherGameObjects Accessed: July 2025. 
+
+52. Unity Technologies. (2025, July 25). *Unity Documentation, GameObject fundamentals.* Unity Technologies. https://docs.unity3d.com/Manual/gameobject-fundamentals.html Accessed: July 2025.
+
+53. Unity Technologies. (2025, July 25). *Unity Documentation, The GameObject class.* Unity Technologies. https://docs.unity3d.com/Manual/class-GameObject.html Accessed: July 2025. 
+
+54. Microsoft. (2024, March 12). *Microsoft Ignite, public (C# Reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/keywords/public Accessed: July 2025.
+
+55. DuckDuckGo. (2025) *DuckDuckGo Search: "C# documentation public keyword".* DuckDuckGo. https://duckduckgo.com/?t=lm&q=C%23+documentation+public+keyword&ia=web Accessed: July 2025. 
+
+56. Unity Technologies. (2025, July 25). *Unity Documentation, Animation Clip.* Unity Technologies. https://docs.unity3d.com/ScriptReference/AnimationClip.html Accessed: July 2025. 
+
+57. Unity Technologies. (2025, July 25). *Unity Documentation, Animation.AddClip.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Animation.AddClip.html Accessed: July 2025.
+
+58. Unity Technologies. (2025, July 25). *Unity Documentation, AnimationClip Constructor.* Unity Technologies. https://docs.unity3d.com/ScriptReference/AnimationClip-ctor.html Accessed: July 2025. 
+
+59. Microsoft. (2024, March 30). *Microsoft Ignite, voice (C# Reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/void Accessed: July 2025.
+
+60. Microsoft. (2023, February 25). *Microsoft Ignite, Built-in reference types (C# Reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/reference-types Accessed: July 2025.
+
+61. Unity Technologies. (2025, July 25). *Unity Documentation, Animation.Play.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Animation.Play.html Accessed: July 2025. 
+
+62. Unity Technologies. (2025, July 25). *Unity Documentation, Animation.clip.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Animation-clip.html Accessed: July 2025.
+
+63. Unity Technologies. (2025, July 25). *Unity Documentation, Legacy Animation componenet.* Unity Technologies. https://docs.unity3d.com/6000.1/Documentation/Manual/class-Animation.html Accessed: July 2025.
+
+64. Unity Technologies. (2025, July 25). *Unity Documentation, Component.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Component.html Accessed: July 2025. 
+
+65. Unity Technologies. (2025, July 25). *Unity Documentation, Legacy Animation component.* Unity Technologies. https://docs.unity3d.com/Manual/class-Animation.html Accessed: July 2025.
+
+66. Unity Technologies. (2025, July 25). *Unity Documentation, Animator component.* Unity Technologies. https://docs.unity3d.com/Manual/class-Animator.html Accessed: July 2025. 
+
+67. Unity Technologies. (2025, July 25). *Unity Documentation, Animator component.* Unity Technologies. https://docs.unity3d.com/6000.1/Documentation/Manual/class-Animator.html Accessed: July 2025. 
+
+68. Unity Technologies. (2025, July 25). *Unity Documentation, Animator Controller.* Unity Technologies. https://docs.unity3d.com/6000.1/Documentation/Manual/class-AnimatorController.html Accessed: July 2025. 
+
+69. Unity Technologies. (2025, July 25). *Unity Documentation, Animator.* Unity Technologies. https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Animator.html Accessed: July 2025. 
+
+70. Unity Technologies. (2025, July 25). *Unity Documentation, AnimatorControllerParameter.* Unity Technologies. https://docs.unity3d.com/6000.1/Documentation/ScriptReference/AnimatorControllerParameter.html Accessed: July 2025. 
+
+71. Microsoft. (2025, March 11). *Microsoft Ignite, Built-in types (C# Reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/built-in-types Accessed: July 2025. 
+
+72. Microsoft. (2025). *Microsoft Ignite, C# Language Reference.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/ Accessed: July 2025. 
+
+73. Microsoft. (2025, July 1). *Microsoft Ignite, General Structure of a C# Program.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/fundamentals/program-structure/ Accessed: July 2025.
+
+74. Microsoft. (2022, January 25). *Microsoft Ignite, bool (C# Reference). Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/bool Accessed: July 2025. 
+
+75. Microsoft. (2023, March 14). *Microsoft Ignite, Jump statements - break, continue, return, and goto.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/jump-statements Accessed: July 2025. 
+
+76. Microsoft. (2025, February 21). *Microsoft Ignite, Selection statements - if, if-else, and switch.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/selection-statements Accessed: July 2025. 
+
+77. Microsoft. (2025, February 19). *Microsoft Ignite, Equality operators - test if two objects are equal or not.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/operators/equality-operators Accessed: July 2025. 
+
+78. Unity Technologies. (2025, July 25). *Unity Documentation, Object.Destroy.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Object.Destroy.html Accessed: July 2025. 
+
+79. Unity Technologies. (2025, July 25). *Unity Documentation, Component.gameObject.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Component-gameObject.html Accessed: July 2025. 
+
+80. Unity Technologies. (2025, July 25). *Unity Documentation, Unity for first-time users.* Unity Technologies. https://docs.unity3d.com/6000.1/Documentation/Manual/first-time-user.html Accessed: July 2025. 
+
+81. Unity Technologies. (2025, July 25). *Unity Documentation, Debug C# code in Unity.* Unity Technologies. https://docs.unity3d.com/Manual/managed-code-debugging.html Accessed: July 2025. 
+
+82. Unity Technologies. (2025, July 25). *Unity Documentation, The Debug class.* Unity Technologies. https://docs.unity3d.com/Manual/class-Debug.html Accessed: July 2025. 
+
+83. Unity Technologies. (2025, July 25). *Unity Documentation, Deactivate GameObjects.* Unity Technologies. https://docs.unity3d.com/Manual/DeactivatingGameObjects.html Accessed: July 2025. 
+
+84. Unity Technologies. (2025, July 25). *Unity Documentation, GameObject.SetActive.* Unity Technologies. https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html Accessed: July 2025. 
+
+85. Unity Technologies. (2025, July 25). *Unity Documentation, Object.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Object.html Accessed: July 2025. 
+
+86. Jaredrain. [Jaredrain] (2025). *Youtube Short, Making a car better in my racing game.* Youtube. https://www.youtube.com/shorts/Mgn6KySegPg Accessed: July 2025
+
+87. User interface design and implementation in Unity. Unity. https://unity.com/resources/user-interface-design-and-implementation-in-unity Accessed July 15, 2025.
   
-30. Rehope Games. [RehopeGames]. (2023, May 8) *Make Your MAIN MENU Quickly! | Unity UI Tutorial for Beginners* YouTube. https://www.youtube.com/watch?v=DX7HyN7oJjE Accessed July 15, 2025.
+88. Rehope Games. [RehopeGames]. (2023, May 8) *Make Your MAIN MENU Quickly! | Unity UI Tutorial for Beginners* YouTube. https://www.youtube.com/watch?v=DX7HyN7oJjE Accessed July 15, 2025.
 
-31. Game Dev Guide. [GameDevGuide]. (2024, April 3). *Building Runtime UI with UI Toolkit in Unity* YouTube. https://www.youtube.com/watch?v=6DcwHPxCE54 Accessed July 17, 2025.
+89. Game Dev Guide. [GameDevGuide]. (2024, April 3). *Building Runtime UI with UI Toolkit in Unity* YouTube. https://www.youtube.com/watch?v=6DcwHPxCE54 Accessed July 17, 2025.
 
-32. Brush, Thomas. [ThomasBrush]. (2019, January 22). *Make A Gorgeous Start Menu (Unity UI Tutorial)!* YouTube. https://www.youtube.com/watch?v=vqZjZ6yv1lA Accessed July 17, 2025.
+90. Brush, Thomas. [ThomasBrush]. (2019, January 22). *Make A Gorgeous Start Menu (Unity UI Tutorial)!* YouTube. https://www.youtube.com/watch?v=vqZjZ6yv1lA Accessed July 17, 2025.
 
-33. AIA. [AIADev]. (2021, August 10). *Unity UI Tutorial | An introduction* YouTube. https://www.youtube.com/watch?v=IuuKUaZQiSU Accessed July 17, 2025.
+91. AIA. [AIADev]. (2021, August 10). *Unity UI Tutorial | An introduction* YouTube. https://www.youtube.com/watch?v=IuuKUaZQiSU Accessed July 17, 2025.
 
-34. AIA. [AIADev]. (2021, August 13). *Unity Button Tutorial* YouTube. https://www.youtube.com/watch?v=Dn8fCuaL-RA Accessed July 19, 2025.
+92. AIA. [AIADev]. (2021, August 13). *Unity Button Tutorial* YouTube. https://www.youtube.com/watch?v=Dn8fCuaL-RA Accessed July 19, 2025.
 
-35. DA LAB. [DA-LAB]. (2022, August 6). *Unity - Quit with Button Click or Keyboard Input* YouTube. https://www.youtube.com/watch?v=coEs4hKFoes Accessed July 20, 2025.
+93. DA LAB. [DA-LAB]. (2022, August 6). *Unity - Quit with Button Click or Keyboard Input* YouTube. https://www.youtube.com/watch?v=coEs4hKFoes Accessed July 20, 2025.
     
-36. Dąbrowski, Damian. (2024, February 20). Quit application on Escape button in Unity. Medium. https://damiandabrowski.medium.com/quit-application-on-escape-button-in-unity-bf02b8091b5f Accessed 7/21/2025.
+94. Dąbrowski, Damian. (2024, February 20). Quit application on Escape button in Unity. Medium. https://damiandabrowski.medium.com/quit-application-on-escape-button-in-unity-bf02b8091b5f Accessed 7/21/2025.
 
-37. Lumo-Art 3D. (2023, May 13). *FREE Stylized PBR Textures Pack* (Version 2017.3.0). Unity Asset Store.
+95. Lumo-Art 3D. (2023, May 13). *FREE Stylized PBR Textures Pack* (Version 2017.3.0). Unity Asset Store.
 https://assetstore.unity.com/packages/2d/textures-materials/free-stylized-pbr-textures-pack-111778 Accessed: June-July 2025.
 
-38. RumpledCode. [RumpledCode]. (2025, February 24) . _Unity Tutorial - Simple Inventory System_ YouTube. https://www.youtube.com/watch?v=y5NiylHo7rw Accessed 7/22/2025.
-
+96. RumpledCode. [RumpledCode]. (2025, February 24) . _Unity Tutorial - Simple Inventory System_ YouTube. https://www.youtube.com/watch?v=y5NiylHo7rw Accessed 7/22/2025.
 
 Tools Used: 
-VS Codium, VS Codium Plugins, Gnome Terminal, Unity Hub, miro.com, canva.com for 2D mockup stock images
+VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
