@@ -26,7 +26,7 @@ Changelog
 
 7/15: Update to Tools Used - Katrine
 
-7/19: Added Cosmetic Changes to Room1
+7/19: Added Cosmetic Changes to Room 1 - Larisa
 
 7/19: Building environment for Room 3
 
@@ -36,7 +36,15 @@ Changelog
 
 7/20: Working on Room 3 Puzzle 2 Script
 
-7/26: Working on Room 3 scripting
+7/21: Updated Citations - Katrine
+
+7/22: Added SceneLoader - Larisa
+
+7/23: Added KeyPad to Room1, Interact E reveals Keypad, CorrectCode opens door, Room1Puzzle1 is done - Larisa
+
+7/26: Updated Citations in README.md; Added Inventory System scripts for testing - Katrine
+
+7/26: Working on Room 3 scripting - Nick
 
 --------------------------------------------------
 Sources Cited:
@@ -134,9 +142,7 @@ https://www.youtube.com/watch?v=5rxMdiCkQGk. Accessed: July 2025.
 
 33. Unity Technologies. (2025). *Unity Documentation, MonoBehavior.* Unity Technologies. https://docs.unity3d.com/Manual/class-MonoBehaviour.html Accessed: July 2025. 
 
-34. Unity Technologies. (2025). *Unity Documentation, Event functions.*
-Unity Technologies. https://docs.unity3d.com/Manual/event-functions.html
-Accessed: July 2025. 
+34. Unity Technologies. (2025). *Unity Documentation, Event functions.* Unity Technologies. https://docs.unity3d.com/Manual/event-functions.html Accessed: July 2025. 
 
 35. Unity Technologies. (2025). *Unity Documentation, MonoBehavior.OnMouseDown().* Unity Technologies. https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnMouseDown.html Accessed: July 2025. 
 
@@ -157,8 +163,6 @@ Accessed: July 2025.
 43. Unity Technologies. (2025, July 23). *Unity Documentation, Legacy Input.* Unity Technologies. https://docs.unity3d.com/Manual/InputLegacy.html Accessed: July 2025.
 
 44. Unity Technologies. (2025, July 23) *Unity Documentation, Input Manager.* Unity Technologies. https://docs.unity3d.com/Manual/class-InputManager.html Accessed: July 2025.
-
---
 
 45. Unity Technologies. (2025, July 25). *Unity Documentation, Game Object.* Unity Technologies. https://docs.unity3d.com/ScriptReference/GameObject.html Accessed: July 2025.
 
@@ -243,6 +247,27 @@ Accessed: July 2025.
 85. Unity Technologies. (2025, July 25). *Unity Documentation, Object.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Object.html Accessed: July 2025. 
 
 86. Jaredrain. [Jaredrain] (2025). *Youtube Short, Making a car better in my racing game.* Youtube. https://www.youtube.com/shorts/Mgn6KySegPg Accessed: July 2025
+
+87. User interface design and implementation in Unity. Unity. https://unity.com/resources/user-interface-design-and-implementation-in-unity Accessed July 15, 2025.
+  
+88. Rehope Games. [RehopeGames]. (2023, May 8) *Make Your MAIN MENU Quickly! | Unity UI Tutorial for Beginners* YouTube. https://www.youtube.com/watch?v=DX7HyN7oJjE Accessed July 15, 2025.
+
+89. Game Dev Guide. [GameDevGuide]. (2024, April 3). *Building Runtime UI with UI Toolkit in Unity* YouTube. https://www.youtube.com/watch?v=6DcwHPxCE54 Accessed July 17, 2025.
+
+90. Brush, Thomas. [ThomasBrush]. (2019, January 22). *Make A Gorgeous Start Menu (Unity UI Tutorial)!* YouTube. https://www.youtube.com/watch?v=vqZjZ6yv1lA Accessed July 17, 2025.
+
+91. AIA. [AIADev]. (2021, August 10). *Unity UI Tutorial | An introduction* YouTube. https://www.youtube.com/watch?v=IuuKUaZQiSU Accessed July 17, 2025.
+
+92. AIA. [AIADev]. (2021, August 13). *Unity Button Tutorial* YouTube. https://www.youtube.com/watch?v=Dn8fCuaL-RA Accessed July 19, 2025.
+
+93. DA LAB. [DA-LAB]. (2022, August 6). *Unity - Quit with Button Click or Keyboard Input* YouTube. https://www.youtube.com/watch?v=coEs4hKFoes Accessed July 20, 2025.
+    
+94. Dąbrowski, Damian. (2024, February 20). Quit application on Escape button in Unity. Medium. https://damiandabrowski.medium.com/quit-application-on-escape-button-in-unity-bf02b8091b5f Accessed 7/21/2025.
+
+95. Lumo-Art 3D. (2023, May 13). *FREE Stylized PBR Textures Pack* (Version 2017.3.0). Unity Asset Store.
+https://assetstore.unity.com/packages/2d/textures-materials/free-stylized-pbr-textures-pack-111778 Accessed: June-July 2025.
+
+96. RumpledCode. [RumpledCode]. (2025, February 24) . _Unity Tutorial - Simple Inventory System_ YouTube. https://www.youtube.com/watch?v=y5NiylHo7rw Accessed 7/22/2025.
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
