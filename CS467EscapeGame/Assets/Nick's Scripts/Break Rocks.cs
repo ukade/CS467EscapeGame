@@ -14,23 +14,18 @@ public class BreakRocks : MonoBehaviour
     }
 
     // Update is called once per frame
+
+    /* This programming was developed and adapted from the sources at these two links:
+    https://docs.unity3d.com/ScriptReference/KeyCode.html
+    https://docs.unity3d.com/ScriptReference/Input.html
+    Please see the README for a full list of sources.
+    */
     void Update()
     {
-        
-    }
-
-
-
-    /* Adapted from the scipt in the Unity Documentation to destroy an object. For sources that are helpful on this block of code see
-     source #35 and the Microsoft reference sources. Please see README for full sources list.*/
-    void OnMouseDown()
-    {
-        pickaxe_check = true;
-        //If the check for having a pickaxe in your inventory comes out to be true, then break the rocks an have them dissapear.
-        if (pickaxe_check == true)
+        if (Input.GetKeyDown(KeyCode.E))
         {
             Destroy(gameObject);
-            Debug.Log("Its working.");
         }
     }
+    
 }
