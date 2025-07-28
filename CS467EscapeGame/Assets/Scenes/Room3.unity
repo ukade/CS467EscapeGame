@@ -8943,6 +8943,7 @@ GameObject:
   - component: {fileID: 1401099059}
   - component: {fileID: 1401099058}
   - component: {fileID: 1401099057}
+  - component: {fileID: 1401099060}
   m_Layer: 2
   m_Name: Player Flags
   m_TagString: Untagged
@@ -9039,6 +9040,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401099054}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1401099060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401099054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a889354b2d6188eabbeb3a73f4008e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  has_pickaxe: 0
+  has_used_pickaxe: 0
+  has_axe: 0
+  has_used_axe: 0
+  has_bucket: 0
+  has_flashlight: 0
+  has_pillow: 0
+  has_sleeping_bag: 0
+  has_water: 0
+  campfire_out: 0
 --- !u!1001 &1406948479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12712,6 +12735,7 @@ GameObject:
   - component: {fileID: 2009406324}
   - component: {fileID: 2009406325}
   - component: {fileID: 2009406326}
+  - component: {fileID: 2009406327}
   m_Layer: 2
   m_Name: Camper
   m_TagString: Untagged
@@ -12874,6 +12898,33 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2009406327
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009406318}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &2033219830
 PrefabInstance:
   m_ObjectHideFlags: 0
