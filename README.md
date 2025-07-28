@@ -277,5 +277,11 @@ https://assetstore.unity.com/packages/2d/textures-materials/free-stylized-pbr-te
 
 99. Unity Technologies. (2025, July 25). *Unity Documentation, Event.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Event.html Accessed: July 2025. 
 
+Additional Sources:
+
+https://docs.unity3d.com/ScriptReference/Component.GetComponents.html
+https://docs.unity3d.com/Manual/UsingComponents.html
+https://docs.unity3d.com/ScriptReference/MonoBehaviour.html
+
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
