@@ -68,7 +68,7 @@ public class PlayerFlags : MonoBehaviour
         has_sleeping_bag = sleeping_bag.GetComponent<PermPickupScript>().has_picked_up;
         has_axe = axe.GetComponent<ToolPickupScript>().has_picked_up;
         has_used_axe = tree.GetComponent<TreeChopScript>().has_fallen;
-        //has_pillow = pillow.GetComponent<PermPickupScript>().has_picked_up;
+        has_pillow = pillow.GetComponent<PermPickupScript>().has_picked_up;
         //has_bucket = bucket.GetComponent<ToolPickupScript>().has_used;
         has_flashlight = flashlight.GetComponent<PermPickupScript>().has_picked_up;
         //has_water = water.GetComponent<PermPickupScript>().has_picked_up;
