@@ -8,7 +8,7 @@ README for a full list of sources cited. */
 
 using UnityEngine;
 
-public class PickupFlashlight : MonoBehaviour
+public class PermPickupScript : MonoBehaviour
 {
 
     public GameObject activating_object;
@@ -33,7 +33,7 @@ public class PickupFlashlight : MonoBehaviour
     
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E)){
+        if(Input.GetKeyDown(KeyCode.F)){
             Destroy(gameObject);
             activating_object.SetActive(true);
 
