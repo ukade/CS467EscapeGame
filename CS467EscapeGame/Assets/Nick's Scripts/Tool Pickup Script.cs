@@ -21,14 +21,14 @@ public class ToolPickupScript : MonoBehaviour
     {
         /* On keypress update the players relevant attribute.
         Relevant Sources: 
-        https://docs.unity3d.com/ScriptReference/Object.Destroy.html
+        https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html
         https://docs.unity3d.com/ScriptReference/KeyCode.html
         https://docs.unity3d.com/ScriptReference/Input.html
         See README for full list of sources. 
         */
         if(Input.GetKeyDown(KeyCode.E)){
-            Destroy(gameObject);
             has_used = true;
+            gameObject.SetActive(false);
         }
     }
 }

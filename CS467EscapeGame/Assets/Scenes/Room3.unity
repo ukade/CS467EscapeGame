@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.082282715, g: 0.082282715, b: 0.082282715, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0.743
+  m_AmbientIntensity: 0
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
@@ -2464,7 +2464,7 @@ GameObject:
   - component: {fileID: 410087040}
   - component: {fileID: 410087042}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: CampfireLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2802,7 +2802,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6378950226169459383, guid: 08e434cdb0af0a64f8d709c2aeee8398, type: 3}
       propertyPath: m_Name
-      value: FoldedBed
+      value: FoldedSleepingBag
       objectReference: {fileID: 0}
     - target: {fileID: 6378950226169459383, guid: 08e434cdb0af0a64f8d709c2aeee8398, type: 3}
       propertyPath: m_Layer
@@ -3743,6 +3743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickaxe_check: 0
+  has_broken: 0
   camper: {fileID: 1401099054}
 --- !u!1001 &659804654
 PrefabInstance:
@@ -4416,7 +4417,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6453309886974881835, guid: 8651053af2be0084e8b6858af168bd94, type: 3}
       propertyPath: m_Name
-      value: Axe_01
+      value: Axe
       objectReference: {fileID: 0}
     - target: {fileID: 6453309886974881835, guid: 8651053af2be0084e8b6858af168bd94, type: 3}
       propertyPath: m_Layer
@@ -4983,6 +4984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activating_object: {fileID: 983110603}
+  has_picked_up: 0
 --- !u!1001 &846613204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7226,7 +7228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6115178812883243093, guid: d44bb3c29ebf03c4da577571e6f292ac, type: 3}
       propertyPath: m_Name
-      value: TreeTrunk_46
+      value: FallableTree
       objectReference: {fileID: 0}
     - target: {fileID: 6115178812883243093, guid: d44bb3c29ebf03c4da577571e6f292ac, type: 3}
       propertyPath: m_Layer
@@ -8292,7 +8294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5754491135272456892, guid: b7ed1131d01aa9544902f2f6211b9651, type: 3}
       propertyPath: m_Name
-      value: Flashlight_02
+      value: PlayerFlashlight
       objectReference: {fileID: 0}
     - target: {fileID: 5754491135272456892, guid: b7ed1131d01aa9544902f2f6211b9651, type: 3}
       propertyPath: m_Layer
@@ -9097,6 +9099,16 @@ MonoBehaviour:
   has_sleeping_bag: 0
   has_water: 0
   campfire_out: 0
+  pickaxe: {fileID: 0}
+  axe: {fileID: 0}
+  rock: {fileID: 0}
+  tree: {fileID: 0}
+  sleeping_bag: {fileID: 0}
+  bucket: {fileID: 0}
+  flashlight: {fileID: 0}
+  pillow: {fileID: 0}
+  water: {fileID: 0}
+  campfire: {fileID: 0}
 --- !u!1001 &1406948479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10021,6 +10033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activating_object: {fileID: 74123149}
+  has_picked_up: 0
 --- !u!1001 &1619651381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12676,7 +12689,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 239888623318104130, guid: 617ca37626e746841b3ac2f6dc4f4d07, type: 3}
       propertyPath: m_Name
-      value: HardRock_37 (2)
+      value: MineableRock
       objectReference: {fileID: 0}
     - target: {fileID: 239888623318104130, guid: 617ca37626e746841b3ac2f6dc4f4d07, type: 3}
       propertyPath: m_Layer
@@ -13094,7 +13107,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2227528961308107901, guid: 9d05a8a92dc3bc04cbdf76da307fa4a0, type: 3}
       propertyPath: m_Name
-      value: Prop_GenericPillow_02
+      value: PlayerPillow
       objectReference: {fileID: 0}
     - target: {fileID: 2227528961308107901, guid: 9d05a8a92dc3bc04cbdf76da307fa4a0, type: 3}
       propertyPath: m_Layer
@@ -13636,7 +13649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7882981993178472658, guid: 77276c782e506e94a8f2534bdc4a918e, type: 3}
       propertyPath: m_Name
-      value: Prop_Bucket_04
+      value: PlayerBucket
       objectReference: {fileID: 0}
     - target: {fileID: 7882981993178472658, guid: 77276c782e506e94a8f2534bdc4a918e, type: 3}
       propertyPath: m_Layer

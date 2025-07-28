@@ -43,20 +43,30 @@ public class PlayerFlags : MonoBehaviour
          axe = GameObject.Find("Axe");
          rock = GameObject.Find("MineableRock");
          tree = GameObject.Find("FallableTree");
-         sleeping_bag = GameObject.Find("")
-
-
-
-
-
-
-
-        
+         sleeping_bag = GameObject.Find("FoldedSleepingBag");
+         bucket = GameObject.Find("PlayerBucket");
+         flashlight = GameObject.Find("PlayerFlashlight");
+         pillow = GameObject.Find("PlayerPillow");
+         water = GameObject.Find("Water");
+         campfire = GameObject.Find("CampfireLight");    
     }
 
     // Update is called once per frame
     void Update()
     {
+        /* Adding in updates to all of these so when the scripts that are attached to them
+        are executed they update the values here. 
+        Relevant Sources: 
+        https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
+        https://docs.unity3d.com/Manual/class-GameObject.html
+        */
         
+        has_pickaxe = pickaxe.GetComponent<ToolPickupScript>().has_used;
+        has_used_pickaxe = rock.GetComponent<BreakRocks>().has_broken;
+        has_sleeping_bag = sleeping_bag.GetComponent<PermPickupScript>().has_picked_up;
+        // has_axe = axe.GetComponent<ToolPickupScript>().has_used;
+        // has_used_axe = tree.GetComponent<TreeChopScript>().has_fallen;
+        // has_pillow = pillo
+
     }
 }
