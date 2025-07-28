@@ -43,6 +43,8 @@ public class food_refresh : MonoBehaviour
             MeshCollider meshCollider = obj.GetComponent<MeshCollider>();
             Destroy(meshCollider);
 
+            obj.transform.position += Vector3.up * 1f;
+
             Debug.Log("applied box food components");
         }
 
@@ -60,6 +62,8 @@ public class food_refresh : MonoBehaviour
             // remove mesh collider
             MeshCollider meshCollider = obj.GetComponent<MeshCollider>();
             Destroy(meshCollider);
+
+            
 
             Debug.Log("applied capsule food components");
         }

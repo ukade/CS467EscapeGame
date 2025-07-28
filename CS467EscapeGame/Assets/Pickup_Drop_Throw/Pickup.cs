@@ -56,6 +56,7 @@ public class Pickup : MonoBehaviour
                 rb.useGravity = false;
                 rb.isKinematic = false;
                 rb.detectCollisions = true;
+                gameObject.layer = LayerMask.NameToLayer("HeldObject");
 
                 this.transform.SetParent(tempParent.transform);
             }
@@ -86,8 +87,11 @@ public class Pickup : MonoBehaviour
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
 
+        rb.isKinematic = true;
+
         if (Input.GetMouseButtonDown(1))
         {
+            rb.isKinematic = false;
             rb.AddForce(tempParent.transform.forward * throwForce);
             Drop();
         }
@@ -103,7 +107,9 @@ public class Pickup : MonoBehaviour
             objectPos = this.transform.position;
             this.transform.position = objectPos;
             this.transform.SetParent(null);
+            rb.isKinematic = false;
             rb.useGravity = true;
+            gameObject.layer = LayerMask.NameToLayer("Default");
         }
     }
 }

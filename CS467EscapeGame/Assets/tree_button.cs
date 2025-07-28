@@ -35,7 +35,7 @@ public class tree_button : MonoBehaviour
 
     public GameObject sign3;
 
-    private int[] solution = { 2, 3, 4, 5, 7, 9, 10, 11, 15 };
+    private int[] solution = { 1, 2 };
 
     private bool mouseOnButton = false;
     private Light light;
@@ -72,6 +72,7 @@ public class tree_button : MonoBehaviour
             if (!buttonsPressed.Contains(buttonId))
             {
                 buttonsPressed.Add(buttonId);
+                Debug.Log($"added {buttonId}");
             }
             else
             {
