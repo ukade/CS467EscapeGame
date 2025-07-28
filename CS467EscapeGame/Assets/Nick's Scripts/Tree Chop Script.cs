@@ -15,38 +15,32 @@ using UnityEngine;
 
 public class TreeChopScript : MonoBehaviour
 {
-    public Animation tree_fall;
-    public bool axe;
+    public GameObject player_flags;
+    public bool has_fallen;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        tree_fall = GetComponent<Animation>();
-        Debug.Log("Animation retreived.");
+        player_flags = GameObject.Find("Player Flags");
     }
 
     // Update is called once per frame
+
+    /*
+    The code below was developed based on several different sources. Here are a few of the more relevant ones:
+    https://docs.unity3d.com/ScriptReference/Input.html
+    https://docs.unity3d.com/ScriptReference/KeyCode.html
+    https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
+    Also see the sources in the README and at mentioned at the top of the page.
+    */
     void Update()
     {
-        
-    }
-    
-    void OnMouseDown()
-    {        
-        // Temp line until we get the inventory system online.
-        axe = true;
-
-        if (axe == true)
+        if (player_flags.GetComponent<PlayerFlags>().has_axe == true)
         {
-            Debug.Log("Player has an axe.");
-            tree_fall.Play();
-        }
-        else 
-        {
-            Debug.Log("Error 404: Axe not found.");
-            
-            // Temporary line for testing
-            tree_fall.Play();
+            if(Input.GetKeyDown(KeyCode.E))
+            {
+                has_fallen = true;
+            }
         }
     }
 

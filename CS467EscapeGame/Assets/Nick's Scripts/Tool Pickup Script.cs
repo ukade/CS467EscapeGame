@@ -8,7 +8,7 @@ using UnityEngine;
 public class ToolPickupScript : MonoBehaviour
 {
     public GameObject player_stats;
-    public bool has_used;
+    public bool has_picked_up;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,7 +27,7 @@ public class ToolPickupScript : MonoBehaviour
         See README for full list of sources. 
         */
         if(Input.GetKeyDown(KeyCode.E)){
-            has_used = true;
+            has_picked_up = true;
             gameObject.SetActive(false);
         }
     }

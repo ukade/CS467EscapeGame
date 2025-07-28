@@ -31,7 +31,8 @@ public class PlayerFlags : MonoBehaviour
     public GameObject pillow;
     public GameObject water;
     public GameObject campfire;
-    
+    public GameObject axe_light;
+    public GameObject pickaxe_light;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -48,7 +49,8 @@ public class PlayerFlags : MonoBehaviour
          flashlight = GameObject.Find("PlayerFlashlight");
          pillow = GameObject.Find("PlayerPillow");
          water = GameObject.Find("Water");
-         campfire = GameObject.Find("CampfireLight");    
+         campfire = GameObject.Find("CampfireLight");
+
     }
 
     // Update is called once per frame
@@ -61,12 +63,25 @@ public class PlayerFlags : MonoBehaviour
         https://docs.unity3d.com/Manual/class-GameObject.html
         */
         
-        has_pickaxe = pickaxe.GetComponent<ToolPickupScript>().has_used;
+        has_pickaxe = pickaxe.GetComponent<ToolPickupScript>().has_picked_up;
         has_used_pickaxe = rock.GetComponent<BreakRocks>().has_broken;
         has_sleeping_bag = sleeping_bag.GetComponent<PermPickupScript>().has_picked_up;
-        // has_axe = axe.GetComponent<ToolPickupScript>().has_used;
-        // has_used_axe = tree.GetComponent<TreeChopScript>().has_fallen;
-        // has_pillow = pillo
+        has_axe = axe.GetComponent<ToolPickupScript>().has_picked_up;
+        has_used_axe = tree.GetComponent<TreeChopScript>().has_fallen;
+        has_pillow = pillow.GetComponent<PermPickupScript>().has_picked_up;
+        //has_bucket = bucket.GetComponent<ToolPickupScript>().has_used;
+        has_flashlight = flashlight.GetComponent<PermPickupScript>().has_picked_up;
+        //has_water = water.GetComponent<PermPickupScript>().has_picked_up;
+        //campfire_out = campfire.GetComponent<CampfireScript>().is_out;
 
+        // Activating the respective lights if they go active.
+        //Relevant Source: https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html
+        if (has_used_pickaxe == true){
+            pickaxe_light.SetActive(true);
+        }
+
+        if (has_used_axe == true){
+            axe_light.SetActive(true);
+        }
     }
 }
