@@ -271,10 +271,11 @@ https://assetstore.unity.com/packages/2d/textures-materials/free-stylized-pbr-te
 
 96. RumpledCode. [RumpledCode]. (2025, February 24) . _Unity Tutorial - Simple Inventory System_ YouTube. https://www.youtube.com/watch?v=y5NiylHo7rw Accessed 7/22/2025.
 
-Additional Citations: 
-https://docs.unity3d.com/ScriptReference/Input.html
-https://docs.unity3d.com/ScriptReference/KeyCode.html
-https://docs.unity3d.com/ScriptReference/Event.html
+97. Unity Technologies. (2025, July 25). *Unity Documentation, Input.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Input.html Accessed: July 2025.
+
+98. Unity Technologies. (2025, July 25). *Unity Documentation, KeyCode.* Unity Technologies. https://docs.unity3d.com/ScriptReference/KeyCode.html Accessed: July 2025. 
+
+99. Unity Technologies. (2025, July 25). *Unity Documentation, Event.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Event.html Accessed: July 2025. 
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
