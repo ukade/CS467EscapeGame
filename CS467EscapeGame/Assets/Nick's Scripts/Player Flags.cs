@@ -18,11 +18,39 @@ public class PlayerFlags : MonoBehaviour
     public bool has_sleeping_bag;
     public bool has_water;
     public bool campfire_out;
+
+    // Creating several game objects to eventually get components from
+    // Relevant source: https://docs.unity3d.com/Manual/class-GameObject.html
+    public GameObject pickaxe;
+    public GameObject axe;
+    public GameObject rock;
+    public GameObject tree;
+    public GameObject sleeping_bag;
+    public GameObject bucket;
+    public GameObject flashlight;
+    public GameObject pillow;
+    public GameObject water;
+    public GameObject campfire;
     
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+         //Getting components for several different objects.
+         // Relevant source: https://docs.unity3d.com/Manual/class-GameObject.html
+
+         pickaxe = GameObject.Find("Pickaxe");
+         axe = GameObject.Find("Axe");
+         rock = GameObject.Find("MineableRock");
+         tree = GameObject.Find("FallableTree");
+         sleeping_bag = GameObject.Find("")
+
+
+
+
+
+
+
         
     }
 

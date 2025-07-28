@@ -201,7 +201,7 @@ https://www.youtube.com/watch?v=5rxMdiCkQGk. Accessed: July 2025.
 61. Unity Technologies. (2025, July 25). *Unity Documentation, Animation.Play.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Animation.Play.html Accessed: July 2025. 
 
 62. Unity Technologies. (2025, July 25). *Unity Documentation, Animation.clip.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Animation-clip.html Accessed: July 2025.
-
+layer_stats.GetComponent<PlayerFlags>(). = true;
 63. Unity Technologies. (2025, July 25). *Unity Documentation, Legacy Animation componenet.* Unity Technologies. https://docs.unity3d.com/6000.1/Documentation/Manual/class-Animation.html Accessed: July 2025.
 
 64. Unity Technologies. (2025, July 25). *Unity Documentation, Component.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Component.html Accessed: July 2025. 

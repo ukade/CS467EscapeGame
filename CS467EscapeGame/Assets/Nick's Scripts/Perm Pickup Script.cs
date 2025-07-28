@@ -33,7 +33,7 @@ public class PermPickupScript : MonoBehaviour
     
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.F)){
+        if(Input.GetKeyDown(KeyCode.E)){
             Destroy(gameObject);
             activating_object.SetActive(true);
 

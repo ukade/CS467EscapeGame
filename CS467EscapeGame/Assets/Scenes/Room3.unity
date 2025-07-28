@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 74123150}
   - component: {fileID: 74123152}
   - component: {fileID: 74123151}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player Flashlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1946,8 +1946,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
-  - component: {fileID: 330585548}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -2022,7 +2021,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.06999999, y: -0.056, z: 0.408}
+  m_LocalPosition: {x: 0.06999999, y: 0.069, z: -0.199}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2073,23 +2072,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!114 &330585548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330585543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85fc3f89bf8fd3445a5a8f63b86c6343, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactableLayer:
-    serializedVersion: 2
-    m_Bits: 1024
-  mainCamera: {fileID: 330585545}
-  interactText: {fileID: 1957265843}
 --- !u!1001 &336159365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2846,7 +2828,7 @@ PrefabInstance:
       addedObject: {fileID: 843211376}
     - targetCorrespondingSourceObject: {fileID: 6378950226169459383, guid: 08e434cdb0af0a64f8d709c2aeee8398, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 843211377}
+      addedObject: {fileID: 843211382}
   m_SourcePrefab: {fileID: 100100000, guid: 08e434cdb0af0a64f8d709c2aeee8398, type: 3}
 --- !u!1001 &519180308
 PrefabInstance:
@@ -3718,8 +3700,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.6250763, y: 1.0009435, z: 0.7377887}
-  m_Center: {x: 0.081628814, y: 0.4991279, z: 0.13893558}
+  m_Size: {x: 0.6250763, y: 1.0009435, z: 0.6740741}
+  m_Center: {x: 0.081628814, y: 0.4991279, z: 0.107078336}
 --- !u!114 &645137138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3735,8 +3717,8 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 645137141}
-        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+      - m_Target: {fileID: 645137144}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
@@ -3745,10 +3727,10 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   interactText: Press E to Break Rock with Pickaxe
---- !u!114 &645137139
+--- !u!114 &645137144
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3760,13 +3742,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05da5acdafa25cedf8b6b1f324969ef2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickaxe_check: 1
-  camper: {fileID: 0}
---- !u!23 &645137141 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 1753234094254709143, guid: 617ca37626e746841b3ac2f6dc4f4d07, type: 3}
-  m_PrefabInstance: {fileID: 2001168027}
-  m_PrefabAsset: {fileID: 0}
+  pickaxe_check: 0
+  camper: {fileID: 1401099054}
 --- !u!1001 &659804654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4455,6 +4432,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6453309886974881835, guid: 8651053af2be0084e8b6858af168bd94, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1264173214}
+    - targetCorrespondingSourceObject: {fileID: 6453309886974881835, guid: 8651053af2be0084e8b6858af168bd94, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1264173219}
   m_SourcePrefab: {fileID: 100100000, guid: 8651053af2be0084e8b6858af168bd94, type: 3}
 --- !u!1001 &782469227
 PrefabInstance:
@@ -4955,7 +4935,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onInteract:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 843211382}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   interactText: Press E to Put In Tent
 --- !u!65 &843211376
 BoxCollider:
@@ -4978,14 +4970,14 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.6526522, y: 0.6326748, z: 1.3803058}
   m_Center: {x: -0.016910821, y: 0.07794442, z: 0}
---- !u!114 &843211377
+--- !u!114 &843211382
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843211370}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c925154da1ca9f6cf86cc8c9fc3057a4, type: 3}
   m_Name: 
@@ -7874,8 +7866,8 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1264173216}
-        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+      - m_Target: {fileID: 1264173219}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
@@ -7884,7 +7876,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   interactText: Press E to Pick Up
 --- !u!65 &1264173214
@@ -7908,11 +7900,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.66219723, y: 0.074405, z: 1.3173549}
   m_Center: {x: 0.16424923, y: 0.0000000018626451, z: -0.3297134}
---- !u!23 &1264173216 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 4795840294346609150, guid: 8651053af2be0084e8b6858af168bd94, type: 3}
-  m_PrefabInstance: {fileID: 764949291}
+--- !u!114 &1264173219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264173208}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e59b3d5651369979b731507bdacaf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_stats: {fileID: 0}
+  has_used: 0
 --- !u!1001 &1271983357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8312,7 +8313,7 @@ PrefabInstance:
       addedObject: {fileID: 1568610538}
     - targetCorrespondingSourceObject: {fileID: 5754491135272456892, guid: b7ed1131d01aa9544902f2f6211b9651, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1568610539}
+      addedObject: {fileID: 1568610543}
   m_SourcePrefab: {fileID: 100100000, guid: b7ed1131d01aa9544902f2f6211b9651, type: 3}
 --- !u!4 &1298520864 stripped
 Transform:
@@ -8978,7 +8979,7 @@ GameObject:
   - component: {fileID: 1401099058}
   - component: {fileID: 1401099057}
   - component: {fileID: 1401099060}
-  m_Layer: 2
+  m_Layer: 10
   m_Name: Player Flags
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8993,8 +8994,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401099054}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.496, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.439, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9017,7 +9018,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -9086,8 +9087,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a889354b2d6188eabbeb3a73f4008e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  has_pickaxe: 1
-  has_used_pickaxe: 1
+  has_pickaxe: 0
+  has_used_pickaxe: 0
   has_axe: 0
   has_used_axe: 0
   has_bucket: 0
@@ -9355,7 +9356,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onInteract:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1458956139}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   interactText: Press E to Pick Up
 --- !u!65 &1458956134
 BoxCollider:
@@ -9378,6 +9391,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.1244277, y: 0.08298094, z: 1.0389035}
   m_Center: {x: -0.0000000014709621, y: -0.000000035390258, z: -0.39485854}
+--- !u!114 &1458956139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458956127}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e59b3d5651369979b731507bdacaf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_stats: {fileID: 0}
+  has_used: 0
 --- !u!1001 &1460999927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9585,6 +9612,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4304440790864985898, guid: c7fe83c52eb617d45bd0f368d30248fa, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8560386294252704627, guid: c7fe83c52eb617d45bd0f368d30248fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.8193924
@@ -9629,10 +9660,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: HardRock_13 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9045279011583707593, guid: c7fe83c52eb617d45bd0f368d30248fa, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9045279011583707593, guid: c7fe83c52eb617d45bd0f368d30248fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1925800592}
   m_SourcePrefab: {fileID: 100100000, guid: c7fe83c52eb617d45bd0f368d30248fa, type: 3}
 --- !u!1001 &1497507567
 PrefabInstance:
@@ -9802,19 +9840,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactText: Press E to Put In Tent
---- !u!114 &1504176547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1504176535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c925154da1ca9f6cf86cc8c9fc3057a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activating_object: {fileID: 1620202750}
 --- !u!1001 &1504573680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9948,7 +9973,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onInteract:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1568610543}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   interactText: Press E to Pick Up
 --- !u!65 &1568610538
 BoxCollider:
@@ -9971,14 +10008,14 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.14843115, y: 0.14843108, z: 0.42716882}
   m_Center: {x: 0.000000007450584, y: -0.0000000025635183, z: 0.11468991}
---- !u!114 &1568610539
+--- !u!114 &1568610543
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568610531}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c925154da1ca9f6cf86cc8c9fc3057a4, type: 3}
   m_Name: 
@@ -12053,6 +12090,44 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f399055a482a69d4eab49ff7fd7738d4, type: 3}
+--- !u!1 &1925800587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9045279011583707593, guid: c7fe83c52eb617d45bd0f368d30248fa, type: 3}
+  m_PrefabInstance: {fileID: 1483844050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1925800589 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7388072890636298268, guid: c7fe83c52eb617d45bd0f368d30248fa, type: 3}
+  m_PrefabInstance: {fileID: 1483844050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1925800592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925800587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1925800589}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactText: Press E to Interact
 --- !u!1001 &1937729021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12611,6 +12686,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 239888623318104130, guid: 617ca37626e746841b3ac2f6dc4f4d07, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 585346739129033464, guid: 617ca37626e746841b3ac2f6dc4f4d07, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -12675,7 +12754,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7247640294902764195, guid: 617ca37626e746841b3ac2f6dc4f4d07, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -12687,7 +12767,7 @@ PrefabInstance:
       addedObject: {fileID: 645137138}
     - targetCorrespondingSourceObject: {fileID: 239888623318104130, guid: 617ca37626e746841b3ac2f6dc4f4d07, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 645137139}
+      addedObject: {fileID: 645137144}
   m_SourcePrefab: {fileID: 100100000, guid: 617ca37626e746841b3ac2f6dc4f4d07, type: 3}
 --- !u!1001 &2003099614
 PrefabInstance:
@@ -12769,40 +12849,18 @@ GameObject:
   - component: {fileID: 2009406323}
   - component: {fileID: 2009406322}
   - component: {fileID: 2009406321}
-  - component: {fileID: 2009406320}
   - component: {fileID: 2009406324}
   - component: {fileID: 2009406325}
   - component: {fileID: 2009406326}
-  m_Layer: 2
+  - component: {fileID: 2009406327}
+  - component: {fileID: 2009406328}
+  m_Layer: 10
   m_Name: Camper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!136 &2009406320
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2009406318}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2009406321
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12865,7 +12923,7 @@ Transform:
   m_GameObject: {fileID: 2009406318}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.911, y: 0.78, z: -7.111}
+  m_LocalPosition: {x: 0, y: 0.831, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12935,6 +12993,53 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2009406327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009406318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fc3f89bf8fd3445a5a8f63b86c6343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  mainCamera: {fileID: 330585545}
+  interactText: {fileID: 1957265843}
+--- !u!114 &2009406328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009406318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 2303d69c688f38f48b406f91351645cc, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 330585545}
 --- !u!1001 &2033219830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13005,9 +13110,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2227528961308107901, guid: 9d05a8a92dc3bc04cbdf76da307fa4a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1504176542}
-    - targetCorrespondingSourceObject: {fileID: 2227528961308107901, guid: 9d05a8a92dc3bc04cbdf76da307fa4a0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1504176547}
   m_SourcePrefab: {fileID: 100100000, guid: 9d05a8a92dc3bc04cbdf76da307fa4a0, type: 3}
 --- !u!1001 &2047673204
 PrefabInstance:
@@ -13346,6 +13448,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 783568845274904932, guid: 55c91a9bc84f7354f88d787fcd384a41, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1458956134}
+    - targetCorrespondingSourceObject: {fileID: 783568845274904932, guid: 55c91a9bc84f7354f88d787fcd384a41, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1458956139}
   m_SourcePrefab: {fileID: 100100000, guid: 55c91a9bc84f7354f88d787fcd384a41, type: 3}
 --- !u!1001 &2071259365
 PrefabInstance:
