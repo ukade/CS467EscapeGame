@@ -46,6 +46,8 @@ Changelog
 
 7/26: Working on Room 3 scripting - Nick
 
+7/27: Working on Room 3 scripting - Nick
+
 --------------------------------------------------
 Sources Cited:
 
@@ -268,6 +270,12 @@ https://www.youtube.com/watch?v=5rxMdiCkQGk. Accessed: July 2025.
 https://assetstore.unity.com/packages/2d/textures-materials/free-stylized-pbr-textures-pack-111778 Accessed: June-July 2025.
 
 96. RumpledCode. [RumpledCode]. (2025, February 24) . _Unity Tutorial - Simple Inventory System_ YouTube. https://www.youtube.com/watch?v=y5NiylHo7rw Accessed 7/22/2025.
+
+97. Unity Technologies. (2025, July 25). *Unity Documentation, Input.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Input.html Accessed: July 2025.
+
+98. Unity Technologies. (2025, July 25). *Unity Documentation, KeyCode.* Unity Technologies. https://docs.unity3d.com/ScriptReference/KeyCode.html Accessed: July 2025. 
+
+99. Unity Technologies. (2025, July 25). *Unity Documentation, Event.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Event.html Accessed: July 2025. 
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images

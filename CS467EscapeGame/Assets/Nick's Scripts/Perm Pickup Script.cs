@@ -10,6 +10,8 @@ using UnityEngine;
 
 public class PickupFlashlight : MonoBehaviour
 {
+
+    public GameObject activating_object;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,8 +19,24 @@ public class PickupFlashlight : MonoBehaviour
     }
 
     // Update is called once per frame
+    
+    /* The below code was developed using the following links specifically: 
+    https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html
+    https://docs.unity3d.com/ScriptReference/Input.html
+    https://docs.unity3d.com/ScriptReference/Component-gameObject.html
+    https://docs.unity3d.com/ScriptReference/GameObject.html
+    https://docs.unity3d.com/ScriptReference/Object.Destroy.html
+
+    Please see the attached README for a full list of citations.
+    */
+    
+    
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.E)){
+            Destroy(gameObject);
+            activating_object.SetActive(true);
+
+        }
     }
 }
