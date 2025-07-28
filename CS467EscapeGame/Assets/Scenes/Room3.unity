@@ -2396,7 +2396,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1fb8c0af2eba2164395d99cc32a21735, type: 3}
       propertyPath: m_Name
-      value: Bed_02
+      value: Player Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1fb8c0af2eba2164395d99cc32a21735, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2840,6 +2844,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6378950226169459383, guid: 08e434cdb0af0a64f8d709c2aeee8398, type: 3}
       insertIndex: -1
       addedObject: {fileID: 843211376}
+    - targetCorrespondingSourceObject: {fileID: 6378950226169459383, guid: 08e434cdb0af0a64f8d709c2aeee8398, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 843211377}
   m_SourcePrefab: {fileID: 100100000, guid: 08e434cdb0af0a64f8d709c2aeee8398, type: 3}
 --- !u!1001 &519180308
 PrefabInstance:
@@ -3731,14 +3738,14 @@ MonoBehaviour:
       - m_Target: {fileID: 645137139}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: 
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
   interactText: Press E to Break Rock with Pickaxe
 --- !u!114 &645137139
@@ -3754,6 +3761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickaxe_check: 1
+  interact_check: yes
 --- !u!1001 &659804654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4965,6 +4973,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.6526522, y: 0.6326748, z: 1.3803058}
   m_Center: {x: -0.016910821, y: 0.07794442, z: 0}
+--- !u!114 &843211377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843211370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c925154da1ca9f6cf86cc8c9fc3057a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activating_object: {fileID: 983110603}
 --- !u!1001 &846613204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8263,6 +8284,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5754491135272456892, guid: b7ed1131d01aa9544902f2f6211b9651, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1568610538}
+    - targetCorrespondingSourceObject: {fileID: 5754491135272456892, guid: b7ed1131d01aa9544902f2f6211b9651, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1568610539}
   m_SourcePrefab: {fileID: 100100000, guid: b7ed1131d01aa9544902f2f6211b9651, type: 3}
 --- !u!4 &1298520864 stripped
 Transform:
@@ -9621,6 +9645,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactText: Press E to Put In Tent
+--- !u!114 &1504176547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504176535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c925154da1ca9f6cf86cc8c9fc3057a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activating_object: {fileID: 1620202750}
 --- !u!1001 &1504573680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9754,19 +9791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onInteract:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11500000, guid: c925154da1ca9f6cf86cc8c9fc3057a4, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   interactText: Press E to Pick Up
 --- !u!65 &1568610538
 BoxCollider:
@@ -9789,6 +9814,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.14843115, y: 0.14843108, z: 0.42716882}
   m_Center: {x: 0.000000007450584, y: -0.0000000025635183, z: 0.11468991}
+--- !u!114 &1568610539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568610531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c925154da1ca9f6cf86cc8c9fc3057a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activating_object: {fileID: 74123149}
 --- !u!1001 &1619651381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9900,7 +9938,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2227528961308107901, guid: 9d05a8a92dc3bc04cbdf76da307fa4a0, type: 3}
       propertyPath: m_Name
-      value: Prop_GenericPillow_02 (1)
+      value: Player Pillow
+      objectReference: {fileID: 0}
+    - target: {fileID: 2227528961308107901, guid: 9d05a8a92dc3bc04cbdf76da307fa4a0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12801,6 +12843,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2227528961308107901, guid: 9d05a8a92dc3bc04cbdf76da307fa4a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1504176542}
+    - targetCorrespondingSourceObject: {fileID: 2227528961308107901, guid: 9d05a8a92dc3bc04cbdf76da307fa4a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1504176547}
   m_SourcePrefab: {fileID: 100100000, guid: 9d05a8a92dc3bc04cbdf76da307fa4a0, type: 3}
 --- !u!1001 &2047673204
 PrefabInstance:

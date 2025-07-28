@@ -11,7 +11,7 @@ using UnityEngine;
 public class PickupFlashlight : MonoBehaviour
 {
 
-    public GameObject player_flashlight;
+    public GameObject activating_object;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,7 +35,7 @@ public class PickupFlashlight : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E)){
             Destroy(gameObject);
-            player_flashlight.SetActive(true);
+            activating_object.SetActive(true);
 
         }
     }

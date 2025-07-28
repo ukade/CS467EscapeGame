@@ -7,6 +7,7 @@ using UnityEngine;
 public class BreakRocks : MonoBehaviour
 {
     public bool pickaxe_check;
+    public string interact_check;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,10 +23,13 @@ public class BreakRocks : MonoBehaviour
     */
     void Update()
     {
+        if (interact_check == "yes"){
+
+            Debug.Log("yep");
+        }
         if (Input.GetKeyDown(KeyCode.E))
         {
             Destroy(gameObject);
         }
     }
-    
 }
