@@ -7915,7 +7915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player_stats: {fileID: 0}
-  has_used: 0
+  has_picked_up: 0
 --- !u!1001 &1271983357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9109,6 +9109,8 @@ MonoBehaviour:
   pillow: {fileID: 0}
   water: {fileID: 0}
   campfire: {fileID: 0}
+  axe_light: {fileID: 0}
+  pickaxe_light: {fileID: 0}
 --- !u!1001 &1406948479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9416,7 +9418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player_stats: {fileID: 0}
-  has_used: 0
+  has_picked_up: 0
 --- !u!1001 &1460999927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11310,7 +11312,7 @@ GameObject:
   - component: {fileID: 1826777750}
   - component: {fileID: 1826777749}
   m_Layer: 0
-  m_Name: Light to direct (2)
+  m_Name: AxeLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13278,12 +13280,12 @@ GameObject:
   - component: {fileID: 2063678873}
   - component: {fileID: 2063678872}
   m_Layer: 0
-  m_Name: Light to direct
+  m_Name: PickAxeLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2063678872
 MonoBehaviour:
   m_ObjectHideFlags: 0
