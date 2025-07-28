@@ -11921,7 +11921,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onInteract:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1881634580}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   interactText: Press E to Pick Up
 --- !u!65 &1881634575
 BoxCollider:
@@ -11944,6 +11956,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.51148516, y: 0.61291665, z: 0.4957242}
   m_Center: {x: 0, y: 0.30645832, z: 0}
+--- !u!114 &1881634580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881634569}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e59b3d5651369979b731507bdacaf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_stats: {fileID: 0}
+  has_picked_up: 0
 --- !u!1001 &1895603459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13712,6 +13738,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7882981993178472658, guid: 77276c782e506e94a8f2534bdc4a918e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1881634575}
+    - targetCorrespondingSourceObject: {fileID: 7882981993178472658, guid: 77276c782e506e94a8f2534bdc4a918e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1881634580}
   m_SourcePrefab: {fileID: 100100000, guid: 77276c782e506e94a8f2534bdc4a918e, type: 3}
 --- !u!1001 &2123860972
 PrefabInstance:
