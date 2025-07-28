@@ -48,6 +48,8 @@ Changelog
 
 7/27: Working on Room 3 scripting - Nick
 
+7/28: Added Keyboard Password Input, Blocks Fall from ceiling, Interacting with plants puzzle - Larisa
+
 --------------------------------------------------
 Sources Cited:
 

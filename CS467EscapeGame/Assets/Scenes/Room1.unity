@@ -1280,7 +1280,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onInteract:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2122623936}
+        m_TargetAssemblyTypeName: CheckWatered, Assembly-CSharp
+        m_MethodName: Plant2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactText: Press E to Interact
 --- !u!1 &165166914
 GameObject:
@@ -1647,7 +1659,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onInteract:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2122623936}
+        m_TargetAssemblyTypeName: CheckWatered, Assembly-CSharp
+        m_MethodName: Plant1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactText: Press E to Interact
 --- !u!1001 &190083432
 PrefabInstance:
@@ -3838,7 +3862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fefd6d9fe9c32eb4b908bd5d547a7ea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pwHere: PASSWORD
+  pwHere: WAKE UP
   password: {fileID: 1424726649}
   pw: 
   keya: {fileID: 766714462}
@@ -5716,7 +5740,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onInteract:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2122623936}
+        m_TargetAssemblyTypeName: CheckWatered, Assembly-CSharp
+        m_MethodName: Plant4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactText: Press E to Interact
 --- !u!1 &582248655
 GameObject:
@@ -14077,7 +14113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
+  m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 10
   m_ReferenceResolution: {x: 800, y: 600}
@@ -14151,10 +14187,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1284084916}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2122623936}
+        m_TargetAssemblyTypeName: CheckWatered, Assembly-CSharp
+        m_MethodName: Plant3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -21104,6 +21140,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2122623935}
+  - component: {fileID: 2122623936}
   m_Layer: 0
   m_Name: PlantManager
   m_TagString: Untagged
@@ -21126,6 +21163,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2122623936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122623934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace7d764e515819438762e86a9e843c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Wall: {fileID: 1284084916}
+  plant1: {fileID: 190025625}
+  plant2: {fileID: 139825554}
+  plant3: {fileID: 1363325270}
+  plant4: {fileID: 581065313}
+  code: 23142
 --- !u!1 &2125360776
 GameObject:
   m_ObjectHideFlags: 0
