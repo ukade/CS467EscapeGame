@@ -286,5 +286,10 @@ https://assetstore.unity.com/packages/2d/textures-materials/free-stylized-pbr-te
 102. Unity Technologies. (2025, July 25). *Unity Documentation, Monobehavior.* Unity Technologies. 
 https://docs.unity3d.com/ScriptReference/MonoBehaviour.html Accessed: July 2025. 
 
+Sources: 
+https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/struct
+https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/arrays
+
+
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
