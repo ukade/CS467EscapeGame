@@ -7,6 +7,7 @@ using UnityEngine;
 public class BreakRocks : MonoBehaviour
 {
     public bool pickaxe_check;
+    public bool has_broken;
     public GameObject camper;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     
@@ -30,7 +31,7 @@ public class BreakRocks : MonoBehaviour
     https://docs.unity3d.com/ScriptReference/Input.html
     https://docs.unity3d.com/Manual/class-GameObject.html
     https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
-
+    https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html
     It appears to me the only parameter that works for GetComponent is the name of the component with no spaces. 
     I see an example of this in the last source above but did not see where it was mentioned in any other sources. 
     Please see the README for a full list of sources.
@@ -44,7 +45,8 @@ public class BreakRocks : MonoBehaviour
         
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Destroy(gameObject);
+                has_broken = true;
+                gameObject.SetActive(false);
    
             }
         }
