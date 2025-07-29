@@ -11,37 +11,36 @@ using UnityEngine;
     35. Unity Technologies. (2025). *Unity Documentation, MonoBehavior.OnMouseDown().* Unity Technologies. 
     https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnMouseDown.html Accessed: July 2025. 
 
-    Add source #46 here. */
+    46.Unity Technologies. (2025, July 25). *Unity Documentation, Animation.* 
+    Unity Technologies. https://docs.unity3d.com/ScriptReference/Animation.html Accessed: July 2025. */
 
 public class TreeChopScript : MonoBehaviour
 {
-    public GameObject player_flags;
-    public bool has_fallen;
+
+    public GameObject treeInteractBox = GameObject.Find("treeInteractBox");
+    public GameObject treeChopCollider = GameObject.Find("TreeChopCollider");
+    public GameObject axe = GameObject.Find("Axe");
+    Animator treeAnimator = fallableTree.GetComponent<Animator>();
+    public bool treeChoppable = false;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        player_flags = GameObject.Find("Player Flags");
+        
     }
 
     // Update is called once per frame
 
     /*
     The code below was developed based on several different sources. Here are a few of the more relevant ones:
-    https://docs.unity3d.com/ScriptReference/Input.html
-    https://docs.unity3d.com/ScriptReference/KeyCode.html
-    https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
+
+
+
     Also see the sources in the README and at mentioned at the top of the page.
     */
     void Update()
     {
-        if (player_flags.GetComponent<PlayerFlags>().has_axe == true)
-        {
-            if(Input.GetKeyDown(KeyCode.E))
-            {
-                has_fallen = true;
-            }
-        }
+
     }
 
 }
