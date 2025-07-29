@@ -292,5 +292,11 @@ https://docs.unity3d.com/ScriptReference/MonoBehaviour.html Accessed: July 2025.
 
 104. Microsoft. (2024, December 04). *Arrays.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/arrays Accessed: July 2025.
 
+Sources: 
+https://docs.unity3d.com/ScriptReference/Collider.html
+
+
+
+
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images

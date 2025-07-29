@@ -4,15 +4,13 @@
 using UnityEngine;
 
     /*Some of the below code was by default provided by the Unity engine. 
-    The below code is based on the sources in the README, especially    
-    sources 34,35,37,38,45,46,etc. Please see the README for a full list of sources. */
-
-    /*This code was inspired directly from several sources in the readme expecially the following sources #35 and #46:
-    35. Unity Technologies. (2025). *Unity Documentation, MonoBehavior.OnMouseDown().* Unity Technologies. 
-    https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnMouseDown.html Accessed: July 2025. 
-
-    46.Unity Technologies. (2025, July 25). *Unity Documentation, Animation.* 
-    Unity Technologies. https://docs.unity3d.com/ScriptReference/Animation.html Accessed: July 2025. */
+    The below code is based on/adapted from the sources in the README, especially:    
+    https://docs.unity3d.com/Manual/class-GameObject.html
+    https://docs.unity3d.com/ScriptReference/GameObject.html
+    https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Animator.html
+    https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
+    Please see the README for a full list of sources. */
+    
 
 public class TreeChopScript : MonoBehaviour
 {
@@ -20,8 +18,9 @@ public class TreeChopScript : MonoBehaviour
     public GameObject treeInteractBox = GameObject.Find("treeInteractBox");
     public GameObject treeChopCollider = GameObject.Find("TreeChopCollider");
     public GameObject axe = GameObject.Find("Axe");
-    Animator treeAnimator = fallableTree.GetComponent<Animator>();
+    Animator treeAnimator = GetComponent<Animator>();
     public bool treeChoppable = false;
+    //public GameObject collidingObject;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -38,9 +37,38 @@ public class TreeChopScript : MonoBehaviour
 
     Also see the sources in the README and at mentioned at the top of the page.
     */
+    /* Accessed July 29 2025
+    Adapted from the following source to fit collisions with our axe object:
+    JD Dev, https://www.youtube.com/watch?v=vQY4jsho1nQ
+    See sources cited for full cite, it is citation #1. 
+    
+    Also based on these sources: 
+    https://docs.unity3d.com/ScriptReference/Collider.html
+    https://docs.unity3d.com/Manual/class-GameObject.html
+    */
+
     void Update()
     {
+  
+    }
+
+    void OnCollisionEnter(Collider collidingObject)
+    {
+        if (collidingObject == axe){
+            Debug.Log("The axe is in the right spot.");
+
+
+        }
+    }
+
+    void OnCollisionExit()
+    {
+        Debug.Log("Axe left.");
+
 
     }
+
+
+
 
 }
