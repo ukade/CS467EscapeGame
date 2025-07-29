@@ -25,6 +25,8 @@ public class Pickup : MonoBehaviour
 
     Vector3 objectPos;
 
+    private Vector3 originalPickupPosition;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -39,6 +41,21 @@ public class Pickup : MonoBehaviour
     {
         if (holding)
             Hold();
+
+        if (!holding & transform.position.y < -50f)
+        {
+            ResetPosition();
+        }
+    }
+
+    private void ResetPosition()
+    {
+        // this resets objects that fall through the world by tracking and updating their position if they fall below a certain y-distance
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+        rb.useGravity = true;
+        rb.isKinematic = false;
+        transform.position = originalPickupPosition;
     }
 
     private void OnMouseDown()
@@ -57,6 +74,8 @@ public class Pickup : MonoBehaviour
                 rb.isKinematic = false;
                 rb.detectCollisions = true;
                 gameObject.layer = LayerMask.NameToLayer("HeldObject");
+
+                originalPickupPosition = transform.position;
 
                 this.transform.SetParent(tempParent.transform);
             }

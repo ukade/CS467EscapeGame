@@ -40,7 +40,7 @@ public class Count_Objects : MonoBehaviour
 
     private void Update()
     {
-        if (balls_in_bin.Count == 8)
+        if (balls_in_bin.Count == 0)
         {
             isComplete = true;
             Stairs.SetActive(isComplete);
