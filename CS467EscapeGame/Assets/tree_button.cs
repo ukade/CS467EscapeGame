@@ -35,7 +35,7 @@ public class tree_button : MonoBehaviour
 
     public GameObject sign3;
 
-    private int[] solution = { 1, 2 };
+    private int[] solution = { 1 };
 
     private bool mouseOnButton = false;
     private Light light;
