@@ -50,6 +50,8 @@ Changelog
 
 7/28: Added Keyboard Password Input, Blocks Fall from ceiling, Interacting with plants puzzle - Larisa
 
+7/28: Organized assets as recommended by Brian, and added in mock up for Recycle puzzle recommended by Brian/Katrine
+
 --------------------------------------------------
 Sources Cited:
 
@@ -286,10 +288,9 @@ https://assetstore.unity.com/packages/2d/textures-materials/free-stylized-pbr-te
 102. Unity Technologies. (2025, July 25). *Unity Documentation, Monobehavior.* Unity Technologies. 
 https://docs.unity3d.com/ScriptReference/MonoBehaviour.html Accessed: July 2025. 
 
-Sources: 
-https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/struct
-https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/arrays
+103. Microsoft. (2024, December 04). *Structure types (C# Reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/struct Accessed: July 2025. 
 
+104. Microsoft. (2024, December 04). *Arrays.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/arrays Accessed: July 2025.
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
