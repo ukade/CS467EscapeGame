@@ -6684,10 +6684,10 @@ PrefabInstance:
       addedObject: {fileID: 1264173214}
     - targetCorrespondingSourceObject: {fileID: 6453309886974881835, guid: 8651053af2be0084e8b6858af168bd94, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1264173225}
+      addedObject: {fileID: 1264173224}
     - targetCorrespondingSourceObject: {fileID: 6453309886974881835, guid: 8651053af2be0084e8b6858af168bd94, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1264173224}
+      addedObject: {fileID: 1264173229}
   m_SourcePrefab: {fileID: 100100000, guid: 8651053af2be0084e8b6858af168bd94, type: 3}
 --- !u!1 &771593925
 GameObject:
@@ -8259,8 +8259,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68a18d53aac13049b93c474896c5412d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player_flags: {fileID: 0}
-  has_fallen: 0
+  collidingObject: {fileID: 0}
+  treeChopCollider: {fileID: 0}
+  axe: {fileID: 0}
+  treeChoppable: 0
 --- !u!114 &960758859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11625,7 +11627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   throwForce: 600
   maxDistance: 3
---- !u!54 &1264173225
+--- !u!54 &1264173229
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

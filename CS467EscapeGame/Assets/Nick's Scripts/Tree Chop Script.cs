@@ -15,16 +15,18 @@ using UnityEngine;
 public class TreeChopScript : MonoBehaviour
 {
 
-    public GameObject treeInteractBox = GameObject.Find("treeInteractBox");
-    public GameObject treeChopCollider = GameObject.Find("TreeChopCollider");
-    public GameObject axe = GameObject.Find("Axe");
-    Animator treeAnimator = GetComponent<Animator>();
+    //public GameObject treeInteractBox;
+    public GameObject collidingObject;
+    public GameObject treeChopCollider;
+    public GameObject axe;
     public bool treeChoppable = false;
-    //public GameObject collidingObject;
-    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        //treeInteractBox = GameObject.Find("treeInteractBox");
+        treeChopCollider = GameObject.Find("TreeChopCollider");
+        axe = GameObject.Find("Axe");
         
     }
 
@@ -65,10 +67,5 @@ public class TreeChopScript : MonoBehaviour
     {
         Debug.Log("Axe left.");
 
-
     }
-
-
-
-
 }
