@@ -1170,7 +1170,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417765422}
         m_TargetAssemblyTypeName: KeyboardRM1, Assembly-CSharp
-        m_MethodName: KeyJ
+        m_MethodName: KeyK
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

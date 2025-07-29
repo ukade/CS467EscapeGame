@@ -270,7 +270,7 @@ public class KeyboardRM1 : MonoBehaviour
     {
         if (password.text.Length < 10 && password.text != null)
         {
-            password.text = password.text.Substring(0, password.text.Length - 1);
+            password.text = password.text.Substring(0, password.text.Length - 1); // [1]
 
         }
     }
@@ -300,3 +300,22 @@ public class KeyboardRM1 : MonoBehaviour
         password.text = null;
     }
 }
+
+// Knowledge learned from how to make a Keypad was used in creating this keyboard script. See KeypadRM1.cs
+// This script was created on 7/28/25
+
+// [1] https://stackoverflow.com/questions/65282443/why-does-my-backspace-return-a-new-text-instead-of-updating-the-current-text
+// Author: Peter Duniho
+// Accessed on 7/28/25
+
+// How To Make A Keypad in Unity (EASY!) uploaded by It's Networking
+// https://www.youtube.com/watch?v=sURDTT8UkfQ
+// Accessed on 7/22/25
+
+// How to Make a Working Keypad in Unity Using C# uploaded by Omogonix
+// https://www.youtube.com/watch?v=1c5XNjChxQk&t=338s
+// Accessed on 7/23/25
+
+// How To Make Door Unlock With Keypad In Unity uploaded by M-Unity-Developer
+// https://www.youtube.com/watch?v=TO0g5jyjpYU
+// Accessed on 7/23/25
