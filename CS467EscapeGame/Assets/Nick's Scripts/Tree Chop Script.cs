@@ -4,44 +4,69 @@
 using UnityEngine;
 
     /*Some of the below code was by default provided by the Unity engine. 
-    The below code is based on the sources in the README, especially    
-    sources 34,35,37,38,45,46,etc. Please see the README for a full list of sources. */
-
-    /*This code was inspired directly from several sources in the readme expecially the following sources #35 and #46:
-    35. Unity Technologies. (2025). *Unity Documentation, MonoBehavior.OnMouseDown().* Unity Technologies. 
-    https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnMouseDown.html Accessed: July 2025. 
-
-    Add source #46 here. */
+    The below code is based on/adapted from the sources in the README, especially:    
+    https://docs.unity3d.com/Manual/class-GameObject.html
+    https://docs.unity3d.com/ScriptReference/GameObject.html
+    https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Animator.html
+    https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
+    Please see the README for a full list of sources. */
+    
 
 public class TreeChopScript : MonoBehaviour
 {
-    public GameObject player_flags;
-    public bool has_fallen;
-    
+
+    public GameObject treeInteractBox;
+    public GameObject treeChopCollider;
+    public GameObject axe;
+    public bool treeChoppable = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        player_flags = GameObject.Find("Player Flags");
+        treeInteractBox = GameObject.Find("TreeInteractBox");
+        treeChopCollider = GameObject.Find("TreeChopCollider");
+        axe = GameObject.Find("Axe");
+        
     }
 
     // Update is called once per frame
 
     /*
     The code below was developed based on several different sources. Here are a few of the more relevant ones:
-    https://docs.unity3d.com/ScriptReference/Input.html
-    https://docs.unity3d.com/ScriptReference/KeyCode.html
-    https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
+
     Also see the sources in the README and at mentioned at the top of the page.
+ 
+    Adapted from the following source to fit collisions with our axe object:
+    JD Dev, https://www.youtube.com/watch?v=vQY4jsho1nQ Accessed: July 29 2025
+    See sources cited for full cite, it is citation #1. 
+    GDT Solutions, https://www.youtube.com/watch?v=K0Sj4Al-l0w Accessed: July 29, 2025.
+
+    
+    Also based on these sources: 
+    https://docs.unity3d.com/ScriptReference/Collider.html
+    https://docs.unity3d.com/ScriptReference/Collision.html
+    https://docs.unity3d.com/Manual/class-GameObject.html
+    https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html
+    https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html
     */
+
     void Update()
     {
-        if (player_flags.GetComponent<PlayerFlags>().has_axe == true)
-        {
-            if(Input.GetKeyDown(KeyCode.E))
+        if (treeChoppable == true){
+            if (treeInteractBox.activeSelf == false)
             {
-                has_fallen = true;
+                Debug.Log("Turned on.");
+                treeInteractBox.SetActive(true);
+            }
+        }
+
+        else
+        {
+            if (treeInteractBox.activeSelf == true)
+            {
+                Debug.Log("Turned off.");
+                treeInteractBox.SetActive(false);
             }
         }
     }
-
 }
