@@ -2,8 +2,11 @@
 Here are some of the sources that were adapted to create this script.
 https://docs.unity3d.com/ScriptReference/Collider.OnCollisionEnter.html
 https://docs.unity3d.com/ScriptReference/Collider.OnCollisionExit.html
+https://docs.unity3d.com/ScriptReference/Collider.OnTriggerExit.html
+https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html
 https://docs.unity3d.com/Manual/class-GameObject.html
 https://www.youtube.com/watch?v=vQY4jsho1nQ
+https://www.youtube.com/watch?v=K0Sj4Al-l0w
 Accessed June - July 2025.
 
 Please see the README for a full list of citation. */
@@ -13,19 +16,20 @@ using UnityEngine;
 
 public class TreeColliderScript : MonoBehaviour
 {
-    public GameObject fallableTree;
+    private GameObject fallableTree;
+    public TreeChopScript treeScript;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         fallableTree = GameObject.Find("FallableTree");
-        treeScript = fallableTree.GetComponent<TreeChopScript>();        
+        treeScript = fallableTree.GetComponent<TreeChopScript>();
     }
 
     // Detects if axe enters the collider
-    void OnCollisionEnter(Collision collidingobject)
-    {   
-        if (collidingObject == treeScript.Axe)
+    void OnTriggerEnter(Collider objectCollider)
+    {
+        if (objectCollider.gameObject == treeScript.axe)
         {
             treeScript.treeChoppable = true;
         }
@@ -34,9 +38,9 @@ public class TreeColliderScript : MonoBehaviour
     }
 
     // Detects if axe leaves the collider
-    void OnCollisionExit(Collision exitingObject)
+    void OnTriggerExit(Collider objectCollider)
     {
-        if (exitingObject == treeScript.Axe)
+        if (objectCollider.gameObject == treeScript.axe)
         {
             treeScript.treeChoppable = false;
 

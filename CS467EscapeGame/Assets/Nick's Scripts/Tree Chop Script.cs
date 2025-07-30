@@ -15,8 +15,7 @@ using UnityEngine;
 public class TreeChopScript : MonoBehaviour
 {
 
-    //public GameObject treeInteractBox;
-    //public GameObject collidingObject;
+    public GameObject treeInteractBox;
     public GameObject treeChopCollider;
     public GameObject axe;
     public bool treeChoppable = false;
@@ -24,7 +23,7 @@ public class TreeChopScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //treeInteractBox = GameObject.Find("treeInteractBox");
+        treeInteractBox = GameObject.Find("TreeInteractBox");
         treeChopCollider = GameObject.Find("TreeChopCollider");
         axe = GameObject.Find("Axe");
         
@@ -48,16 +47,27 @@ public class TreeChopScript : MonoBehaviour
     https://docs.unity3d.com/ScriptReference/Collider.html
     https://docs.unity3d.com/ScriptReference/Collision.html
     https://docs.unity3d.com/Manual/class-GameObject.html
+    https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html
+    https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html
     */
 
     void Update()
     {
         if (treeChoppable == true){
-            Debug.Log("The axe is in the right spot.");
+            if (treeInteractBox.activeSelf == false)
+            {
+                Debug.Log("Turned on.");
+                treeInteractBox.SetActive(true);
+            }
         }
+
         else
         {
-            Debug.Log("This is not the right object to chop the tree.");
+            if (treeInteractBox.activeSelf == true)
+            {
+                Debug.Log("Turned off.");
+                treeInteractBox.SetActive(false);
+            }
         }
     }
 }

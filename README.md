@@ -296,6 +296,10 @@ Sources:
 https://docs.unity3d.com/ScriptReference/Collider.html
 https://docs.unity3d.com/ScriptReference/Collision.html
 https://docs.unity3d.com/ScriptReference/Collider.OnCollisionEnter.html
+https://docs.unity3d.com/Manual/CreatingComponents.html
+https://www.youtube.com/watch?v=K0Sj4Al-l0w
+https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html
+https://docs.unity3d.com/ScriptReference/Collider.OnTriggerExit.html
 
 
 Tools Used: 
