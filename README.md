@@ -292,15 +292,19 @@ https://docs.unity3d.com/ScriptReference/MonoBehaviour.html Accessed: July 2025.
 
 104. Microsoft. (2024, December 04). *Arrays.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/arrays Accessed: July 2025.
 
-Sources: 
-https://docs.unity3d.com/ScriptReference/Collider.html
-https://docs.unity3d.com/ScriptReference/Collision.html
-https://docs.unity3d.com/ScriptReference/Collider.OnCollisionEnter.html
-https://docs.unity3d.com/Manual/CreatingComponents.html
-https://www.youtube.com/watch?v=K0Sj4Al-l0w
-https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html
-https://docs.unity3d.com/ScriptReference/Collider.OnTriggerExit.html
+105. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Collider.html Accessed: July 2025. 
 
+106. Unity Technologies. (2025, July 28). *Unity Documentatin, Collision.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Collision.html Accessed: July 2025.
+
+107. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.OnCollisionEnter(Collision).* https://docs.unity3d.com/ScriptReference/Collider.OnCollisionEnter.html Accessed: July 2025.
+
+108. Unity Technologies. (2025, July 28). *Unity Documentation, Create components with scipts.* https://docs.unity3d.com/Manual/CreatingComponents.html Accessed: July 2025. 
+
+109. GDT Solutions. [GDT Solutions]. (2023, Jan 5). *How to REFERENCE ANOTHER SCRIPT in Unity - Using functions from other scripts.* https://www.youtube.com/watch?v=K0Sj4Al-l0w Accessed: July 29, 2025. 
+
+110. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.OnTriggerEnter(Collider).* https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html Accessed: July 2025.
+
+111. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.OnTriggerExit(Collider).* https://docs.unity3d.com/ScriptReference/Collider.OnTriggerExit.html Accessed: July 2025.
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images

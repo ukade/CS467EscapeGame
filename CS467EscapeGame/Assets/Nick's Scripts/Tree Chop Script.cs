@@ -34,14 +34,13 @@ public class TreeChopScript : MonoBehaviour
     /*
     The code below was developed based on several different sources. Here are a few of the more relevant ones:
 
-
-
     Also see the sources in the README and at mentioned at the top of the page.
-    */
-    /* Accessed July 29 2025
+ 
     Adapted from the following source to fit collisions with our axe object:
-    JD Dev, https://www.youtube.com/watch?v=vQY4jsho1nQ
+    JD Dev, https://www.youtube.com/watch?v=vQY4jsho1nQ Accessed: July 29 2025
     See sources cited for full cite, it is citation #1. 
+    GDT Solutions, https://www.youtube.com/watch?v=K0Sj4Al-l0w Accessed: July 29, 2025.
+
     
     Also based on these sources: 
     https://docs.unity3d.com/ScriptReference/Collider.html
