@@ -6,6 +6,7 @@ TagManager:
   tags:
   - box_food
   - capsule_food
+  - arrow
   layers:
   - Default
   - TransparentFX
