@@ -51,7 +51,8 @@ Changelog
 7/28: Added Keyboard Password Input, Blocks Fall from ceiling, Interacting with plants puzzle - Larisa
 
 7/28: Organized assets as recommended by Brian, and added in mock up for Recycle puzzle recommended by Brian/Katrine. 
-Also finished scripting for Puzzle 2 and started working on changing assets to implement Brian/Katrine's ideas/suggestions for Puzzles 1 and and Larisa's ideas/suggestions for Puzzle 3. - Nick
+Finished scripting for Puzzle 2 aside from weird mouse error with Brian's interact script that only happens for me.
+Started working on changing assets to implement Brian/Katrine's ideas/suggestions for Puzzles 1 and and Larisa's ideas/suggestions for Puzzle 3. - Nick
 
 --------------------------------------------------
 Sources Cited:
