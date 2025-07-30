@@ -8,8 +8,18 @@ public class CheckWatered : MonoBehaviour
     public GameObject plant2;
     public GameObject plant3;
     public GameObject plant4;
+    public GameObject WaterCan;
     public string code = "23142"; // plant2, plant3, plant1, plant4, plant2
     private string input = "";
+
+    public void PickWaterCan()
+    {
+        WaterCan.SetActive(false);
+        plant1.layer = LayerMask.NameToLayer("Interactable");
+        plant2.layer = LayerMask.NameToLayer("Interactable");
+        plant3.layer = LayerMask.NameToLayer("Interactable");
+        plant4.layer = LayerMask.NameToLayer("Interactable");
+    }
 
     public void Plant1()
     {

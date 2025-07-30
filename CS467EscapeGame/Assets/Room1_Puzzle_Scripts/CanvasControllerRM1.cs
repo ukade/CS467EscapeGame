@@ -1,8 +1,17 @@
+using StarterAssets.Interactions;
+using TMPro;
 using UnityEngine;
 
 public class CanvasController : MonoBehaviour
 {
     public GameObject Canvas;
+    public GameObject Player;
+    private FirstPersonController Controller;
+
+    private void Start()
+    {
+        Controller = Player.GetComponent<FirstPersonController>();
+    }
 
     public void ShowCanvas()
     {
@@ -11,6 +20,7 @@ public class CanvasController : MonoBehaviour
             Canvas.SetActive(true);
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
+            Controller.enabled = false;
         }
     }
 
@@ -19,6 +29,7 @@ public class CanvasController : MonoBehaviour
         Canvas.SetActive(false);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        Controller.enabled = true;
     }
 }
 
