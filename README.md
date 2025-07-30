@@ -294,8 +294,8 @@ https://docs.unity3d.com/ScriptReference/MonoBehaviour.html Accessed: July 2025.
 
 Sources: 
 https://docs.unity3d.com/ScriptReference/Collider.html
-
-
+https://docs.unity3d.com/ScriptReference/Collision.html
+https://docs.unity3d.com/ScriptReference/Collider.OnCollisionEnter.html
 
 
 Tools Used: 

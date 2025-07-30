@@ -16,7 +16,7 @@ public class TreeChopScript : MonoBehaviour
 {
 
     //public GameObject treeInteractBox;
-    public GameObject collidingObject;
+    //public GameObject collidingObject;
     public GameObject treeChopCollider;
     public GameObject axe;
     public bool treeChoppable = false;
@@ -46,26 +46,18 @@ public class TreeChopScript : MonoBehaviour
     
     Also based on these sources: 
     https://docs.unity3d.com/ScriptReference/Collider.html
+    https://docs.unity3d.com/ScriptReference/Collision.html
     https://docs.unity3d.com/Manual/class-GameObject.html
     */
 
     void Update()
     {
-  
-    }
-
-    void OnCollisionEnter(Collider collidingObject)
-    {
-        if (collidingObject == axe){
+        if (treeChoppable == true){
             Debug.Log("The axe is in the right spot.");
-
-
         }
-    }
-
-    void OnCollisionExit()
-    {
-        Debug.Log("Axe left.");
-
+        else
+        {
+            Debug.Log("This is not the right object to chop the tree.");
+        }
     }
 }
