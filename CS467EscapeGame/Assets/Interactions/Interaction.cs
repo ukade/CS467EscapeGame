@@ -45,7 +45,7 @@ public class Interaction : MonoBehaviour
     {
         Ray ray = mainCamera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
         RaycastHit hit;
-
+        
         if (!Physics.Raycast(ray, out hit, 1f, interactableLayer))
         {
             Debug.Log("Not Interacted");
@@ -62,7 +62,7 @@ public class Interaction : MonoBehaviour
         Debug.Log("Interacted");
 
     }
-    private void InteractText() // Shows Interaction Text
+    private void InteractText() // Shows Interaction Text; Called from InteractableObject.cs
     {
         Ray ray = mainCamera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
         RaycastHit hit;
@@ -78,7 +78,7 @@ public class Interaction : MonoBehaviour
                 if (textComponent != null)
                 {
                     textComponent.text = curInteractable.GetInteractText();
-                }
+                }                
             }
         }
 
