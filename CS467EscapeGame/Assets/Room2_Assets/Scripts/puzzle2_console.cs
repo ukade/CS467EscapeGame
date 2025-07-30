@@ -18,6 +18,8 @@ public class puzzle2_console : MonoBehaviour
     public GameObject sign3;
     [SerializeField] bool isComplete = false;
 
+    [SerializeField] private List<GameObject> arrows;
+
     public void receiveButtonPress(int buttonId)
     {
         // When a button press is received from tree_button, add it to the set
@@ -39,6 +41,11 @@ public class puzzle2_console : MonoBehaviour
         {
             isComplete = true;
             sign3.SetActive(isComplete);
+
+            foreach (GameObject arrow in arrows)
+            {
+                arrow.SetActive(true);
+            }
 
 
         }
