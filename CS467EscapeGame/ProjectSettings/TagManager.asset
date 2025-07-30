@@ -7,6 +7,7 @@ TagManager:
   - box_food
   - capsule_food
   - arrow
+  - Glass Bottle
   layers:
   - Default
   - TransparentFX

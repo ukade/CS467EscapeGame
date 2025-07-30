@@ -308,5 +308,9 @@ https://docs.unity3d.com/ScriptReference/MonoBehaviour.html Accessed: July 2025.
 
 111. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.OnTriggerExit(Collider).* https://docs.unity3d.com/ScriptReference/Collider.OnTriggerExit.html Accessed: July 2025.
 
+Sources: 
+https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types
+https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/keywords/static
+
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images

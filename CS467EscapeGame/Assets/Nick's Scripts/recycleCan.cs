@@ -8,6 +8,14 @@ public class garbageCan : MonoBehaviour
     [SerializeField] int totalItems;
     [SerializeField] List<string> itemsInContainer = new List<string>();
     [SerializeField] string garbageType;
+
+    //public GameObject[] trashObjects = GameObject[5];
+    //public GameObject[] letterObjects = letterObjects[5];
+    [SerializeField] private List<GameObject> letterObjects;
+    [SerializeField] private List<GameObject> trashObjects;
+    public int trashCollected = 0;
+    public float rejectForce;
+
     void Start()
         // do we need this if we're tracking everything in onTriggerEnter?
     {
@@ -29,6 +37,15 @@ public class garbageCan : MonoBehaviour
         // if yes: spawn a letter
         // if no: spit the item out
     {
+        if (other.gameObject.tag == gameObject.tag){
+            letterObjects[trashCollected].SetActive(true);
+            trashCollected += 1;
+            other.gameObject.SetActive(false);
+        }
+        else {
+            Rigidbody otherRigidBody = other.gameObject.GetComponent<Rigidbody>();
+            otherRigidBody.AddForce(Vector3.up * rejectForce);
+        }
         // if the tag on the garbage is the same as the garbageType:
             // increment held
             // spawn a letter based on a garbageId variable on each piece of trash?
