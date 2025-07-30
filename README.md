@@ -50,6 +50,10 @@ Changelog
 
 7/28: Added Keyboard Password Input, Blocks Fall from ceiling, Interacting with plants puzzle - Larisa
 
+7/28: Organized assets as recommended by Brian, and added in mock up for Recycle puzzle recommended by Brian/Katrine. 
+Finished scripting for Puzzle 2 aside from weird mouse error with Brian's interact script that only happens for me.
+Started working on changing assets to implement Brian/Katrine's ideas/suggestions for Puzzles 1 and and Larisa's ideas/suggestions for Puzzle 3. - Nick
+
 --------------------------------------------------
 Sources Cited:
 
@@ -285,6 +289,24 @@ https://assetstore.unity.com/packages/2d/textures-materials/free-stylized-pbr-te
 
 102. Unity Technologies. (2025, July 25). *Unity Documentation, Monobehavior.* Unity Technologies. 
 https://docs.unity3d.com/ScriptReference/MonoBehaviour.html Accessed: July 2025. 
+
+103. Microsoft. (2024, December 04). *Structure types (C# Reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/struct Accessed: July 2025. 
+
+104. Microsoft. (2024, December 04). *Arrays.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/arrays Accessed: July 2025.
+
+105. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Collider.html Accessed: July 2025. 
+
+106. Unity Technologies. (2025, July 28). *Unity Documentatin, Collision.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Collision.html Accessed: July 2025.
+
+107. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.OnCollisionEnter(Collision).* https://docs.unity3d.com/ScriptReference/Collider.OnCollisionEnter.html Accessed: July 2025.
+
+108. Unity Technologies. (2025, July 28). *Unity Documentation, Create components with scipts.* https://docs.unity3d.com/Manual/CreatingComponents.html Accessed: July 2025. 
+
+109. GDT Solutions. [GDT Solutions]. (2023, Jan 5). *How to REFERENCE ANOTHER SCRIPT in Unity - Using functions from other scripts.* https://www.youtube.com/watch?v=K0Sj4Al-l0w Accessed: July 29, 2025. 
+
+110. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.OnTriggerEnter(Collider).* https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html Accessed: July 2025.
+
+111. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.OnTriggerExit(Collider).* https://docs.unity3d.com/ScriptReference/Collider.OnTriggerExit.html Accessed: July 2025.
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images

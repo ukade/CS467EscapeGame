@@ -3,6 +3,7 @@
 // Tree_Button Script
 // A button that interacts with will set an "on" value to true, which activates a light in the button.
 // Player will interact with this in Room 2 Puzzle 2 with the goal of pressing all of the buttons that correspond with trees
+// puzzle2_console tracks overall puzzle progress
 
 /*
  * Unity Technologies. (n.d.). Mouse events. Unity Documentation. https://docs.unity3d.com/Manual/UIE-Mouse-Events.html
@@ -30,20 +31,14 @@ public class tree_button : MonoBehaviour
     int buttonId;
     [SerializeField]
     bool isComplete = false;
-    [SerializeField]
-    HashSet<int> buttonsPressed = new HashSet<int>();
-
-    public GameObject sign3;
-
-    private int[] solution = { 1, 2 };
 
     private bool mouseOnButton = false;
-    private Light light;
+    private Light buttonLight;
     public puzzle2_console console;
 
     private void Start()
     {
-        light = GetComponent<Light>();
+        buttonLight = GetComponentInChildren<Light>();
     }
 
     private void OnMouseEnter()
@@ -67,25 +62,20 @@ public class tree_button : MonoBehaviour
     {
 
         if (Input.GetKeyDown(KeyCode.F) && mouseOnButton)
+            // this will pass the buttonId to puzzle2_console which tracks the puzzle status
         {
             isPressed = !isPressed;
-            if (!buttonsPressed.Contains(buttonId))
+
+            if (isPressed)
             {
-                buttonsPressed.Add(buttonId);
-                Debug.Log($"added {buttonId}");
+                console.receiveButtonPress(buttonId);
             }
             else
             {
-                buttonsPressed.Remove(buttonId);
+                console.removeButtonPress(buttonId);
             }
         }
 
-        light.enabled = isPressed;
-
-        if (solution.All(buttonsPressed.Contains))
-        {
-            isComplete = true;
-            sign3.SetActive(isComplete);
-        }
+        buttonLight.enabled = isPressed;
     }
 }
