@@ -10,7 +10,6 @@ public class WordSpell : MonoBehaviour
     // Relevant Source: https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/arrays
     public GameObject[] letters = new GameObject[12];
     public GameObject[] correctLetters = new GameObject[12];
-    Pu
     
     // Relevant Source: https://docs.unity3d.com/Manual/class-GameObject.html and https://docs.unity3d.com/ScriptReference/GameObject.html
     public GameObject bottleCan;
@@ -68,7 +67,7 @@ public class WordSpell : MonoBehaviour
             if (letter == letters[0])
             {
                 firstComparisonLetter = letter;
-                correctLetterCount += 1;
+                correctLetterCount = 1;
             }
             else
             {
@@ -89,7 +88,9 @@ public class WordSpell : MonoBehaviour
                 {
                     if (correctLetterCount < 12)
                     {
+                        firstComparisonLetter = letter;
                         correctLetterCount +=1;
+
                     }
                     
                 }
@@ -104,7 +105,16 @@ public class WordSpell : MonoBehaviour
         // Displaying the green letters if the order becomes correct
         if (correctLetterCount == 12)
         {
-            Debug.Log("Puzzle done.");
+            /* Relevant Source: https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/iteration-statements
+            See attached README for full citations.*/
+            foreach (GameObject letter in letters)
+            {
+                letter.SetActive(false);
+            }
+            foreach (GameObject letter in correctLetters)
+            {
+                letter.SetActive(true);
+            }
 
         }
     }
