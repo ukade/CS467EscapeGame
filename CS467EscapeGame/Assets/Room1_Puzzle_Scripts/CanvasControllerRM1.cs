@@ -1,5 +1,8 @@
-using StarterAssets.Interactions;
-using TMPro;
+// Author: Larisa Xie
+// Class: CS467 Summer 2025
+// Date: 7/23/25
+// Description: Shows and hides canvas.
+
 using UnityEngine;
 
 public class CanvasController : MonoBehaviour
@@ -19,7 +22,7 @@ public class CanvasController : MonoBehaviour
         {
             Canvas.SetActive(true);
             Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            Cursor.lockState = CursorLockMode.None; // Reenable Cursor
             Controller.enabled = false;
         }
     }

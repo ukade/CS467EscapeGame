@@ -1,10 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
+// Author: Larisa Xie
+// Class: CS467 Summer 2025
+// Date: 7/6/25
+// Description: Handles action inputs by Unity's New Input System. 
+
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.LowLevel;
-
-
 
 public class PlayerInputHandler : MonoBehaviour
 {
@@ -19,22 +19,22 @@ public class PlayerInputHandler : MonoBehaviour
     [SerializeField] private string rotation = "Rotation";
     [SerializeField] private string jump = "Jump";
 
-    private InputAction movementAction;
-    private InputAction rotationAction;
+    private InputAction moveAction;
+    private InputAction rotateAction;
     private InputAction jumpAction;
 
-    public Vector2 MovementInput {  get; private set; }
-    public Vector2 RotationInput { get; private set; }
-    public bool JumpTriggered { get; private set; }
+    public Vector2 MoveInput {  get; private set; }
+    public Vector2 RotateInput { get; private set; }
+    public bool JumpInput { get; private set; }
 
     private void Awake()
-
+        // Awake scripts initialize before all other functions.
+        // This function searches action inputs being performed by Player.
     {
-
         InputActionMap mapReference = playerControls.FindActionMap(actionMapName);
 
-        movementAction = mapReference.FindAction(movement);
-        rotationAction = mapReference.FindAction(rotation);
+        moveAction = mapReference.FindAction(movement);
+        rotateAction = mapReference.FindAction(rotation);
         jumpAction = mapReference.FindAction(jump);
 
         SubscribeActionValuesToInputEvents();
@@ -42,15 +42,16 @@ public class PlayerInputHandler : MonoBehaviour
     }
 
     private void SubscribeActionValuesToInputEvents()
+        // Action inputs performed by Player are referenced and then triggers the action in-game.
     {
-        movementAction.performed += inputInfo => MovementInput = inputInfo.ReadValue<Vector2>();
-        movementAction.canceled += inputInfo => MovementInput = Vector2.zero;
+        moveAction.performed += inputInfo => MoveInput = inputInfo.ReadValue<Vector2>(); // Allows Player to move
+        moveAction.canceled += inputInfo => MoveInput = Vector2.zero;
 
-        rotationAction.performed += inputInfo => RotationInput = inputInfo.ReadValue<Vector2>();
-        rotationAction.canceled += inputInfo => RotationInput = Vector2.zero;
+        rotateAction.performed += inputInfo => RotateInput = inputInfo.ReadValue<Vector2>(); // Allows Player to rotate view
+        rotateAction.canceled += inputInfo => RotateInput = Vector2.zero;
 
-        jumpAction.performed += inputInfo => JumpTriggered = true;
-        jumpAction.canceled += inputInfo => JumpTriggered = false;
+        jumpAction.performed += inputInfo => JumpInput = true; 
+        jumpAction.canceled += inputInfo => JumpInput = false;
     }
 
     private void OnEnable()

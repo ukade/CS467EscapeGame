@@ -1,3 +1,8 @@
+// Author: Larisa Xie
+// Class: CS467 Summer 2025
+// Date: 7/10/25
+// Description: Uses Raycast to trigger Interactions when in range of GameObject.
+
 using StarterAssets.Interactions;
 using TMPro;
 using UnityEngine;
@@ -6,15 +11,15 @@ using UnityEngine.InputSystem;
 public class Interaction : MonoBehaviour
 {
     [SerializeField] private LayerMask interactableLayer;
+
     private PlayerInput playerInput;
-    public Camera mainCamera;
-    public GameObject interactText;
     private InteractableObject curInteractable;
+    public Camera mainCamera;
+    public GameObject interactText; // text that appears when you are within range of an interactable object.
 
     private void Awake()
     {
         playerInput = GetComponent<PlayerInput>();
-
     }
 
     private void Update()
@@ -22,10 +27,8 @@ public class Interaction : MonoBehaviour
         InteractText();
     }
 
-
     private void OnEnable()
-    {
-        
+    {        
         if (playerInput != null)
         {
             playerInput.actions["Interact"].performed += OnInteract;
@@ -40,8 +43,8 @@ public class Interaction : MonoBehaviour
         }
     }
 
-
-    private void OnInteract(InputAction.CallbackContext callbackContext) // Player Interaction
+    private void OnInteract(InputAction.CallbackContext callbackContext) // InputAction.CallbackContext gets method defined in the developer environment in Interface
+        // Uses Raycast to determine if interactableObject is within range
     {
         Ray ray = mainCamera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
         RaycastHit hit;
@@ -52,7 +55,6 @@ public class Interaction : MonoBehaviour
             return;
         }
 
-
         if (!hit.transform.TryGetComponent(out InteractableObject interactable))
         {
             return;
@@ -60,8 +62,8 @@ public class Interaction : MonoBehaviour
 
         interactable.Interact();
         Debug.Log("Interacted");
-
     }
+
     private void InteractText() // Shows Interaction Text; Called from InteractableObject.cs
     {
         Ray ray = mainCamera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
@@ -94,6 +96,6 @@ public class Interaction : MonoBehaviour
 // Accessed on 7/10/2025
 // https://www.youtube.com/watch?v=ZNiEbRL85Vc&t=384s
 
-//Interact with ANYTHING - Unity 2024 FPS Interaction System Tutorial
+// Interact with ANYTHING - Unity 2024 FPS Interaction System Tutorial
 // Accessed on 7/8/2025
-//https://www.youtube.com/watch?v=kGKFiIxhoB8&t=860s
+// https://www.youtube.com/watch?v=kGKFiIxhoB8&t=860s
