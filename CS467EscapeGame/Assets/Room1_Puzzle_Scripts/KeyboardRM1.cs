@@ -1,9 +1,5 @@
-using Mono.Cecil.Cil;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
-using static Unity.Collections.AllocatorManager;
-using static UnityEngine.UI.Image;
 
 public class KeyboardRM1 : MonoBehaviour
 {
