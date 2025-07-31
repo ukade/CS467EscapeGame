@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 7239929}
   - component: {fileID: 7239928}
   - component: {fileID: 7239932}
+  - component: {fileID: 7239933}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -234,6 +235,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a6e539b147c9a94db2715818b96c06c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7239933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7239927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad71a3eeec3d724fa2e9f33c1e3cfb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timesUp: {fileID: 7239927}
 --- !u!1 &12978364
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,7 +341,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &12978367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -637,7 +651,7 @@ GameObject:
   - component: {fileID: 524253587}
   - component: {fileID: 524253586}
   m_Layer: 5
-  m_Name: Try Again Button
+  m_Name: Continue Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -706,10 +720,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7239932}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: GoToScene
-        m_Mode: 5
+      - m_Target: {fileID: 7239933}
+        m_TargetAssemblyTypeName: TimesUp, Assembly-CSharp
+        m_MethodName: Continue
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -738,7 +752,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 18535aea82ffb984dba707d1e28d2a45, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b630ae12a0e8bc945926cc922ebf3754, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -768,7 +782,7 @@ GameObject:
   - component: {fileID: 719307315}
   - component: {fileID: 719307314}
   m_Layer: 5
-  m_Name: Background
+  m_Name: Times Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
