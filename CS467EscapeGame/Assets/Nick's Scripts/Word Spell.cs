@@ -18,10 +18,8 @@ public class WordSpell : MonoBehaviour
     public garbageCan bottleCanScript;
     public garbageCan sodaCanScript;
     public garbageCan waterBottleCanScript;
-    //public int totalTrash;
     public GameObject bedRoll;
     public PermPickupScript bedRollScript;
-
     public int correctLetterCount;
     public GameObject firstComparisonLetter;
 
@@ -72,7 +70,7 @@ public class WordSpell : MonoBehaviour
 
                 // So as best I can tell the position is a Vector3 in the worldspace so adding an X onto the position should give me the position on the X axis. 
                 // I cannot find any of these sources that say this directly, but it makes sense that you can reference it as an attribute of position.
-                // I also feel like I saw this in a Unity Documentation source but I cannot remember where. Transform position returns the X,Y,Z of a GameObject so I should be able to reference X as an attribute.a
+                // I also feel like I saw this in a Unity Documentation source but I cannot remember where. Transform position returns the X,Y,Z of a GameObject so I should be able to reference X as an attribute.
                 if (firstComparisonLetter.transform.position.x < letter.transform.position.x)
                 {
                     if (correctLetterCount < 12)
@@ -96,6 +94,7 @@ public class WordSpell : MonoBehaviour
         https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/iteration-statements
         https://docs.unity3d.com/Manual/class-GameObject.html
         https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html
+        https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
         See attached README for full citations. */
         if (correctLetterCount == 12)
         {
