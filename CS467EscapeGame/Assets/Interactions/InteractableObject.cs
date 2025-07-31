@@ -1,13 +1,19 @@
+// Author: Larisa Xie
+// Class: CS467 Summer 2025
+// Date: 7/10/25
+// Description: The fields of the interaction interface that can be viewed under Inspector.
+// Interface field includes GetInteractText() and Interact()
+
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace StarterAssets.Interactions
 {
-    public class InteractableObject : MonoBehaviour, IInteractable
+    public class InteractableObject : MonoBehaviour, IInteractable // Attaches Interact() Interface 
     {
-
         [SerializeField] private UnityEvent onInteract;
         public string interactText = "Press E to Interact";
+
         UnityEvent IInteractable.onInteract
         {
             get => onInteract;

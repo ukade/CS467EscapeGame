@@ -54,6 +54,8 @@ Changelog
 Finished scripting for Puzzle 2 aside from weird mouse error with Brian's interact script that only happens for me.
 Started working on changing assets to implement Brian/Katrine's ideas/suggestions for Puzzles 1 and and Larisa's ideas/suggestions for Puzzle 3. - Nick
 
+7/29: Tweaked the script Brian and I were working on so the reject worked. Finished another script and asset work to implement Brain/Katrine's recycle/trash pickup puzzle idea for Puzzle 1. - Nick
+
 --------------------------------------------------
 Sources Cited:
 
@@ -290,9 +292,9 @@ https://assetstore.unity.com/packages/2d/textures-materials/free-stylized-pbr-te
 102. Unity Technologies. (2025, July 25). *Unity Documentation, Monobehavior.* Unity Technologies. 
 https://docs.unity3d.com/ScriptReference/MonoBehaviour.html Accessed: July 2025. 
 
-103. Microsoft. (2024, December 04). *Structure types (C# Reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/struct Accessed: July 2025. 
+103. Microsoft. (2024, December 04). *Microsoft Ignite, Structure types (C# Reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/struct Accessed: July 2025. 
 
-104. Microsoft. (2024, December 04). *Arrays.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/arrays Accessed: July 2025.
+104. Microsoft. (2024, December 04). *Microsoft Ignite, Arrays.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/arrays Accessed: July 2025.
 
 105. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Collider.html Accessed: July 2025. 
 
@@ -307,6 +309,39 @@ https://docs.unity3d.com/ScriptReference/MonoBehaviour.html Accessed: July 2025.
 110. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.OnTriggerEnter(Collider).* https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html Accessed: July 2025.
 
 111. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.OnTriggerExit(Collider).* https://docs.unity3d.com/ScriptReference/Collider.OnTriggerExit.html Accessed: July 2025.
+
+112. Microsoft. (2022, September 9). *Microsoft Ignite, Floating-point numeric types (C# reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types Accessed: July 2025.
+
+113. Microsoft. (2025, July 8). *Microsoft Ignite, Static (C# Reference).* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/keywords/static Accessed: July 2025.
+
+114. Unity Technologies. (2025, July 30). *Unity Documentation, RigidBody.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Rigidbody.html Accessed: July 2025. 
+
+115. Unity Technologies. (2025, July 30). *Unity Documentation, Rigidbody.AddForce().*  Unity Technologies. https://docs.unity3d.com/ScriptReference/Rigidbody.AddForce.html Accessed: July 2025.
+
+116. Unity Technologies. (2025, July 30). *Unity Documentation, Transform.*
+Unity Technologies. https://docs.unity3d.com/ScriptReference/Transform.html Accessed: July 2025. 
+
+117. Unity Technologies. (2025, July 30). *Unity Documentation, Vector3.up.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Vector3-up.html Accessed: July 30.
+
+118. Unity Technologies. (2025, July 30). *Unity Documentation, Vector3.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Vector3.html Accessed: July 30.
+
+119. Microsoft. (2023, November 14). *Microsoft Ignite, Iteration statements, for, foreach, do, and while.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/iteration-statements Accessed: July 2025. 
+
+120. Unity Technologies. (2025, July 30). *Unity Documentation, Transforms.* Unity Technologies. https://docs.unity3d.com/Manual/class-Transform.html Accessed: July 2025.
+
+121. Unity Technologies. (2025, July 30). *Unity Documentation, Component.transform.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Component-transform.html Accessed: July 2025.
+
+122. Unity Technologies. (2025, July 30). *Unity Documentation, Transform.position.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Transform-position.html Accessed: July 2025.
+
+123. Unity Technologies. (2025, July 30). *Unity Documentation, Transform.right.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Transform-right.html Accessed: July 2025. 
+
+124. Unity Technologies. (2025, July 30). *Unity Documentation, Vector3.x.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Vector3-x.html Accessed: July 2025. 
+
+125. PlusEqual. [PlusEqual]. (2020, May 20). *Unity 2020 Left Handed Coordinate System XYZ, Game Objects Transform (Position, Rotation, Scale).* Youtube. https://www.youtube.com/watch?v=LXCdu91LDbA Accessed: July 2025.
+
+126. Game Dev Beginner. [Game Dev Beginner]. (2022, June 22). *How to move objects in Unity(3 methods).* Youtube. https://www.youtube.com/watch?v=JOiEz9fnc5Y Accessed: July 2025. 
+
+127. Feri Fm. [Feri Fm]. (2020, April 8). *6 Ways to move object in Unity [Tutorial].* Youtube. https://www.youtube.com/watch?v=-thhMXmTM7Q Accessed: July 2025. 
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images

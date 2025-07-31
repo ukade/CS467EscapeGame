@@ -1,18 +1,24 @@
+// Author: Larisa Xie
+// Class: CS467 Summer 2025
+// Date: 7/27/25
+// Description: Interacting with gameobjects in the correct order will reveal
+// a wall with a clue to next puzzle.
+
 using UnityEngine;
-using UnityEngine.Windows;
 
 public class CheckWatered : MonoBehaviour
 {
     public GameObject Wall;
-    public GameObject plant1;
+    public GameObject plant1; // 1
     public GameObject plant2;
     public GameObject plant3;
     public GameObject plant4;
     public GameObject WaterCan;
-    public string code = "23142"; // plant2, plant3, plant1, plant4, plant2
+    public string code = "23142"; // assigned a number to each plant
     private string input = "";
 
     public void PickWaterCan()
+        // If Player interacts with watercan, change houseplants layer to Interactable.
     {
         WaterCan.SetActive(false);
         plant1.layer = LayerMask.NameToLayer("Interactable");

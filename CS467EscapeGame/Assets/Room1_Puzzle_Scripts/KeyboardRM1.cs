@@ -1,15 +1,18 @@
-using Mono.Cecil.Cil;
+// Author: Larisa Xie
+// Class: CS467 Summer 2025
+// Date: 7/22/25
+// Description: A keyboard. Enter correct password and it will trigger blocks
+// to fall from the ceiling.
+
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
-using static Unity.Collections.AllocatorManager;
-using static UnityEngine.UI.Image;
 
 public class KeyboardRM1 : MonoBehaviour
 {
     [SerializeField] private string pwHere = "Insert Code Here";
     public TMP_InputField password;
     public string pw;
+
     public GameObject keya;
     public GameObject keyb;
     public GameObject keyc;
@@ -36,6 +39,7 @@ public class KeyboardRM1 : MonoBehaviour
     public GameObject keyx;
     public GameObject keyy;
     public GameObject keyz;
+
     public GameObject space;
     public GameObject back;
     public GameObject keyenter;
@@ -55,207 +59,206 @@ public class KeyboardRM1 : MonoBehaviour
         {
             password.text = password.text + "A";
         }
-
     }
+
     public void KeyB()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "B";
         }
-
     }
+
     public void KeyC()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "C";
         }
-
     }
+
     public void KeyD()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "D";
         }
-
     }
+
     public void KeyE()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "E";
         }
-
     }
+
     public void KeyF()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "F";
         }
-
     }
+
     public void KeyG()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "G";
         }
-
     }
+
     public void KeyH()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "H";
         }
-
     }
+
     public void KeyI()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "I";
         }
-
     }
+
     public void KeyJ()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "J";
         }
-
     }
+
     public void KeyK()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "K";
         }
-
     }
+
     public void KeyL()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "L";
         }
-
     }
+
     public void KeyM()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "M";
         }
-
     }
+
     public void KeyN()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "N";
         }
-
     }
+
     public void KeyO()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "O";
         }
-
     }
+
     public void KeyP()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "P";
         }
-
     }
+
     public void KeyQ()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "Q";
         }
-
     }
+
     public void KeyR()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "R";
         }
-
     }
+
     public void KeyS()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "S";
         }
-
     }
+
     public void KeyT()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "T";
         }
-
     }
+
     public void KeyU()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "U";
         }
-
     }
+
     public void KeyV()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "V";
         }
-
     }
+
     public void KeyW()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "W";
         }
-
     }
+
     public void KeyX()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "X";
         }
-
     }
+
     public void KeyY()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "Y";
         }
-
     }
+
     public void KeyZ()
     {
         if (password.text.Length < 10)
         {
             password.text = password.text + "Z";
         }
-
     }
 
     public void SpaceKey()
@@ -270,8 +273,7 @@ public class KeyboardRM1 : MonoBehaviour
     {
         if (password.text.Length < 10 && password.text != null)
         {
-            password.text = password.text.Substring(0, password.text.Length - 1); // [1]
-
+            password.text = password.text.Substring(0, password.text.Length - 1);
         }
     }
         
@@ -279,14 +281,14 @@ public class KeyboardRM1 : MonoBehaviour
     {
         if (password.text == pwHere)
         {
-            password.text = "Access Granted";
-            blockw.GetComponent<MeshRenderer>().enabled = true;
+            password.text = "Commence Blocks";
+            blockw.GetComponent<MeshRenderer>().enabled = true; // Reenable visibilty of the blocks
             blocka.GetComponent<MeshRenderer>().enabled = true;
             blockk.GetComponent<MeshRenderer>().enabled = true;
             blocke.GetComponent<MeshRenderer>().enabled = true;
             blocku.GetComponent<MeshRenderer>().enabled = true;
             blockp.GetComponent<MeshRenderer>().enabled = true;
-            platform.GetComponent<BoxCollider>().enabled = false;
+            platform.GetComponent<BoxCollider>().enabled = false; // Disable platform for blocks to fall through
             Debug.Log("Success");
         }
         else
@@ -301,12 +303,9 @@ public class KeyboardRM1 : MonoBehaviour
     }
 }
 
-// Knowledge learned from how to make a Keypad was used in creating this keyboard script. See KeypadRM1.cs
+// Knowledge learned from how to make a Keypad was used in creating this keyboard script.
+// See below references that were utilized that are originally cited in KeypadRM1.cs
 // This script was created on 7/28/25
-
-// [1] https://stackoverflow.com/questions/65282443/why-does-my-backspace-return-a-new-text-instead-of-updating-the-current-text
-// Author: Peter Duniho
-// Accessed on 7/28/25
 
 // How To Make A Keypad in Unity (EASY!) uploaded by It's Networking
 // https://www.youtube.com/watch?v=sURDTT8UkfQ

@@ -1,3 +1,8 @@
+// Author: Larisa Xie
+// Class: CS467 Summer 2025
+// Date: 7/6/25
+// Description: Handles movement in-game, referencing action inputs from PlayerInputHandler
+
 using UnityEngine;
 
 public class FirstPersonController : MonoBehaviour
@@ -18,80 +23,76 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private Camera mainCamera;
     [SerializeField] private PlayerInputHandler playerInputHandler;
 
-    private Vector3 currentMovement;
-    private float verticalRotation;
+    private Vector3 currMovement;
+    private float verticalRotate;
 
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked; // Hides Cursor
         Cursor.visible = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        HandleMovement();
-        HandleRotation();
+        HandleMove();
+        HandleRotate();
     }
 
     private Vector3 CalculateWorldDirection()
     {
-        Vector3 inputDirection = new Vector3(playerInputHandler.MovementInput.x, 0f, playerInputHandler.MovementInput.y);
+        Vector3 inputDirection = new Vector3(playerInputHandler.MoveInput.x, 0f, playerInputHandler.MoveInput.y);
         Vector3 worldDirection = transform.TransformDirection(inputDirection);
         return worldDirection.normalized;
     }
 
-    private void HandleJumping()
+    private void HandleJump()
     {
         if (characterController.isGrounded)
         {
-            currentMovement.y = -0.5f;
+            currMovement.y = -0.5f;
             
-            if (playerInputHandler.JumpTriggered)
+            if (playerInputHandler.JumpInput)
             {
-                currentMovement.y = jumpForce;
-                currentMovement.x = walkSpeed / 2;
+                currMovement.y = jumpForce;
+                currMovement.x = walkSpeed / 2;
             }
         }
         else
         {
-            currentMovement.y += Physics.gravity.y * gravityMultiplier * Time.deltaTime;
+            currMovement.y += Physics.gravity.y * gravityMultiplier * Time.deltaTime;
         }
     }
 
-    private void HandleMovement()
+    private void HandleMove()
     {
         Vector3 worldDirection = CalculateWorldDirection();
-        currentMovement.x = worldDirection.x * walkSpeed;
-        currentMovement.z = worldDirection.z * walkSpeed;
+        currMovement.x = worldDirection.x * walkSpeed;
+        currMovement.z = worldDirection.z * walkSpeed;
 
-        HandleJumping();
+        HandleJump();
 
-        characterController.Move(currentMovement * Time.deltaTime);
+        characterController.Move(currMovement * Time.deltaTime);
 
     }
 
-    private void ApplyHorizontalRotation(float rotationAmount)
+    private void HorizontalRotate(float rotateAmount)
     {
-        transform.Rotate(0, rotationAmount, 0);
+        transform.Rotate(0, rotateAmount, 0);
     }
 
-    private void ApplyVerticalRotation(float rotationAmount)
+    private void VerticalRotate(float rotateAmount)
     {
-        verticalRotation = Mathf.Clamp(verticalRotation - rotationAmount, -upDownLookRange, upDownLookRange);
-        mainCamera.transform.localRotation = Quaternion.Euler(verticalRotation, 30, 0);
+        verticalRotate = Mathf.Clamp(verticalRotate - rotateAmount, -upDownLookRange, upDownLookRange);
+        mainCamera.transform.localRotation = Quaternion.Euler(verticalRotate, 0, 0);
     }
 
-    private void HandleRotation()
+    private void HandleRotate()
     {
-        float mouseXRotation = playerInputHandler.RotationInput.x * mouseSensitivity;
-        float mouseYRotation = playerInputHandler.RotationInput.y * mouseSensitivity;
+        float mouseXRotation = playerInputHandler.RotateInput.x * mouseSensitivity;
+        float mouseYRotation = playerInputHandler.RotateInput.y * mouseSensitivity;
 
-        ApplyHorizontalRotation(mouseXRotation);
-        ApplyVerticalRotation(mouseYRotation);
+        HorizontalRotate(mouseXRotation);
+        VerticalRotate(mouseYRotation);
     }
 }
 

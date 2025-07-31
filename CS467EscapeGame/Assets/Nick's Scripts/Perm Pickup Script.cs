@@ -11,8 +11,8 @@ using UnityEngine;
 public class PermPickupScript : MonoBehaviour
 {
 
-    public GameObject activating_object;
-    public bool has_picked_up;
+    public GameObject activatingObject;
+    public bool hasPickedUp;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,9 +35,9 @@ public class PermPickupScript : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.E)){
-            has_picked_up = true;
+            hasPickedUp = true;
             gameObject.SetActive(false);
-            activating_object.SetActive(true);
+            activatingObject.SetActive(true);
 
         }
     }
