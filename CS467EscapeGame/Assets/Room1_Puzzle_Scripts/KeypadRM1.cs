@@ -1,10 +1,13 @@
+// Author: Larisa Xie
+// Class: CS467 Summer 2025
+// Date: 7/27/25
+// Description: A keypad. Enter the correct code and it will open a door.
+
 using TMPro;
 using UnityEngine;
 
-
 public class KeypadRM1 : MonoBehaviour
 {
-
     [SerializeField] private string CodeHere = "Insert Code Here";
     [SerializeField] private Animator SlideDoor;
     public TMP_InputField code;
@@ -27,7 +30,6 @@ public class KeypadRM1 : MonoBehaviour
         {
             code.text = code.text + "1";
         }
-
     }
 
     public void Key2()
@@ -38,6 +40,7 @@ public class KeypadRM1 : MonoBehaviour
             code.text = code.text + "2";
         }
     }
+
     public void Key3()
     {
         if (code.text.Length < 5)
@@ -45,6 +48,7 @@ public class KeypadRM1 : MonoBehaviour
             code.text = code.text + "3";
         }
     }
+
     public void Key4()
     {
         if (code.text.Length < 5)
@@ -52,6 +56,7 @@ public class KeypadRM1 : MonoBehaviour
             code.text = code.text + "4";
         }
     }
+
     public void Key5()
     {
         if (code.text.Length < 5)
@@ -59,6 +64,7 @@ public class KeypadRM1 : MonoBehaviour
             code.text = code.text + "5";
         }
     }
+
     public void Key6()
     {
         if (code.text.Length < 5)
@@ -66,6 +72,7 @@ public class KeypadRM1 : MonoBehaviour
             code.text = code.text + "6";
         }
     }
+
     public void Key7()
     {
         if (code.text.Length < 5)
@@ -73,6 +80,7 @@ public class KeypadRM1 : MonoBehaviour
             code.text = code.text + "7";
         }
     }
+
     public void Key8()
     {
         if (code.text.Length < 5)
@@ -80,6 +88,7 @@ public class KeypadRM1 : MonoBehaviour
             code.text = code.text + "8";
         }
     }
+
     public void Key9()
     {
         if (code.text.Length < 5)
@@ -87,6 +96,7 @@ public class KeypadRM1 : MonoBehaviour
             code.text = code.text + "9";
         }
     }
+
     public void Key0()
     {
         if (code.text.Length < 5)
@@ -94,6 +104,7 @@ public class KeypadRM1 : MonoBehaviour
             code.text = code.text + "0";
         }
     }
+
     public void EnterKey()
     {
         if (code.text == CodeHere)
