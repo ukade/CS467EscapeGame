@@ -18,8 +18,10 @@ public class WordSpell : MonoBehaviour
     public garbageCan bottleCanScript;
     public garbageCan sodaCanScript;
     public garbageCan waterBottleCanScript;
-    public int totalTrash;
+    //public int totalTrash;
     public GameObject bedRoll;
+    public PermPickupScript bedRollScript;
+
     public int correctLetterCount;
     public GameObject firstComparisonLetter;
 
@@ -32,7 +34,6 @@ public class WordSpell : MonoBehaviour
         bottleCan =  GameObject.Find("GlassBottleRecycleCan");
         sodaCan = GameObject.Find("SodaCanRecycleCan");
         waterBottleCan = GameObject.Find("WaterBottleRecycleCan");
-        bedRoll = GameObject.Find("BedRoll");
         
         /* Used to get scrips from game objects. Relevant source: 
         https://docs.unity3d.com/ScriptReference/Component.GetComponent.html */
@@ -46,18 +47,6 @@ public class WordSpell : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Totalling up the trash in all the cans.
-        totalTrash = bottleCanScript.trashCollected + sodaCanScript.trashCollected + waterBottleCanScript.trashCollected;
-
-        // Relevant Source: https://docs.unity3d.com/Manual/class-GameObject.html
-        if (totalTrash == 12)
-        {
-            if (bedRoll.activeSelf == false)
-            {
-                bedRoll.SetActive(true);
-            }
-
-        }
 
         /* Relevant Sources: Adapted from: https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/iteration-statements
         Published by Microsoft, Accessed on 7/30/25, full cite in the README. */
@@ -103,13 +92,23 @@ public class WordSpell : MonoBehaviour
         }
 
         // Displaying the green letters if the order becomes correct
+        /* Relevant sources for all four below foreach loops: 
+        https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/iteration-statements
+        https://docs.unity3d.com/Manual/class-GameObject.html
+        https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html
+        See attached README for full citations. */
         if (correctLetterCount == 12)
         {
-            /* Relevant Source: https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/iteration-statements
-            See attached README for full citations.*/
             foreach (GameObject letter in letters)
             {
                 letter.SetActive(false);
+
+                // Check if bedroll has been put in tent
+                bedRollScript = bedRoll.GetComponent<PermPickupScript>();
+                if (bedRollScript.hasPickedUp == false)
+                {
+                    bedRoll.SetActive(true);
+                }
             }
             foreach (GameObject letter in correctLetters)
             {
@@ -117,5 +116,18 @@ public class WordSpell : MonoBehaviour
             }
 
         }
+
+        if (correctLetterCount < 12)
+        {
+            foreach (GameObject letter in letters)
+            {
+                letter.SetActive(true);
+            }
+            foreach (GameObject letter in correctLetters)
+            {
+                letter.SetActive(false);
+            }
+        }
+
     }
 }
