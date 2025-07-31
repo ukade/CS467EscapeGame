@@ -54,7 +54,7 @@ Changelog
 Finished scripting for Puzzle 2 aside from weird mouse error with Brian's interact script that only happens for me.
 Started working on changing assets to implement Brian/Katrine's ideas/suggestions for Puzzles 1 and and Larisa's ideas/suggestions for Puzzle 3. - Nick
 
-7/29: Finished scripting and asset work to implement Brain/Katrine's recycle/trash pickup puzzle idea for Puzzle 1. - Nick
+7/29: Tweaked the script Brian and I were working on so the reject worked. Finished another script and asset work to implement Brain/Katrine's recycle/trash pickup puzzle idea for Puzzle 1. - Nick
 
 --------------------------------------------------
 Sources Cited:
