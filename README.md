@@ -316,5 +316,16 @@ https://docs.unity3d.com/ScriptReference/Rigidbody.AddForce.html
 https://docs.unity3d.com/ScriptReference/Transform.html
 https://docs.unity3d.com/ScriptReference/Vector3-up.html
 https://docs.unity3d.com/ScriptReference/Vector3.html
+https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/statements/iteration-statements
+https://docs.unity3d.com/Manual/class-Transform.html
+https://docs.unity3d.com/ScriptReference/Component-transform.html
+https://docs.unity3d.com/ScriptReference/Transform-position.html
+https://docs.unity3d.com/ScriptReference/Transform-right.html
+https://www.youtube.com/watch?v=LXCdu91LDbA
+https://www.youtube.com/watch?v=JOiEz9fnc5Y
+https://www.youtube.com/watch?v=-thhMXmTM7Q
+https://docs.unity3d.com/ScriptReference/Vector3-x.html
+
+
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
