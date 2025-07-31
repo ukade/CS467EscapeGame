@@ -8,6 +8,8 @@ TagManager:
   - capsule_food
   - arrow
   - Glass Bottle
+  - Water Bottle
+  - Soda Can
   layers:
   - Default
   - TransparentFX

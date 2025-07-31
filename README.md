@@ -311,6 +311,10 @@ https://docs.unity3d.com/ScriptReference/MonoBehaviour.html Accessed: July 2025.
 Sources: 
 https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types
 https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/keywords/static
-
+https://docs.unity3d.com/ScriptReference/Rigidbody.html
+https://docs.unity3d.com/ScriptReference/Rigidbody.AddForce.html
+https://docs.unity3d.com/ScriptReference/Transform.html
+https://docs.unity3d.com/ScriptReference/Vector3-up.html
+https://docs.unity3d.com/ScriptReference/Vector3.html
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
