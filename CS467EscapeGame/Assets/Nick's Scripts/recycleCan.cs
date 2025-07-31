@@ -11,10 +11,6 @@ public class garbageCan : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    [SerializeField] int totalItems;
-    [SerializeField] List<string> itemsInContainer = new List<string>();
-    [SerializeField] string garbageType;
-
     //public GameObject[] trashObjects = GameObject[5];
     //public GameObject[] letterObjects = letterObjects[5];
     [SerializeField] private List<GameObject> letterObjects;
