@@ -201,6 +201,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3613718199928060905, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
       insertIndex: -1
       addedObject: {fileID: 216146056}
+    - targetCorrespondingSourceObject: {fileID: 3613718199928060905, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 216146058}
   m_SourcePrefab: {fileID: 100100000, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
 --- !u!4 &1451504 stripped
 Transform:
@@ -454,6 +457,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   throwForce: 600
   maxDistance: 3
+--- !u!114 &40725363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40725353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactText: Hold Left Mouse to Pick Up
 --- !u!1 &42511099
 GameObject:
   m_ObjectHideFlags: 0
@@ -1059,6 +1078,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   throwForce: 600
   maxDistance: 3
+--- !u!114 &93918638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93918625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactText: Hold Left Mouse to Pick Up
 --- !u!4 &96792247 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4138052842913210707, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
@@ -1326,6 +1361,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5959593607201024461, guid: 470ee8eaccfe2344eb4bc3bf501d2383, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1335122736}
+    - targetCorrespondingSourceObject: {fileID: 5959593607201024461, guid: 470ee8eaccfe2344eb4bc3bf501d2383, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1335122737}
   m_SourcePrefab: {fileID: 100100000, guid: 470ee8eaccfe2344eb4bc3bf501d2383, type: 3}
 --- !u!4 &132982227 stripped
 Transform:
@@ -2413,6 +2451,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &216146058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216146052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactText: Hold Left Mouse to Pick Up
 --- !u!1001 &219926717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3399,6 +3453,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &282798435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282798429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactText: Hold Left Mouse to Pick Up
 --- !u!1001 &284632487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3481,6 +3551,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3863253787088592551, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
       insertIndex: -1
       addedObject: {fileID: 93918634}
+    - targetCorrespondingSourceObject: {fileID: 3863253787088592551, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 93918638}
   m_SourcePrefab: {fileID: 100100000, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
 --- !u!4 &289505260 stripped
 Transform:
@@ -5075,6 +5148,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3613718199928060905, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
       insertIndex: -1
       addedObject: {fileID: 282798433}
+    - targetCorrespondingSourceObject: {fileID: 3613718199928060905, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 282798435}
   m_SourcePrefab: {fileID: 100100000, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
 --- !u!4 &435778323 stripped
 Transform:
@@ -5598,6 +5674,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3863253787088592551, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
       insertIndex: -1
       addedObject: {fileID: 748486134}
+    - targetCorrespondingSourceObject: {fileID: 3863253787088592551, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 748486136}
   m_SourcePrefab: {fileID: 100100000, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
 --- !u!1001 &489159253
 PrefabInstance:
@@ -6543,6 +6622,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3863253787088592551, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
       insertIndex: -1
       addedObject: {fileID: 970505099}
+    - targetCorrespondingSourceObject: {fileID: 3863253787088592551, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 970505100}
   m_SourcePrefab: {fileID: 100100000, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
 --- !u!1001 &571394009
 PrefabInstance:
@@ -6813,6 +6895,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3613718199928060905, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
       insertIndex: -1
       addedObject: {fileID: 986298632}
+    - targetCorrespondingSourceObject: {fileID: 3613718199928060905, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 986298636}
   m_SourcePrefab: {fileID: 100100000, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
 --- !u!1001 &586710166
 PrefabInstance:
@@ -8417,6 +8502,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &748486136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386320422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactText: Hold Left Mouse to Pick Up
 --- !u!4 &753955907 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8169878229510452396, guid: 5d5de5e939962d549ab4ea64d2a1e7e3, type: 3}
@@ -8916,6 +9017,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3863253787088592551, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
       insertIndex: -1
       addedObject: {fileID: 40725362}
+    - targetCorrespondingSourceObject: {fileID: 3863253787088592551, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 40725363}
   m_SourcePrefab: {fileID: 100100000, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
 --- !u!1001 &790506223
 PrefabInstance:
@@ -10536,6 +10640,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   throwForce: 600
   maxDistance: 3
+--- !u!114 &970505100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970505090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactText: Hold Left Mouse to Pick Up
 --- !u!4 &976835877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 397115314353605421, guid: 4c549f88305ef3642b762ce661bf873e, type: 3}
@@ -10623,6 +10743,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3613718199928060905, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2081249761}
+    - targetCorrespondingSourceObject: {fileID: 3613718199928060905, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2081249763}
   m_SourcePrefab: {fileID: 100100000, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
 --- !u!1 &983110603 stripped
 GameObject:
@@ -10809,6 +10932,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &986298636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209292502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactText: Hold Left Mouse to Pick Up
 --- !u!4 &987769226 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3859430444010454319, guid: 97410b42f813e3d429db68b74b5b280c, type: 3}
@@ -14246,6 +14385,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5959593607201024461, guid: 470ee8eaccfe2344eb4bc3bf501d2383, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1914476637}
+    - targetCorrespondingSourceObject: {fileID: 5959593607201024461, guid: 470ee8eaccfe2344eb4bc3bf501d2383, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1914476639}
   m_SourcePrefab: {fileID: 100100000, guid: 470ee8eaccfe2344eb4bc3bf501d2383, type: 3}
 --- !u!4 &1235201525 stripped
 Transform:
@@ -14809,6 +14951,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3863253787088592551, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1309393339}
+    - targetCorrespondingSourceObject: {fileID: 3863253787088592551, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1309393341}
   m_SourcePrefab: {fileID: 100100000, guid: 4dced1f494a566648a6e7a1111087e26, type: 3}
 --- !u!4 &1309393337 stripped
 Transform:
@@ -14861,6 +15006,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1309393341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309393338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactText: Hold Left Mouse to Pick Up
 --- !u!1001 &1309534459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14980,6 +15141,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1310847504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241665265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactText: Hold Left Mouse to Pick Up
 --- !u!4 &1310931929 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1976011763738976292, guid: d9c1b2ba44692a3418409397e6c4711e, type: 3}
@@ -15160,6 +15337,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   throwForce: 600
   maxDistance: 3
+--- !u!114 &1335122737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335122727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactText: Hold Left Mouse to Pick Up
 --- !u!4 &1338211323 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5108563832008976599, guid: 5977c7403f3ad2c42b1288c820b4a06d, type: 3}
@@ -15629,6 +15822,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3613718199928060905, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1405912479}
+    - targetCorrespondingSourceObject: {fileID: 3613718199928060905, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1405912488}
+    - targetCorrespondingSourceObject: {fileID: 3613718199928060905, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1405912487}
   m_SourcePrefab: {fileID: 100100000, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
 --- !u!1001 &1398777120
 PrefabInstance:
@@ -15877,6 +16076,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4138052842913210707, guid: 9b5dc512ec347e34eaaae1f9cf497537, type: 3}
   m_PrefabInstance: {fileID: 1396273279}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1405912487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405912478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactText: Hold Left Mouse to Pick Up
+--- !u!114 &1405912488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405912478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd3c74df279b554fbb8db30dfde7ff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  throwForce: 600
+  maxDistance: 3
 --- !u!1001 &1406948479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19669,6 +19898,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5959593607201024461, guid: 470ee8eaccfe2344eb4bc3bf501d2383, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1310847502}
+    - targetCorrespondingSourceObject: {fileID: 5959593607201024461, guid: 470ee8eaccfe2344eb4bc3bf501d2383, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1310847504}
   m_SourcePrefab: {fileID: 100100000, guid: 470ee8eaccfe2344eb4bc3bf501d2383, type: 3}
 --- !u!4 &1765739842 stripped
 Transform:
@@ -21335,6 +21567,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1914476639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856502914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactText: Hold Left Mouse to Pick Up
 --- !u!1001 &1918537479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23797,6 +24045,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   throwForce: 600
   maxDistance: 3
+--- !u!114 &2081249763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113590543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11da40502d7cd76479a6722536667550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  interactText: Hold Left Mouse to Pick Up
 --- !u!1 &2086475262
 GameObject:
   m_ObjectHideFlags: 0
