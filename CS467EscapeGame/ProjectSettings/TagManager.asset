@@ -10,6 +10,7 @@ TagManager:
   - Glass Bottle
   - Water Bottle
   - Soda Can
+  - SFX
   layers:
   - Default
   - TransparentFX

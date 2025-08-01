@@ -26,6 +26,17 @@ public class FirstPersonController : MonoBehaviour
     private Vector3 currMovement;
     private float verticalRotate;
 
+    AudioManager audioManager;
+
+    //[Katrine Chow] - This declares the audioManager object sourcing from sfxSource (see AudioManager.cs) by searching with the "SFX" tag 
+    //Technique referenced and adapted from the following YouTube tutorial:
+    //Rehope Games [RehopeGames]. (2022, June 2). How to Add MUSIC and SOUND EFFECTS to a Game in Unity | Unity 2D Platformer Tutorial #16. 
+    //YouTube. https://www.youtube.com/watch?v=N8whM1GjH4w Accessed 7/29/2025
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("SFX").GetComponent<AudioManager>();
+    }
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked; // Hides Cursor
@@ -36,6 +47,15 @@ public class FirstPersonController : MonoBehaviour
     {
         HandleMove();
         HandleRotate();
+
+        //[Katrine Chow] - This calls the declared audioManager object to play audio source "footsteps" when player walks with WASD keys
+        //Code referenced and adapted from the following YouTube tutorial:
+        //Omogonix [Omogonix]. (2022 June 2). How to Add Footsteps Sounds in Unity. YouTube. 
+        //https://www.youtube.com/watch?v=uNYF1gsvD1A Accessed 7/30/2025
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        {
+            audioManager.PlaySFX(audioManager.footsteps);
+        }
     }
 
     private Vector3 CalculateWorldDirection()
