@@ -25464,6 +25464,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 237124657}
     m_Modifications:
+    - target: {fileID: 3679925770215355347, guid: 2e4531dc3154b2f46b0338b07c57fef1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8346503625552333930, guid: 2e4531dc3154b2f46b0338b07c57fef1, type: 3}
       propertyPath: m_Name
       value: HardRock_58
