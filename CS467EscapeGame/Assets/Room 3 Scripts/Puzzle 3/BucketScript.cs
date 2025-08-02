@@ -49,18 +49,18 @@ public class BucketScript : MonoBehaviour
         }
         if (objectCollider.gameObject == campfireCollider && filledWithWater == true)
         {
+            campfireCollider.SetActive(false);
             campfireActivator.SetActive(true);
         }
     }
 
     // Sources are above the OnTriggerEnter section
 
-    void OnTriggerExit(Collider exitingObject)
+    void OnTriggerExit(Collider exitingCollider)
     {
-        if (exitingObject.gameObject == campfireCollider && filledWithWater == true)
+        if (exitingCollider.gameObject == campfireCollider && filledWithWater == true)
         {
-            campfireActivator.SetActiver(false);
-
+            campfireActivator.SetActive(false);
         }
     }
 }
