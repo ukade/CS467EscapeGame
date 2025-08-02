@@ -19,7 +19,7 @@ public class WordSpell : MonoBehaviour
     public garbageCan sodaCanScript;
     public garbageCan waterBottleCanScript;
     public GameObject bedRoll;
-    public PermPickupScript bedRollScript;
+    public PuzzleFinish bedRollScript;
     public int correctLetterCount;
     public GameObject firstComparisonLetter;
 
@@ -103,8 +103,8 @@ public class WordSpell : MonoBehaviour
                 letter.SetActive(false);
 
                 // Check if bedroll has been put in tent
-                bedRollScript = bedRoll.GetComponent<PermPickupScript>();
-                if (bedRollScript.hasPickedUp == false)
+                bedRollScript = bedRoll.GetComponent<PuzzleFinish>();
+                if (bedRollScript.isCompleted == false)
                 {
                     bedRoll.SetActive(true);
                 }
