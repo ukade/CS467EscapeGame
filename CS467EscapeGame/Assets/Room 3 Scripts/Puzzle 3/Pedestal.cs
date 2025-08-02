@@ -32,7 +32,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
         See README for full list of sources.
         */
-        caveRock = GameObject.Find("CaveRock")
+        caveRock = GameObject.Find("CaveRock");
         caveScript = caveRock.GetComponent<OpenCave>();
     }
 
@@ -44,18 +44,37 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     /* Relevant Sources: 
         https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html
+        https://docs.unity3d.com/ScriptReference/Collider.OnTriggerExit.html
+        https://docs.unity3d.com/Manual/class-GameObject.html
+        https://docs.unity3d.com/ScriptReference/Component.html
+        See README for full list of citations.
     */
 
     void OnTriggerEnter(Collider objectCollider)
     {
-        if (objectCollider == pedestalItem)
+        if (objectCollider.gameObject == pedestalItem)
         {
-
-
+            correctLight.SetActive(true);
+            caveScript.pedstalsCorrect += 1;
+        }
+        else
+        {
+            incorrectLight.SetActive(true);
         }
     }
 
+    // Same sources as above the on trigger enter section
 
-
-
+    void OnTriggerExit(Collider exitCollider)
+    {
+        if (exitCollider.gameObject == pedestalItem)
+        {
+            correctLight.SetActive(false);
+            caveScript.pedestalsCorrect -= 1;
+        }
+        else
+        {
+            incorrectLight.SetActive(false);
+        }
+    }
 }

@@ -56,6 +56,8 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 
 7/29: Tweaked the script Brian and I were working on so the reject worked. Finished another script and asset work to implement Brain/Katrine's recycle/trash pickup puzzle idea for Puzzle 1. - Nick
 
+8/1: Worked on Larisa's pedestal idea 
+
 --------------------------------------------------
 Sources Cited:
 
