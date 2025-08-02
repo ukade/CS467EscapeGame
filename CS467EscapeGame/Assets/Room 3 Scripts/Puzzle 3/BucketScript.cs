@@ -44,6 +44,7 @@ public class BucketScript : MonoBehaviour
         {
             bucketWater.SetActive(true);
             filledWithWater = true;
+            Debug.Log("Filled with water.");
         }
         if (objectCollider.gameObject == campfireCollider && filledWithWater == true)
         {
