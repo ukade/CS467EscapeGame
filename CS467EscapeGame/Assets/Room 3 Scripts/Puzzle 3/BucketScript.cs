@@ -14,9 +14,10 @@ public class BucketScript : MonoBehaviour
     https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/bool
     Please see the attached README for a full list of cited sources.
     */
-    public GameObject pondCollider;
+    public GameObject pond;
     public GameObject campfireCollider;
     public GameObject bucketWater;
+    public GameObject campfireActivator;
     bool filledWithWater;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -41,10 +42,20 @@ public class BucketScript : MonoBehaviour
             //Set active/enable the ability to interact with the campfire put out script
 
 
-
-
-
-
-
-
+    /* Adapted from/inspired the following sources and possibly others from the README:
+    https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html
+    See README for a full list of sources.
+    */
+    void OnTriggerEnter(Collider objectCollider)
+    {
+        if (objectCollider.gameObject == pond)
+        {
+            bucketWater.SetActive(true);
+            filledWithWater = true;
+        }
+        if (objectCollider.gameObject == campfireCollider && filledWithWater == true)
+        {
+            campfireActivator.SetActive(true);
+        }
+    }
 }
