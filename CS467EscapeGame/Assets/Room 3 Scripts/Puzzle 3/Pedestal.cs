@@ -1,8 +1,6 @@
 /* Some of the code that is below was generated automatically by Unity when you make a script. It was modified to meet our groups objective of making an escape room. 
 Some sources are listed here for convenience because they relate to a certain code section. Please see the README for a full list of sources*/
 
-
-
 using UnityEngine;
 
 public class NewMonoBehaviourScript : MonoBehaviour
@@ -55,7 +53,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         if (objectCollider.gameObject == pedestalItem)
         {
             correctLight.SetActive(true);
-            caveScript.pedstalsCorrect += 1;
+            caveScript.pedestalsCorrect += 1;
         }
         else
         {
