@@ -32,18 +32,10 @@ public class BucketScript : MonoBehaviour
         
     }
 
-    // On trigger enter here
-    //https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html
-
-    //On trigger enter
-        //if object is pond collider
-            //Set active/enable the ability to interact with the pond
-        // if object is the campfire collider and bucket is filled with water
-            //Set active/enable the ability to interact with the campfire put out script
-
-
     /* Adapted from/inspired the following sources and possibly others from the README:
     https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html
+    https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html
+    https://docs.unity3d.com/Manual/class-GameObject.html
     See README for a full list of sources.
     */
     void OnTriggerEnter(Collider objectCollider)
