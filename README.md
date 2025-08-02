@@ -304,7 +304,7 @@ https://docs.unity3d.com/ScriptReference/MonoBehaviour.html Accessed: July 2025.
 
 107. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.OnCollisionEnter(Collision).* https://docs.unity3d.com/ScriptReference/Collider.OnCollisionEnter.html Accessed: July 2025.
 
-108. Unity Technologies. (2025, July 28). *Unity Documentation, Create components with scipts.* https://docs.unity3d.com/Manual/CreatingComponents.html Accessed: July 2025. 
+108. Unity Technologies. (2025, July 28). *Unity Documentation, Create components with scripts.* https://docs.unity3d.com/Manual/CreatingComponents.html Accessed: July 2025. 
 
 109. GDT Solutions. [GDT Solutions]. (2023, Jan 5). *How to REFERENCE ANOTHER SCRIPT in Unity - Using functions from other scripts.* https://www.youtube.com/watch?v=K0Sj4Al-l0w Accessed: July 29, 2025. 
 
@@ -344,6 +344,10 @@ Unity Technologies. https://docs.unity3d.com/ScriptReference/Transform.html Acce
 126. Game Dev Beginner. [Game Dev Beginner]. (2022, June 22). *How to move objects in Unity(3 methods).* Youtube. https://www.youtube.com/watch?v=JOiEz9fnc5Y Accessed: July 2025. 
 
 127. Feri Fm. [Feri Fm]. (2020, April 8). *6 Ways to move object in Unity [Tutorial].* Youtube. https://www.youtube.com/watch?v=-thhMXmTM7Q Accessed: July 2025. 
+
+Sources: 
+https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/operators/boolean-logical-operators
+https://docs.unity3d.com/ScriptReference/Behaviour-enabled.html
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
