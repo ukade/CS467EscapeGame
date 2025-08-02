@@ -3,12 +3,17 @@
 /* The rest of the script was built/adapted by myself from the sources in the attached README file.
 Primarily the Unity and Microsoft C# documentation was used. Some helpful sources will be mentioned
 in the comments by certain portions of code, but these are not meant to be exhaustive. See the attached 
-README for a full list of sources cited. */
+README for a full list of sources cited. 
+
+This script was altered from my original Perm Pickup script to allow the player to pickup the bedroll, 
+pillow, and put out the campfire. Because of that the variable name was changed to be more descriptive
+and the class name/script name was changed as well.
+*/
 
 
 using UnityEngine;
 
-public class PermPickupScript : MonoBehaviour
+public class PuzzleFinish : MonoBehaviour
 {
 
     public GameObject activatingObject;

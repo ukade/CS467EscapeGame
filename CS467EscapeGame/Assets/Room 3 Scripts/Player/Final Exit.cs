@@ -19,9 +19,9 @@ public class FinalExit : MonoBehaviour
     public GameObject bedRoll;
     public GameObject playerPillow;
     public GameObject campfireOutObject;
-    public PermPickupScript bedRollScript;
-    public PermPickupScript playerPillowScript;
-    public PermPickupScript campfireOutScript;
+    public PuzzleFinish bedRollScript;
+    public PuzzleFinish playerPillowScript;
+    public PuzzleFinish campfireOutScript;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,9 +31,9 @@ public class FinalExit : MonoBehaviour
         https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
         The following block of code is adapted from these sources. Please see the README for a full list of citations.
         */
-        bedRollScript = bedRoll.GetComponent<PermPickupScript>();
-        playerPillowScript = playerPillow.GetComponent<PermPickupScript>();
-        campfireOutScript = campfireOutObject.GetComponent<PermPickupScript>();
+        bedRollScript = bedRoll.GetComponent<PuzzleFinish>();
+        playerPillowScript = playerPillow.GetComponent<PuzzleFinish>();
+        campfireOutScript = campfireOutObject.GetComponent<PuzzleFinish>();
     }
 
     // Update is called once per frame
