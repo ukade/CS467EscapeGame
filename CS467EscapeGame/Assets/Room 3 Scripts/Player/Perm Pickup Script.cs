@@ -12,7 +12,7 @@ public class PermPickupScript : MonoBehaviour
 {
 
     public GameObject activatingObject;
-    public bool hasPickedUp;
+    public bool isCompleted;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,7 +35,7 @@ public class PermPickupScript : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.E)){
-            hasPickedUp = true;
+            isCompleted = true;
             gameObject.SetActive(false);
             activatingObject.SetActive(true);
 

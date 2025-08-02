@@ -9,19 +9,31 @@ using UnityEngine;
 
 public class FinalExit : MonoBehaviour
 {
-    // Relevant Source: https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/builtin-types/bool
-    public bool hasPillow;
-    public bool hasSleepingBag;
-    public bool campfireOut;
-
-    //Relevant Sources: https://docs.unity3d.com/Manual/class-GameObject.html and https://docs.unity3d.com/ScriptReference/GameObject.html
+    /* Relevant Sources: https://docs.unity3d.com/Manual/class-GameObject.html 
+    https://docs.unity3d.com/ScriptReference/GameObject.html
+    https://docs.unity3d.com/ScriptReference/Component.html
+    https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
+    Developed from and adapted from these sources. Please see the README for a full list of citations.
+    */
     public GameObject finalExit;
+    public GameObject bedRoll;
+    public GameObject playerPillow;
+    public GameObject campfireOutObject;
+    public PermPickupScript bedRollScript;
+    public PermPickupScript playerPillowScript;
+    public PermPickupScript campfireOutScript;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // Relevant Source: https://docs.unity3d.com/Manual/class-GameObject.html (Adapted to create the line below).
-        finalExit = GameObject.Find("FinalExit");
+        /* Relevant Sources: https://docs.unity3d.com/Manual/class-GameObject.html 
+        https://docs.unity3d.com/ScriptReference/Component.html
+        https://docs.unity3d.com/ScriptReference/Component.GetComponent.html
+        The following block of code is adapted from these sources. Please see the README for a full list of citations.
+        */
+        bedRollScript = bedRoll.GetComponent<PermPickupScript>();
+        playerPillowScript = playerPillow.GetComponent<PermPickupScript>();
+        campfireOutScript = campfireOutObject.GetComponent<PermPickupScript>();
     }
 
     // Update is called once per frame
@@ -31,11 +43,11 @@ public class FinalExit : MonoBehaviour
         Relevant Sources: 
         https://docs.unity3d.com/Manual/class-GameObject.html (Adapted to create the code below).
         https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/operators/boolean-logical-operators
-        See sources cited for a full list of citations.
+        The below code is adapted from these sources. Please see sources cited in the README for a full list of citations.
         */
-        if (hasPillow == true && hasSleepingBag == true)
+        if (bedRollScript.isCompleted == true && playerPillowScript.isCompleted == true)
         {
-            if (campfireOut == true && finalExit.activeSelf == false)
+            if (campfireOutScript.isCompleted == true && finalExit.activeSelf == false)
             {
             finalExit.SetActive(true);
             }

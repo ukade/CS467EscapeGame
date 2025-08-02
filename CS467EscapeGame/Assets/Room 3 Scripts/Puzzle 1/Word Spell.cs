@@ -104,7 +104,7 @@ public class WordSpell : MonoBehaviour
 
                 // Check if bedroll has been put in tent
                 bedRollScript = bedRoll.GetComponent<PermPickupScript>();
-                if (bedRollScript.hasPickedUp == false)
+                if (bedRollScript.isCompleted == false)
                 {
                     bedRoll.SetActive(true);
                 }
