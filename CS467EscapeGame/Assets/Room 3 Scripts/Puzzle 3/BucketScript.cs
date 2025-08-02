@@ -36,6 +36,8 @@ public class BucketScript : MonoBehaviour
     https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html
     https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html
     https://docs.unity3d.com/Manual/class-GameObject.html
+    https://docs.unity3d.com/ScriptReference/Collider.OnTriggerExit.html
+    https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/operators/boolean-logical-operators
     See README for a full list of sources.
     */
     void OnTriggerEnter(Collider objectCollider)
@@ -48,6 +50,17 @@ public class BucketScript : MonoBehaviour
         if (objectCollider.gameObject == campfireCollider && filledWithWater == true)
         {
             campfireActivator.SetActive(true);
+        }
+    }
+
+    // Sources are above the OnTriggerEnter section
+
+    void OnTriggerExit(Collider exitingObject)
+    {
+        if (exitingObject.gameObject == campfireCollider && filledWithWater == true)
+        {
+            campfireActivator.SetActiver(false);
+
         }
     }
 }
