@@ -6,7 +6,7 @@ Please see the attached README for a full list of cited sources.
 
 using UnityEngine;
 
-public class BucketPondScript : MonoBehaviour
+public class BucketScript : MonoBehaviour
 {
     /* Built after learning from/adapted from these relevant sources:
     https://docs.unity3d.com/Manual/class-GameObject.html
@@ -15,7 +15,9 @@ public class BucketPondScript : MonoBehaviour
     Please see the attached README for a full list of cited sources.
     */
     public GameObject pond;
+    public GameObject campfireCollider;
     public GameObject bucketWater;
+    public GameObject campfireActivator;
     bool filledWithWater;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -42,6 +44,10 @@ public class BucketPondScript : MonoBehaviour
         {
             bucketWater.SetActive(true);
             filledWithWater = true;
+        }
+        if (objectCollider.gameObject == campfireCollider && filledWithWater == true)
+        {
+            campfireActivator.SetActive(true);
         }
     }
 }
