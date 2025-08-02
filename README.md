@@ -56,6 +56,10 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 
 7/29: Tweaked the script Brian and I were working on so the reject worked. Finished another script and asset work to implement Brain/Katrine's recycle/trash pickup puzzle idea for Puzzle 1. - Nick
 
+8/1: Worked on Larisa's pedestal idea 
+
+8/2: Worked on Larisa's pesestal idea, refining Katrine/Brian's recycling idea, and making minor asset changes/adjustments.
+
 --------------------------------------------------
 Sources Cited:
 
@@ -302,7 +306,7 @@ https://docs.unity3d.com/ScriptReference/MonoBehaviour.html Accessed: July 2025.
 
 107. Unity Technologies. (2025, July 28). *Unity Documentation, Collider.OnCollisionEnter(Collision).* https://docs.unity3d.com/ScriptReference/Collider.OnCollisionEnter.html Accessed: July 2025.
 
-108. Unity Technologies. (2025, July 28). *Unity Documentation, Create components with scipts.* https://docs.unity3d.com/Manual/CreatingComponents.html Accessed: July 2025. 
+108. Unity Technologies. (2025, July 28). *Unity Documentation, Create components with scripts.* https://docs.unity3d.com/Manual/CreatingComponents.html Accessed: July 2025. 
 
 109. GDT Solutions. [GDT Solutions]. (2023, Jan 5). *How to REFERENCE ANOTHER SCRIPT in Unity - Using functions from other scripts.* https://www.youtube.com/watch?v=K0Sj4Al-l0w Accessed: July 29, 2025. 
 
@@ -342,6 +346,10 @@ Unity Technologies. https://docs.unity3d.com/ScriptReference/Transform.html Acce
 126. Game Dev Beginner. [Game Dev Beginner]. (2022, June 22). *How to move objects in Unity(3 methods).* Youtube. https://www.youtube.com/watch?v=JOiEz9fnc5Y Accessed: July 2025. 
 
 127. Feri Fm. [Feri Fm]. (2020, April 8). *6 Ways to move object in Unity [Tutorial].* Youtube. https://www.youtube.com/watch?v=-thhMXmTM7Q Accessed: July 2025. 
+
+128. Microsoft. (2025, June 13). *Microsoft Ignite, Boolean logical operators - AND, OR, NOT, XOR.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/operators/boolean-logical-operators Accessed: July-August 2025. 
+
+129. Unity Technologies. (2025, July 30). *Unity Documentation, Behavior.enabled.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Behaviour-enabled.html Accessed: July-August 2025.
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
