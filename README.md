@@ -58,6 +58,8 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 
 8/1: Worked on Larisa's pedestal idea 
 
+8/2: Worked on Larisa's pesestal idea, refining Katrine/Brian's recycling idea, and making minor asset changes/adjustments.
+
 --------------------------------------------------
 Sources Cited:
 
@@ -345,9 +347,9 @@ Unity Technologies. https://docs.unity3d.com/ScriptReference/Transform.html Acce
 
 127. Feri Fm. [Feri Fm]. (2020, April 8). *6 Ways to move object in Unity [Tutorial].* Youtube. https://www.youtube.com/watch?v=-thhMXmTM7Q Accessed: July 2025. 
 
-Sources: 
-https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/operators/boolean-logical-operators
-https://docs.unity3d.com/ScriptReference/Behaviour-enabled.html
+128. Microsoft. (2025, June 13). *Microsoft Ignite, Boolean logical operators - AND, OR, NOT, XOR.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/operators/boolean-logical-operators Accessed: July-August 2025. 
+
+129. Unity Technologies. (2025, July 30). *Unity Documentation, Behavior.enabled.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Behaviour-enabled.html Accessed: July-August 2025.
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
