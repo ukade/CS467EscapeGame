@@ -48,14 +48,8 @@ public class FirstPersonController : MonoBehaviour
         HandleMove();
         HandleRotate();
 
-        //[Katrine Chow] - This calls the declared audioManager object to play audio source "footsteps" when player walks with WASD keys
-        //Code referenced and adapted from the following YouTube tutorial:
-        //Omogonix [Omogonix]. (2022 June 2). How to Add Footsteps Sounds in Unity. YouTube. 
-        //https://www.youtube.com/watch?v=uNYF1gsvD1A Accessed 7/30/2025
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
-        {
-            audioManager.PlaySFX(audioManager.footsteps);
-        }
+        //[Katrine Chow] - This calls the declared audioManager object to play audio source "footsteps"
+        audioManager.PlaySFX(audioManager.footsteps);
     }
 
     private Vector3 CalculateWorldDirection()

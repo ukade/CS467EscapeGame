@@ -6013,7 +6013,7 @@ MonoBehaviour:
   bgmSource: {fileID: 1656097848}
   sfxSource: {fileID: 665681765}
   bgm: {fileID: 8300000, guid: 4ca5f25f030543a40bc9403cc47014fb, type: 3}
-  footsteps: {fileID: 8300000, guid: 297a1a5517ab12046a8a58a786b973fc, type: 3}
+  footsteps: {fileID: 8300000, guid: 5245c5559a5fd93449edd7c2dc53fd51, type: 3}
   solved: {fileID: 8300000, guid: 6e7f23ef945c235438595e89d6332d46, type: 3}
   stepRate: 0.5
   stepCoolDown: 0

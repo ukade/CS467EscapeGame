@@ -6866,7 +6866,7 @@ MonoBehaviour:
   bgmSource: {fileID: 2085613297}
   sfxSource: {fileID: 570026526}
   bgm: {fileID: 8300000, guid: b84c8a6a4bac9ed45a80bde8c05760c8, type: 3}
-  footsteps: {fileID: 8300000, guid: 297a1a5517ab12046a8a58a786b973fc, type: 3}
+  footsteps: {fileID: 8300000, guid: 5245c5559a5fd93449edd7c2dc53fd51, type: 3}
   solved: {fileID: 8300000, guid: 6e7f23ef945c235438595e89d6332d46, type: 3}
   stepRate: 0.5
   stepCoolDown: 0

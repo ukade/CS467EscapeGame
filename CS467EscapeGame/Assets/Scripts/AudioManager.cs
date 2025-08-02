@@ -35,10 +35,20 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySFX(AudioClip sfxClip)
     {
+        //Randomizing pitch range to resolve the issue of footstep sounds playing rapidly, which was very unnatural
+        //Referenced and adapted from user jerlovescake's comment and weblink on Reddit:
+        //[jerlovescake]. (2014). Footsteps are pretty easy! Here's a script that I normally use to play a footstep sound. 
+        //Just make sure you... [Comment on the online forum post "Good footstep tutorials"]. Reddit. 
+        //https://www.reddit.com/r/Unity3D/comments/2s3iub/comment/cnlutz3/. Accessed 7/31/2025
+        //and User-provided link in comment: https://pastebin.com/XKtwphXr. Accessed 7/31/2025
+
+        //Mechanic: for each frame Unity engine processes and there is player movement, change the footstep audio file's
+        //playback pitch by a random number. This creates a varied audio effect that stops the rapid-fire style of playing
+        //and replaying the same footstep at each frame
         stepCoolDown -= Time.deltaTime;
         if ((Input.GetAxis("Horizontal") != 0f || Input.GetAxis("Vertical") != 0f) && stepCoolDown < 0f)
         {
-            sfxSource.pitch = 1f + Random.Range(-0.2f, 0.2f);
+            sfxSource.pitch = 1f + Random.Range(-0.5f, 0.5f);
             sfxSource.PlayOneShot(sfxClip, 0.9f);
             stepCoolDown = stepRate;
         }
