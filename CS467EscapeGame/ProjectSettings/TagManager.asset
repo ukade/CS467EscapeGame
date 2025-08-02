@@ -11,6 +11,7 @@ TagManager:
   - Water Bottle
   - Soda Can
   - SFX
+  - TimesUp
   layers:
   - Default
   - TransparentFX
