@@ -60,6 +60,10 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 
 8/2: Worked on Larisa's pesestal idea, refining Katrine/Brian's recycling idea, and making minor asset changes/adjustments.
 
+8/2: Enabled BGM and footsteps in all 3 rooms. Working on pause menu. Currently can pause when goaltime reached. Need to figure out how to resume same timer - Katrine
+
+8/2: Updated reference citations
+
 8/3: Based on Brian's recommendation, added Brian's dot/crosshair to Room 3 and altered Brian's timer_script.cs. Also, altered the tree falling animation/position in Room 3 so the player would not get stuck. - Nick
 
 --------------------------------------------------
@@ -353,8 +357,57 @@ Unity Technologies. https://docs.unity3d.com/ScriptReference/Transform.html Acce
 
 129. Unity Technologies. (2025, July 30). *Unity Documentation, Behavior.enabled.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Behaviour-enabled.html Accessed: July-August 2025.
 
-130. NightTime Developments. [NightTime Developments]. (2021, December 21). * Unity Crosshair Tutorial in Just 3 Minutes.* Youtube. https://www.youtube.com/watch?v=fftXP0llnXg Accessed: June-August 2025. 
+130. NOX_SOUND. (2022, January 2). *Footsteps - Essentials* (Version 1.3). Unity Asset Store.
+https://assetstore.unity.com/packages/audio/sound-fx/foley/footsteps-essentials-189879 Accessed: July-August 2025.
+Terms/EULA: https://unity.com/legal/as-terms
 
+131. Pocketbeats. (2025, May 4). *Chill Work - Lofi Cozy Chill Music*. Pixabay. https://pixabay.com/music/beats-chill-work-lofi-cozy-chill-music-336572/ Accessed July 2025.
+     Content License: https://pixabay.com/service/license-summary/
+
+133. Dream-Protocol. (2023, January 24). *Whispers On The Wind - Ambient Soundscape 345hz*. Pixabay. https://pixabay.com/music/ambient-whispers-on-the-wind-ambient-soundscape-345hz-136453/ Accessed July 2025.
+     Content License: https://pixabay.com/service/license-summary/
+
+134. Sonican. (2025, February 26). *Children Music Loop - Amusement Play*. Pixabay. https://pixabay.com/music/happy-childrens-tunes-children-music-loop-amusement-play-306455/ Accessed July 2025.
+     Content License: https://pixabay.com/service/license-summary/
+
+136. TheFealdoProject. (2022, February 16). *Timeless Campfire Night 2*. Pixabay. https://pixabay.com/music/solo-guitar-timeless-campfire-night-2-20997/ Accessed July 2025.
+     Content License: https://pixabay.com/service/license-summary/
+
+138. HarumachiMusic. (2025, June 22). *Happy Go Picnic!*. Pixabay. https://pixabay.com/music/happy-childrens-tunes-happy-go-picnic-363198/ Accessed July 2025.
+     Content License: https://pixabay.com/service/license-summary/
+
+139. GDT Solutions. [GameDevTraumEN]. *How to add BACKGROUND MUSIC in Unity that AUTOMATICALLY PLAYS on start - No Coding* (2023, November 16). https://www.youtube.com/watch?v=hiA_qRiNgfg Accessed 7/27/2025
+
+140. Rehope Games [RehopeGames]. *How to Add MUSIC and SOUND EFFECTS to a Game in Unity | Unity 2D Platformer Tutorial #16*. YouTube. https://www.youtube.com/watch?v=N8whM1GjH4w Accessed 7/29/2025
+
+141. Rehope Games [RehopeGames]. (2023, February 25). *Uncover the Simple Trick to KEEP MUSIC PLAYING Between Scenes!* YouTube. https://www.youtube.com/watch?v=xswEpNpucZQ Accessed 7/29/2025
+
+142. Omogonix [Omogonix]. (2022 June 2). *How to Add Footsteps Sounds in Unity*. YouTube. 
+https://www.youtube.com/watch?v=uNYF1gsvD1A Accessed 7/30/2025
+
+143. [jerlovescake]. (2014). *Footsteps are pretty easy! Here's a script that I normally use to play a footstep sound. Just make sure you...* [Comment on the online forum post "Good footstep tutorials"]. Reddit. https://www.reddit.com/r/Unity3D/comments/2s3iub/comment/cnlutz3/. Accessed 7/31/2025 and User-provided link in comment: https://pastebin.com/XKtwphXr. Accessed 7/31/2025
+
+144. DA LAB. [DA-LAB]. (2022, July 12). *Unity - Call a method/function from another script*. YouTube. https://www.youtube.com/watch?v=gFwf_T8_8po Accessed 8/2/2025
+
+145. BMo. [BMoDev]. (2020, May 18). *6 Minute PAUSE MENU Unity Tutorial*. YouTube. https://www.youtube.com/watch?v=9dYDBomQpBQ Accessed 8/2/2025
+
+146. Hamza Hasan [Hamza-Hasan]. (2016, February 16). *You can use SceneManager with LoadSceneMode.Addtive. By that you will be able to load another scene on your current scene...* [Comment on the online forum post "Resuming a previous scene from a current scene using the Unity3D"]. StackExchange. https://gamedev.stackexchange.com/questions/116698/resuming-a-previous-scene-from-a-current-scene-using-the-unity3d. Accessed 8/1/2025
+
+147. [hamza_rafique123]. (2025, January 1). *Here is the solution...* [Comment on the online forum post "UI Buttons Stop Working After I Load Another Scene And Then Come Back"]. Unity Discussions. https://discussions.unity.com/t/ui-buttons-stop-working-after-i-load-another-scene-and-then-come-back/131947/1. Accessed 8/2/2025
+
+148. [DarkBladeNemo]. (2015, November). *I think what he means by is doing something like this....* [Comment on the online forum post "Making a UI Canvas appear when a trigger is entered? {SOLVED}"]. Unity Discussions. https://discussions.unity.com/t/making-a-ui-canvas-appear-when-a-trigger-is-entered-solved/606536. Accessed 8/2/2025
+
+149. [Glenn1990]. (2023, January). *Here is the solution...* [Comment on the online forum post "How do I pause a timer?"]. Unity Discussions. https://discussions.unity.com/t/how-do-i-pause-a-timer/494754/4. Accessed 8/2/2025
+
+150. [deleted]. (2021). *Read the docs, they give you a pretty good idea on how to do this....* [Comment on the online forum post "Is it possible to create and use a scene as pause menu?"]. Reddit. https://www.reddit.com/r/Unity3D/comments/pihw13/is_it_possible_to_create_and_use_a_scene_as_pause/. Accessed 8/2/2025
+
+151. Unity Technologies. (2025, August 2). *Unity Documentation, LoadSceneMode.Additive* Unity Technologies. https://docs.unity3d.com/ScriptReference/SceneManagement.LoadSceneMode.Additive.html Accessed: August 2025.
+
+152. Unity Technologies. (2025, August 2). *Unity Documentation, SceneManager.UnloadSceneAsync* Unity Technologies. https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.UnloadSceneAsync.html Accessed: August 2025.
+     
+154. Unity Technologies. (2025, July 30). *Unity Documentation, SceneManager.SetActiveScene* Unity Technologies. https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.SetActiveScene.html Accessed: August 2025.
+
+155. NightTime Developments. [NightTime Developments]. (2021, December 21). * Unity Crosshair Tutorial in Just 3 Minutes.* Youtube. https://www.youtube.com/watch?v=fftXP0llnXg Accessed: June-August 2025. 
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images

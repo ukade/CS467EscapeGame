@@ -21,11 +21,13 @@ public class timer_script : MonoBehaviour
     public float goalTime = 900f; // default value 15 min in seconds, can be reset based on room
     public bool timesUp = false;
 
+    public GameObject pauseScreen;
+    
     private float currentTime = 0f;
 
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -34,16 +36,18 @@ public class timer_script : MonoBehaviour
         // with each frame the currentTime object updates as seconds pass
         // this also converts the seconds to minutes and then formats them to display
         if (!timesUp)
-        {
-            currentTime += Time.deltaTime;
-
+        {    
             if (currentTime >= goalTime)
             {
                 timesUp = true;
+                //Call Pause Menu scene / canvas
+                pauseScreen.SetActive(true);
+                Time.timeScale = 0f;
             }
-
-            UpdateTimerDisplay();
         }
+
+        currentTime += Time.deltaTime;
+        UpdateTimerDisplay();
 
         void UpdateTimerDisplay()
         {
@@ -56,4 +60,5 @@ public class timer_script : MonoBehaviour
             timerText.text = $"{timeFormatted} / {goalFormatted}";
         }
     }
+    
 }
