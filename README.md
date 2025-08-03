@@ -64,6 +64,8 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 
 8/2: Updated reference citations
 
+8/2: On Brian's direction, updated his timer_script.cs script. - Nick
+
 --------------------------------------------------
 Sources Cited:
 
