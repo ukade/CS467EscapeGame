@@ -20,15 +20,14 @@ public class timer_script : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public float goalTime = 900f; // default value 15 min in seconds, can be reset based on room
     public bool timesUp = false;
-    public bool pauseMarker = false;
 
     public GameObject pauseScreen;
-
+    
     private float currentTime = 0f;
 
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -40,9 +39,8 @@ public class timer_script : MonoBehaviour
         {
             currentTime += Time.deltaTime;
 
-            if (currentTime >= goalTime - 30f)
+            if (currentTime >= goalTime)
             {
-                pauseMarker = true;
                 timesUp = true;
                 //Call Pause Menu scene / canvas
                 pauseScreen.SetActive(true);
@@ -64,4 +62,5 @@ public class timer_script : MonoBehaviour
             timerText.text = $"{timeFormatted} / {goalFormatted}";
         }
     }
+    
 }

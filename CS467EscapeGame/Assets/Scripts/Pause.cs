@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
 {
@@ -27,14 +27,12 @@ public class Pause : MonoBehaviour
         //Referenced and adapted from the following YouTube tutorial:
         //BMo [BMoDev]. (2020, May 18). 6 Minute PAUSE MENU Unity Tutorial. https://www.youtube.com/watch?v=9dYDBomQpBQ
         //YouTube. Accessed 8/2/2025.
-        Debug.Log("In Continue");
         TimesUp.SetActive(false);
         Time.timeScale = 1f;
     }
 
     public void Quit()
     {
-        Debug.Log("In Quit");
 #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
 #else
