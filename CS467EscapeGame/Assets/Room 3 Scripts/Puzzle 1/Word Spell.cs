@@ -68,9 +68,17 @@ public class WordSpell : MonoBehaviour
                 https://docs.unity3d.com/ScriptReference/Vector3-x.html
                 See README for fill list of sources cited. */
 
-                // So as best I can tell the position is a Vector3 in the worldspace so adding an X onto the position should give me the position on the X axis. 
-                // I cannot find any of these sources that say this directly, but it makes sense that you can reference it as an attribute of position.
-                // I also feel like I saw this in a Unity Documentation source but I cannot remember where. Transform position returns the X,Y,Z of a GameObject so I should be able to reference X as an attribute.
+                /* So as best I can tell the position is a Vector3 in the worldspace so adding an X onto the position should give me the position on the X axis. 
+                I cannot find any of these sources that say this directly, but it makes sense that you can reference it as an attribute of position.
+                I also feel like I saw this in a Unity Documentation source but I cannot remember where. Transform position returns the X,Y,Z of a GameObject so I should be able to reference X as an attribute.
+                
+                I noticed on 8/2 when checking Brian's pickup.cs script for object respawn that it uses the X/Y/Z in this fashion but did not see anything in the relevant youtube video for it. 
+
+                Swanson, Brian. (2025, June-August). *Pickup.cs* CS 467 group project.
+                Accessed: July-Auguest 2025.
+
+                Will ask professor if this is the correct way to do this because both scripts use transform.postion.x/y/z similarly. 
+                */
                 if (firstComparisonLetter.transform.position.x < letter.transform.position.x)
                 {
                     if (correctLetterCount < 12)
