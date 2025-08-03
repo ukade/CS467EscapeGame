@@ -64,7 +64,7 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 
 8/2: Updated reference citations
 
-8/2: On Brian's direction, updated his timer_script.cs script. - Nick
+8/3: Based on Brian's recommendation, added Brian's dot/crosshair to Room 3 and altered Brian's timer_script.cs. Also, altered the tree falling animation/position in Room 3 so the player would not get stuck. - Nick
 
 --------------------------------------------------
 Sources Cited:
@@ -339,7 +339,7 @@ Unity Technologies. https://docs.unity3d.com/ScriptReference/Transform.html Acce
 
 120. Unity Technologies. (2025, July 30). *Unity Documentation, Transforms.* Unity Technologies. https://docs.unity3d.com/Manual/class-Transform.html Accessed: July 2025.
 
-121. Unity Technologies. (2025, July 30). *Unity Documentation, Component.transform.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Component-transform.html Accessed: July 2025.
+121. Unity Technologies. (2025, July 30). *Unity Documentation, Component.transform.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Comhttps://www.youtube.com/watch?v=fftXP0llnXgponent-transform.html Accessed: July 2025.
 
 122. Unity Technologies. (2025, July 30). *Unity Documentation, Transform.position.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Transform-position.html Accessed: July 2025.
 
@@ -406,6 +406,8 @@ https://www.youtube.com/watch?v=uNYF1gsvD1A Accessed 7/30/2025
 152. Unity Technologies. (2025, August 2). *Unity Documentation, SceneManager.UnloadSceneAsync* Unity Technologies. https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.UnloadSceneAsync.html Accessed: August 2025.
      
 154. Unity Technologies. (2025, July 30). *Unity Documentation, SceneManager.SetActiveScene* Unity Technologies. https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.SetActiveScene.html Accessed: August 2025.
+
+155. NightTime Developments. [NightTime Developments]. (2021, December 21). * Unity Crosshair Tutorial in Just 3 Minutes.* Youtube. https://www.youtube.com/watch?v=fftXP0llnXg Accessed: June-August 2025. 
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
