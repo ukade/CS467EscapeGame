@@ -41,11 +41,10 @@ public class Continue : MonoBehaviour
         Accessed: August 3, 2025. 
         Scope of use: Just interacting with Brian's scripts to alter variables that will let the timer continue.  
         See README for full list of sources cited. */
+
         if (timerScriptComponent.timesUp == true)
         {
-            timerScriptComponent.goalTime += timerScriptComponent.goalTime;
             timerScriptComponent.timesUp = false;
-            Debug.Log("Time Added.");
         }
 
     }
