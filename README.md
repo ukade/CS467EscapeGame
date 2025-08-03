@@ -60,6 +60,8 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 
 8/2: Worked on Larisa's pesestal idea, refining Katrine/Brian's recycling idea, and making minor asset changes/adjustments.
 
+8/3: Based on Brian's recommendation, added Brian's dot/crosshair to Room 3 and altered Brian's timer_script.cs. Also, altered the tree falling animation/position in Room 3 so the player would not get stuck. - Nick
+
 --------------------------------------------------
 Sources Cited:
 
@@ -333,7 +335,7 @@ Unity Technologies. https://docs.unity3d.com/ScriptReference/Transform.html Acce
 
 120. Unity Technologies. (2025, July 30). *Unity Documentation, Transforms.* Unity Technologies. https://docs.unity3d.com/Manual/class-Transform.html Accessed: July 2025.
 
-121. Unity Technologies. (2025, July 30). *Unity Documentation, Component.transform.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Component-transform.html Accessed: July 2025.
+121. Unity Technologies. (2025, July 30). *Unity Documentation, Component.transform.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Comhttps://www.youtube.com/watch?v=fftXP0llnXgponent-transform.html Accessed: July 2025.
 
 122. Unity Technologies. (2025, July 30). *Unity Documentation, Transform.position.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Transform-position.html Accessed: July 2025.
 
@@ -350,6 +352,9 @@ Unity Technologies. https://docs.unity3d.com/ScriptReference/Transform.html Acce
 128. Microsoft. (2025, June 13). *Microsoft Ignite, Boolean logical operators - AND, OR, NOT, XOR.* Microsoft/Microsoft Learn. https://learn.microsoft.com/en-au/dotnet/csharp/language-reference/operators/boolean-logical-operators Accessed: July-August 2025. 
 
 129. Unity Technologies. (2025, July 30). *Unity Documentation, Behavior.enabled.* Unity Technologies. https://docs.unity3d.com/ScriptReference/Behaviour-enabled.html Accessed: July-August 2025.
+
+130. NightTime Developments. [NightTime Developments]. (2021, December 21). * Unity Crosshair Tutorial in Just 3 Minutes.* Youtube. https://www.youtube.com/watch?v=fftXP0llnXg Accessed: June-August 2025. 
+
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
