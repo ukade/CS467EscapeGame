@@ -36,9 +36,7 @@ public class timer_script : MonoBehaviour
         // with each frame the currentTime object updates as seconds pass
         // this also converts the seconds to minutes and then formats them to display
         if (!timesUp)
-        {
-            currentTime += Time.deltaTime;
-
+        {    
             if (currentTime >= goalTime)
             {
                 timesUp = true;
@@ -46,10 +44,10 @@ public class timer_script : MonoBehaviour
                 pauseScreen.SetActive(true);
                 Time.timeScale = 0f;
             }
-
-            UpdateTimerDisplay();
-
         }
+
+        currentTime += Time.deltaTime;
+        UpdateTimerDisplay();
 
         void UpdateTimerDisplay()
         {
