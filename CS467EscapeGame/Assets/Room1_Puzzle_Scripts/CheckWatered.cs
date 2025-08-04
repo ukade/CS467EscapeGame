@@ -4,16 +4,19 @@
 // Description: Interacting with gameobjects in the correct order will reveal
 // a wall with a clue to next puzzle.
 
+using TMPro;
 using UnityEngine;
 
 public class CheckWatered : MonoBehaviour
 {
-    public GameObject Wall;
+    //public GameObject Wall;
+    [SerializeField] private Animator MoveWall;
     public GameObject plant1; // 1
     public GameObject plant2;
     public GameObject plant3;
     public GameObject plant4;
     public GameObject WaterCan;
+    public TextMeshProUGUI Message;
     public string code = "23142"; // assigned a number to each plant
     private string input = "";
 
@@ -21,6 +24,7 @@ public class CheckWatered : MonoBehaviour
         // If Player interacts with watercan, change houseplants layer to Interactable.
     {
         WaterCan.SetActive(false);
+        Message.text = "You picked up a Watering Can.";
         plant1.layer = LayerMask.NameToLayer("Interactable");
         plant2.layer = LayerMask.NameToLayer("Interactable");
         plant3.layer = LayerMask.NameToLayer("Interactable");
@@ -31,6 +35,7 @@ public class CheckWatered : MonoBehaviour
     {
         if (input.Length < 5)
         {
+            Message.text = "You watered this plant.";
             input = input + "1";
             Debug.Log(input);
 
@@ -46,6 +51,7 @@ public class CheckWatered : MonoBehaviour
     {
         if (input.Length < 5)
         {
+            Message.text = "You watered this plant.";
             input = input + "2";
             Debug.Log(input);
         }
@@ -58,6 +64,7 @@ public class CheckWatered : MonoBehaviour
     {
         if (input.Length < 5)
         {
+            Message.text = "You watered this plant.";
             input = input + "3";
             Debug.Log(input);
         }
@@ -70,6 +77,7 @@ public class CheckWatered : MonoBehaviour
     {
         if (input.Length < 5)
         {
+            Message.text = "You watered this plant.";
             input = input + "4";
             Debug.Log(input);
         }
@@ -83,11 +91,14 @@ public class CheckWatered : MonoBehaviour
     {
         if (input == code)
         {
-            Wall.SetActive(false);
+            Message.text = "Good job. The vines are growing.";
+            //Wall.SetActive(false);
+            MoveWall.SetBool("Moved", true);
             Debug.Log("Correct");
         }
         else
         {
+            Message.text = "Incorrect. Try again.";
             input = "";
             Debug.Log("Incorrect");
         }

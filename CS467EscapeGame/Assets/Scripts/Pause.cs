@@ -29,6 +29,8 @@ public class Pause : MonoBehaviour
         //YouTube. Accessed 8/2/2025.
         TimesUp.SetActive(false);
         Time.timeScale = 1f;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void Quit()

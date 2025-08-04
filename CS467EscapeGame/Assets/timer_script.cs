@@ -18,7 +18,7 @@ public class timer_script : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public float goalTime = 900f; // default value 15 min in seconds, can be reset based on room
+    [SerializeField] public float goalTime = 900f; // default value 15 min in seconds, can be reset based on room
     public bool timesUp = false;
 
     public GameObject pauseScreen;
