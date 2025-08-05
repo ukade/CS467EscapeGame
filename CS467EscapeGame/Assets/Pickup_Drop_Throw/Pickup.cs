@@ -42,7 +42,14 @@ public class Pickup : MonoBehaviour
         if (holding)
             Hold();
 
-        if (!holding & transform.position.y < -50f)
+        if (!holding & transform.rotation.eulerAngles.y > 0 & gameObject.tag == "p3_letter")
+        {
+            Vector3 currentRotation = transform.rotation.eulerAngles;
+            currentRotation.z = 0;
+            transform.rotation = Quaternion.Euler(currentRotation);
+        }
+
+        if (!holding & transform.position.y < -20f)
         {
             ResetPosition();
         }

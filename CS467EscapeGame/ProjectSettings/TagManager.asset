@@ -12,6 +12,7 @@ TagManager:
   - Soda Can
   - SFX
   - TimesUp
+  - p3_letter
   layers:
   - Default
   - TransparentFX
