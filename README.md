@@ -86,6 +86,8 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 
 8/5: Added credit roll to winning scenario, and updated citations list in README - Katrine
 
+8/5: Updated to Room1 - Larisa
+
 --------------------------------------------------
 Sources Cited:
 
@@ -456,6 +458,10 @@ https://www.youtube.com/watch?v=uNYF1gsvD1A Accessed 7/30/2025
 168. Uzquiano, Daniel. (n.d.). NataSans[wght].ttf: Copyright 2025 The Nata Sans Project Authors (https://github.com/dnlzqn/nata-sans). Usage Under Open Font License: https://openfontlicense.org/. Google Fonts. https://fonts.google.com/specimen/Nata+Sans Accessed 8/5/2025
 
 169. Mike's Code [Mikes-Code]. (2023, April 26). Import Custom Fonts to Unity (for Text Mesh Pro) | UNITY TUTORIAL. YouTube. https://www.youtube.com/watch?v=EV4wFb78FFs Accessed 8/5/2025
+
+170.Sound Works 12. (2022, July 20). *Sound Works 12 - Small Sound Kit.* (Version 2021.3.38). Unity Asset Store.
+https://assetstore.unity.com/packages/audio/sound-fx/small-sound-kit-300582 Accessed: August 2025.
+Terms/EULA: https://unity.com/legal/as-terms
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
