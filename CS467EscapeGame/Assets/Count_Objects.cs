@@ -4,8 +4,12 @@
 // Description: A script to enable picking up, dropping, and throwing solid objects
 // Note: Any objects being picked up must have a Colider and RigidBody set up for this to work
 // Also: ensure the player is set to scale 1, 1, 1 or the object it grabs will get its shape distorted
-// Sources: https://www.geeksforgeeks.org/c-sharp/c-sharp-hashset-class/
-//          https://docs.unity3d.com/ScriptReference/Object.GetInstanceID.html?from=MonoBehaviour
+/*
+ * Sources:
+ * GeeksforGeeks. 2025, July 11. C# HashSet (with examples). In GeeksforGeeks. Retrieved from https://www.geeksforgeeks.org/c-sharp/hashset-in-c-sharp-with-examples/
+ * 
+ * Unity Technologies. n.d. Object.GetInstanceID. In Unity Scripting API. Retrieved from https://ocs.unity3d.com/ScriptReference/Object.GetInstanceID.html
+ */
 
 
 using System.Collections.Generic;
