@@ -455,5 +455,7 @@ https://www.youtube.com/watch?v=uNYF1gsvD1A Accessed 7/30/2025
 
 168. Uzquiano, Daniel. (n.d.). NataSans[wght].ttf: Copyright 2025 The Nata Sans Project Authors (https://github.com/dnlzqn/nata-sans). Usage Under Open Font License: https://openfontlicense.org/. Google Fonts. https://fonts.google.com/specimen/Nata+Sans Accessed 8/5/2025
 
+169. Mike's Code [Mikes-Code]. (2023, April 26). Import Custom Fonts to Unity (for Text Mesh Pro) | UNITY TUTORIAL. YouTube. https://www.youtube.com/watch?v=EV4wFb78FFs Accessed 8/5/2025
+
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
