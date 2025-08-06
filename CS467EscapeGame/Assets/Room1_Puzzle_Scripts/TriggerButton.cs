@@ -10,24 +10,37 @@ public class TriggerButton : MonoBehaviour
 {
     [SerializeField] private Animator HomeDoor;
     public GameObject ButtonMesh;
+    int counter = 0;
+
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Player entered the trigger zone.");
-        ButtonMesh.SetActive(false);
+        
         if (!HomeDoor.GetBool("Open"))
         {
-            HomeDoor.SetBool("Open", true);
+            counter++;
+            if(counter > 0)
+            {
+                HomeDoor.SetBool("Open", true); // Opens Door
+            }           
+            
         }
+        Debug.Log("Player entered the trigger zone.");
+        ButtonMesh.SetActive(false);
     }
 
     private void OnTriggerExit(Collider other)
-    {
-        Debug.Log("Player left the trigger zone.");
-        ButtonMesh.SetActive(true);
+    {        
         if (HomeDoor.GetBool("Open"))
         {
-            HomeDoor.SetBool("Open", false);
+            counter--;
+            if (counter == 0) // Keeps door from closing due to multiple triggers
+            {
+                HomeDoor.SetBool("Open", false);
+            }          
+            
         }
-        
+        Debug.Log("Player left the trigger zone.");
+        ButtonMesh.SetActive(true);
+
     }
 }
