@@ -409,5 +409,8 @@ https://www.youtube.com/watch?v=uNYF1gsvD1A Accessed 7/30/2025
 
 155. NightTime Developments. [NightTime Developments]. (2021, December 21). * Unity Crosshair Tutorial in Just 3 Minutes.* Youtube. https://www.youtube.com/watch?v=fftXP0llnXg Accessed: June-August 2025. 
 
+* Included for WordSpell.cs script as instructed by the professor. See also source #8.
+156. Swanson, Brian. (2025, June-August). *CS467EscapeGame, Pickup.cs Script.* (Version 1.0). Oregon State University. https://github.com/ukade/CS467EscapeGame Accessed: June-August 2025.
+
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images

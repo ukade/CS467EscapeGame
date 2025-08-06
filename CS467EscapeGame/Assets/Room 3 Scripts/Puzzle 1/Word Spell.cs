@@ -72,13 +72,17 @@ public class WordSpell : MonoBehaviour
                 I cannot find any of these sources that say this directly, but it makes sense that you can reference it as an attribute of position.
                 I also feel like I saw this in a Unity Documentation source but I cannot remember where. Transform position returns the X,Y,Z of a GameObject so I should be able to reference X as an attribute.
                 
-                I noticed on 8/2 when checking Brian's pickup.cs script for object respawn that it uses the X/Y/Z in this fashion but did not see anything in the relevant youtube video for it. 
+                I noticed on 8/2 when checking Brian's pickup.cs script for object respawn that it uses the X/Y/Z in this fashion but did not see anything in the relevant youtube video for it.
+                The professor said I needed to include a citation here for Brian's script as well as the youtube video it is based on even though I arrived at the conclusion that X can be used as an attribute of transform.position myself.
+                Including citations here and in the README based on the professor's instruction:
 
-                Swanson, Brian. (2025, June-August). *Pickup.cs* CS 467 group project.
-                Accessed: July-Auguest 2025.
+                Matt's Computer Lab. [Matt's Computer Lab]. (2024, December 15). Pick Up and Throw Stuff in Unity 6! 2024 Tutorial.
+                https://www.youtube.com/watch?v=fApXEL0xsx4  Accessed: June-August 2025.
 
-                Will ask professor if this is the correct way to do this because both scripts use transform.postion.x/y/z similarly. 
+                Swanson, Brian. (2025, June-August). *CS467EscapeGame, Pickup.cs Script.* (Version 1.0). Oregon State University.
+                https://github.com/ukade/CS467EscapeGame Accessed: July-August 2025.
                 */
+
                 if (firstComparisonLetter.transform.position.x < letter.transform.position.x)
                 {
                     if (correctLetterCount < 12)
