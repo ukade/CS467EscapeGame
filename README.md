@@ -84,6 +84,8 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 
 8/3: Based on Brian's recommendation, added Brian's dot/crosshair to Room 3 and altered Brian's timer_script.cs. Also, altered the tree falling animation/position in Room 3 so the player would not get stuck. - Nick
 
+8/5: Added credit roll to winning scenario, and updated citations list in README - Katrine
+
 --------------------------------------------------
 Sources Cited:
 
@@ -448,6 +450,10 @@ https://www.youtube.com/watch?v=uNYF1gsvD1A Accessed 7/30/2025
 165. Unity Technologies. (n.d.). Light component. Unity Scripting API. https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Light.html
 
 166. Unity Technologies. (n.d.). Light component settings (URP). Unity Documentation. https://docs.unity3d.com/6000.1/Documentation/Manual/urp/light-component.html#General
+
+167. skGameDev [skgamedev]. (2024, October 3). How to Make a Rolling CREDITS Scene in Unity!!. YouTube. https://www.youtube.com/watch?v=Eeee4TU69x4 Accessed 8/5/2025
+
+168. Uzquiano, Daniel. (n.d.). NataSans[wght].ttf: Copyright 2025 The Nata Sans Project Authors (https://github.com/dnlzqn/nata-sans). Usage Under Open Font License: https://openfontlicense.org/. Google Fonts. https://fonts.google.com/specimen/Nata+Sans Accessed 8/5/2025
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
