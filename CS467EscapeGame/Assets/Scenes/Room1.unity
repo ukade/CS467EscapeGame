@@ -2070,7 +2070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 98844742}
-  goalTime: 380
+  goalTime: 2700
   timesUp: 0
   pauseScreen: {fileID: 2058011409}
 --- !u!114 &206133959
