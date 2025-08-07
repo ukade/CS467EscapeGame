@@ -110,9 +110,6 @@ public class Pickup : MonoBehaviour
             Drop();
         }
 
-        rb.linearVelocity = Vector3.zero;
-        rb.angularVelocity = Vector3.zero;
-
         rb.isKinematic = true;
 
         if (Input.GetMouseButtonDown(1))
