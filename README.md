@@ -88,7 +88,7 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 
 8/5: Updated to Room1 - Larisa
 
-8/6: Removed unused scripts, changed the collider type on the tree in Room 3 based on Larisa's testing/recommendation, and updated/added a citation based on professor's instruction. 
+8/6: Removed unused scripts, changed the collider type on the tree in Room 3 based on Larisa's testing/recommendation, updated citations and added a citation based on professor's instruction. 
 
 --------------------------------------------------
 Sources Cited:
