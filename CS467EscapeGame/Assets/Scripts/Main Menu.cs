@@ -24,6 +24,8 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         //Placeholder as I am unsure if we need to pair Update() with Start() - Katrine
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     //Below Update function checks if user clicks Esc key. If yes, quit the game
