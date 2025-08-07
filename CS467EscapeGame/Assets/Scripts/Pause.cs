@@ -1,3 +1,8 @@
+//Katrine Chow
+//CS 467 Summer 2025
+//Description: This controls the behavior of a pause screen, which pops up when goalTime elapses,
+//and notifies player that time is up. The screen remains invisible until timer triggers it
+
 using UnityEngine;
 //using UnityEngine.SceneManagement;
 

@@ -6,11 +6,13 @@
 
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class CheckWatered : MonoBehaviour
 {
     //public GameObject Wall;
     [SerializeField] private Animator MoveWall;
+    public AudioSource sfxWater;
     public GameObject plant1; // 1
     public GameObject plant2;
     public GameObject plant3;
@@ -19,6 +21,11 @@ public class CheckWatered : MonoBehaviour
     public TextMeshProUGUI Message;
     public string code = "23142"; // assigned a number to each plant
     private string input = "";
+
+    void Start()
+    {
+        sfxWater = GetComponent<AudioSource>();
+    }
 
     public void PickWaterCan()
         // If Player interacts with watercan, change houseplants layer to Interactable.
@@ -31,14 +38,20 @@ public class CheckWatered : MonoBehaviour
         plant4.layer = LayerMask.NameToLayer("Interactable");
     }
 
+    public void WaterSFX()
+    {
+        Message.text = "You watered this plant.";
+        sfxWater.Play();
+
+    }
+
     public void Plant1()
     {
         if (input.Length < 5)
-        {
-            Message.text = "You watered this plant.";
+        {            
             input = input + "1";
+            WaterSFX();
             Debug.Log(input);
-
         }
         if (input.Length > 4)
         {
@@ -51,8 +64,8 @@ public class CheckWatered : MonoBehaviour
     {
         if (input.Length < 5)
         {
-            Message.text = "You watered this plant.";
             input = input + "2";
+            WaterSFX();
             Debug.Log(input);
         }
         if (input.Length > 4)
@@ -64,8 +77,8 @@ public class CheckWatered : MonoBehaviour
     {
         if (input.Length < 5)
         {
-            Message.text = "You watered this plant.";
             input = input + "3";
+            WaterSFX();
             Debug.Log(input);
         }
         if (input.Length > 4)
@@ -77,8 +90,8 @@ public class CheckWatered : MonoBehaviour
     {
         if (input.Length < 5)
         {
-            Message.text = "You watered this plant.";
             input = input + "4";
+            WaterSFX();
             Debug.Log(input);
         }
         if (input.Length > 4)
@@ -92,7 +105,6 @@ public class CheckWatered : MonoBehaviour
         if (input == code)
         {
             Message.text = "Good job. The vines are growing.";
-            //Wall.SetActive(false);
             MoveWall.SetBool("Moved", true);
             Debug.Log("Correct");
         }

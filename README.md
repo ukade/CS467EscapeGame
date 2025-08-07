@@ -18,17 +18,27 @@ Changelog
 
 7/8: Katrine's first commit 
 
+7/10: Added Room 2 initial assets - Brian
+
 7/12: Nicks first commit
 
 7/13: Update to Tools Used
 
 7/13: Added Interaction System, organized file location - Larisa
 
+7/13: Pickup script, count_objects scrips added - Brian
+
 7/15: Update to Tools Used - Katrine
+
+7/15: Prefabs added to room 2 - Brian
+
+7/16: Geometry, textures, colliders added to room 2 - Brian
 
 7/19: Added Cosmetic Changes to Room 1 - Larisa
 
 7/19: Building environment for Room 3
+
+7/19: Puzzle 3 completed for room 2 - Brian
 
 7/20: Changed lighting for Room 3
 
@@ -42,6 +52,12 @@ Changelog
 
 7/23: Added KeyPad to Room1, Interact E reveals Keypad, CorrectCode opens door, Room1Puzzle1 is done - Larisa
 
+7/23: Overhauled Room 2, finalized puzzle locations - Brian
+
+7/24: Fixed Room 2 objects falling through world with food_refresh script  - Brian
+
+7/26: Completed puzzle 2 in room 2 - Brian
+
 7/26: Updated Citations in README.md; Added Inventory System scripts for testing - Katrine
 
 7/26: Working on Room 3 scripting - Nick
@@ -54,6 +70,8 @@ Changelog
 Finished scripting for Puzzle 2 aside from weird mouse error with Brian's interact script that only happens for me.
 Started working on changing assets to implement Brian/Katrine's ideas/suggestions for Puzzles 1 and and Larisa's ideas/suggestions for Puzzle 3. - Nick
 
+7/28: Debugged puzzle 2, added counter script, added sceneloader to room 2. Room 2 feature complete - Brian
+
 7/29: Tweaked the script Brian and I were working on so the reject worked. Finished another script and asset work to implement Brain/Katrine's recycle/trash pickup puzzle idea for Puzzle 1. - Nick
 
 8/1: Worked on Larisa's pedestal idea 
@@ -65,6 +83,10 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 8/2: Updated reference citations
 
 8/3: Based on Brian's recommendation, added Brian's dot/crosshair to Room 3 and altered Brian's timer_script.cs. Also, altered the tree falling animation/position in Room 3 so the player would not get stuck. - Nick
+
+8/5: Added credit roll to winning scenario, and updated citations list in README - Katrine
+
+8/5: Updated to Room1 - Larisa
 
 --------------------------------------------------
 Sources Cited:
@@ -407,8 +429,40 @@ https://www.youtube.com/watch?v=uNYF1gsvD1A Accessed 7/30/2025
 
 155. NightTime Developments. [NightTime Developments]. (2021, December 21). * Unity Crosshair Tutorial in Just 3 Minutes.* Youtube. https://www.youtube.com/watch?v=fftXP0llnXg Accessed: June-August 2025. 
 
+156.  Unity Technologies. (n.d.). Object.Destroy. Unity Manual (Version 6000.1). https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Object.Destroy.html
+
+157. Unity Technologies. (n.d.). GameObject.AddComponent. Unity Manual (Version 6000.1). https://docs.unity3d.com/6000.1/Documentation/ScriptReference/GameObject.AddComponent.html
+
+158.  Unity Technologies. n.d. Object.GetInstanceID. In Unity Scripting API. Retrieved from https://ocs.unity3d.com/ScriptReference/Object.GetInstanceID.html
+
+159. GeeksforGeeks. 2025, July 11. C# HashSet (with examples). In GeeksforGeeks. Retrieved from https://www.geeksforgeeks.org/c-sharp/hashset-in-c-sharp-with-examples/
+
+160. Unity Technologies. (2025). Time (Scripting API). In Unity Scripting API. Retrieved July 29, 2025, from https://docs.unity3d.com/ScriptReference/Time.html
+
+161. Rehope Games. (2023, May 2). Make a TIMER & COUNTDOWN in 5 mins | Unity tutorial for beginners [Video]. YouTube. https://www.youtube.com/watch?v=POq1i8FyRyQ
+
+162. Unity Technologies. (n.d.). Mouse events. Unity Documentation. https://docs.unity3d.com/Manual/UIE-Mouse-Events.html
+
+163. Unity Technologies. (n.d.). MouseEnterEvent class. Unity Scripting API. https://docs.unity3d.com/ScriptReference/UIElements.MouseEnterEvent.html
+
+164.  Unity Technologies. (n.d.). MonoBehaviour.OnMouseOver. Unity Scripting API. https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnMouseOver.html
+
+165. Unity Technologies. (n.d.). Light component. Unity Scripting API. https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Light.html
+
+166. Unity Technologies. (n.d.). Light component settings (URP). Unity Documentation. https://docs.unity3d.com/6000.1/Documentation/Manual/urp/light-component.html#General
+
+167. skGameDev [skgamedev]. (2024, October 3). How to Make a Rolling CREDITS Scene in Unity!!. YouTube. https://www.youtube.com/watch?v=Eeee4TU69x4 Accessed 8/5/2025
+
+168. Uzquiano, Daniel. (n.d.). NataSans[wght].ttf: Copyright 2025 The Nata Sans Project Authors (https://github.com/dnlzqn/nata-sans). Usage Under Open Font License: https://openfontlicense.org/. Google Fonts. https://fonts.google.com/specimen/Nata+Sans Accessed 8/5/2025
+
+169. Mike's Code [Mikes-Code]. (2023, April 26). Import Custom Fonts to Unity (for Text Mesh Pro) | UNITY TUTORIAL. YouTube. https://www.youtube.com/watch?v=EV4wFb78FFs Accessed 8/5/2025
+
+170.Sound Works 12. (2022, July 20). *Sound Works 12 - Small Sound Kit.* (Version 2021.3.38). Unity Asset Store.
+https://assetstore.unity.com/packages/audio/sound-fx/small-sound-kit-300582 Accessed: August 2025.
+Terms/EULA: https://unity.com/legal/as-terms
+
 * Included for WordSpell.cs script as instructed by the professor. See also source #8.
-156. Swanson, Brian. (2025, June-August). *CS467EscapeGame, Pickup.cs Script.* (Version 1.0). Oregon State University. https://github.com/ukade/CS467EscapeGame Accessed: June-August 2025.
+171. Swanson, Brian. (2025, June-August). *CS467EscapeGame, Pickup.cs Script.* (Version 1.0). Oregon State University. https://github.com/ukade/CS467EscapeGame Accessed: June-August 2025.
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
