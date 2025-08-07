@@ -466,5 +466,7 @@ Terms/EULA: https://unity.com/legal/as-terms
 * Included for WordSpell.cs script as instructed by the professor. See also source #8.
 171. Swanson, Brian. (2025, June-August). *CS467EscapeGame, Pickup.cs Script.* (Version 1.0). Oregon State University. https://github.com/ukade/CS467EscapeGame Accessed: June-August 2025.
 
+172. how to show the cursor on the main menu? [Online forum post]. (2019, November 6). In Unity Forums – How to show the cursor on the main menu?. Retrieved August 6, 2025, from https://discussions.unity.com/t/how-to-show-the-cursor-on-the-main-menu/228532
+
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images

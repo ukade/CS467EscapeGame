@@ -29,8 +29,6 @@ public class tree_button : MonoBehaviour
     bool isPressed = false;
     [SerializeField]
     int buttonId;
-    [SerializeField]
-    bool isComplete = false;
 
     private bool mouseOnButton = false;
     private Light buttonLight;
