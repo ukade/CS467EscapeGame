@@ -90,6 +90,8 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 
 8/6: Removed unused scripts, changed the collider type on the tree in Room 3 based on Larisa's testing/recommendation, updated citations and added a citation based on professor's instruction. 
 
+8/7: Added a WebGL source I was looking at. - Nick
+
 --------------------------------------------------
 Sources Cited:
 
@@ -467,6 +469,8 @@ Terms/EULA: https://unity.com/legal/as-terms
 171. Swanson, Brian. (2025, June-August). *CS467EscapeGame, Pickup.cs Script.* (Version 1.0). Oregon State University. https://github.com/ukade/CS467EscapeGame Accessed: June-August 2025.
 
 172. how to show the cursor on the main menu? [Online forum post]. (2019, November 6). In Unity Forums – How to show the cursor on the main menu?. Retrieved August 6, 2025, from https://discussions.unity.com/t/how-to-show-the-cursor-on-the-main-menu/228532
+
+173. Babcock, Nick. (2021, August 23). *Simulating the EU4 map in the browser with WebGL.* Nickb.dev. https://nickb.dev/blog/simulating-the-eu4-map-in-the-browser-with-webgl/ Accessed: August 8, 2025.
 
 Tools Used: 
 VS Codium, VS Codium Plugins, Gnome Terminal, Git, Unity Hub, miro.com, canva.com for 2D mockup stock images
