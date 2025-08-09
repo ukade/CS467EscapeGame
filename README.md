@@ -6,6 +6,7 @@ How to:
 2. File > Clone Repository
 
 Gameplay Instructions:
+
 See INSTRUCTIONS.txt
 https://github.com/ukade/CS467EscapeGame/blob/main/INSTRUCTIONS.txt
 
