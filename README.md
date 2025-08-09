@@ -97,6 +97,8 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 
 8/7: Added a WebGL source I was looking at. - Nick
 
+8/9: Fixed colliders based on a bug that Katrine found and fixed it based on Larisa's tips on how to fix the colliders on the pedestals. - Nick
+
 --------------------------------------------------
 Sources Cited:
 
