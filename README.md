@@ -90,7 +90,7 @@ Started working on changing assets to implement Brian/Katrine's ideas/suggestion
 
 8/6: Removed unused scripts, changed the collider type on the tree in Room 3 based on Larisa's testing/recommendation, updated citations and added a citation based on professor's instruction. 
 
-8/9: Fixed colliders based on a bug that Katrine found and fixed it based on Larisa's tips on how to fix the colliders on the pedestals.
+8/9: Fixed colliders based on a bug that Katrine found and fixed it based on Larisa's tips on how to fix the colliders on the pedestals. - Nick
 --------------------------------------------------
 Sources Cited:
 
