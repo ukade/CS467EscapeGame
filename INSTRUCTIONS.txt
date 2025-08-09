@@ -1,0 +1,96 @@
+Escape Room Challenge
+Installation and Instructions
+
+CS 467 Online Capstone Project Summer 2025
+Katrine Chow, Brian Swanson, Nicholas Charles Warner, Larisa Xie
+
+
+I. Where to access our project/code
+Our game is hosted on a website using WebGL. Here is the link:
+https://play.unity.com/en/games/d69f9813-93e7-45dc-aa9a-8abb27040508/buildandrun 
+
+Our source code, citations, and development history is hosted on GitHub. Here is the link to our GitHub for the project:
+https://github.com/ukade/CS467EscapeGame 
+
+
+II.How to access our project
+Visit our game’s page as listed above. Click “Play” to begin
+
+Ensure you are in Full Screen mode. Click on the square icon at the bottom right corner of the game screen to enter Full Screen mode. (It is to the right of the Volume icon) 
+Click the “New Game” button  to start the game
+
+III. Instructions for the different rooms
+A. Room 1
+For puzzle 1, from the chalk board there is a hint that says “HW + HW = code" with a drawing of a red car.
+If you go to the red car object in the middle of the room, you will find on the license plates two clues. One has symbols and the other one has the word, "DREAM" . 
+For the symbols you need to count the number of symbols found on the wall, and for DREAM, there are some math equations at the top of the wall. 
+Once you find these two numbers, if you add them together, you should get 55900, which you can enter into a keypad near the small locked shed and it should open the door.
+
+Puzzle 2: For puzzle 2, you need to pick up the watering can to be able to interact with the plants. Once you have watered the plants it should enable the vines animation on the wall. 
+
+The plants need to be watered in order. 
+plant on top of blue circle block
+plant next to treasure chest
+plant on top of rings toy
+big plant in the corner
+plant on top of blue circle block
+
+Puzzle 3: For puzzle 3, the vines on the wall should indicate that the password is WAKE UP, which you will input when you interact with the bunny object. (Note the empty space between “E” and “U”) 
+Blocks should fall from the ceiling and you will need to place those blocks on the red platforms. Each platform will open a different door (depicted below, button A opens door A, button B opens door B; 
+there are multiple ways to arrange the stack of blocks). The player should stack the blocks in a way so that they can jump through the door. 
+
+A stack of three blocks closest to the door, followed by a stack of 2 blocks and then by 1 block.
+[C]  [A]  [C]
+[C]  [B]  [A]
+[A]  [B]  [C]
+
+Once through the door, walk towards the bed and press “E” to sleep
+
+B. Room 2 
+Puzzle 1: Puzzle 1 has 8 food objects on a list that are scattered around the ground floor. They are located under trees, on top of rocks, on top of a barrel, in front of the wheelbarrow and behind it. 
+Once all 8 objects are stored in the box, a staircase to puzzle 2 spawns.
+
+Puzzle 1 Solution: The food objects are an egg, an onion, a piece of meat, a lettuce, two apples, some french fries, and a taco.
+
+Puzzle 2: Puzzle 2 is a grid that mirrors the placement of trees in the room and requires the following buttons to be pressed: (Be sure to hit the “F” key to flip on the lights).
+
+Puzzle 2 Solution:
+[ ] [x] [x] [x]
+[x] [ ] [x] [x]
+[ ] [x] [x] [ ]
+[ ] [ ] [x] [ ]
+
+Puzzle 3: Puzzle 3 is a password for the door with a riddle to check the food list. The answer is the order the food is arranged, spelling "MEATLOAF" when clicked on the keypad.
+Puzzle 3 Solution: "MEATLOAF"
+
+Gate opens. Approach the bed and Press “E” key to sleep.
+
+C. Room 3
+Puzzle 1: The player is required to collect trash and put it in several marked bins. Each time the trash is put into the correct bin the player will get a letter. 
+If the trash is put in the incorrect bin it will be rejected. Once all the items of trash are picked up and put in the correctly marked bins a row of jumbled letters will be formed. 
+The player has to figure out the order of these letters by moving them to form the phrase "CHECK THE POND". Once this is done, a sleeping bag will appear by the pond and the player can put it in their tent. 
+
+The solution to this puzzle is to place each bottle, can, and water bottle in their collective bins (there are 12 in total). There is one across the ravine from Puzzle 2. 
+Arrange the letters in order so they say "CHECK THE POND".
+
+Puzzle 2 : The player is required to pick up an axe and take it over near a tree by a ravine. The player can then use the axe to chop down the tree and cross the ravine to get to the items on the other side. 
+On the other side the player will find their pillow and can place it in their tent. 
+
+The solution for this puzzle is to place the axe on the ground near the tree and chop it down. It should let the player cross the ravine. 
+
+Puzzle 3: The player is required to pick up several items and place them on the correct pedestals. Each pedestal is marked with a small item above it that corresponds to its correct item. 
+Once all 5 items are placed on their correct pedestals a cave will open that contains a bucket. The player can then use the bucket at the pond to fill it with water. 
+Once the bucket is filled with water the player can bring it near the campfire to extinguish it. Once the campfire is extinguished, and the other two puzzles completed, the player goes to bed in the tent. 
+Player must have both pillow and sleeping bag in order for the “go to sleep” option to trigger.
+
+For the solution to the puzzle these are the following item combinations for the pedestals from left to right:
+Pedestal 1 - Solved with a pickaxe located near a large pile of rocks on the far side of the pile of rocks from the flash light and the battery. 
+Pedestal 2 - Solved with a boat that is located near the pond.
+Pedestal 3 - Solved with a compass that is located near the pond close to where the player starts in the room.
+Pedestal 4 - Solved with some nails that are located behind the tent.
+Pedestal 5 - Solved with a battery that is located near the flashlight and the nails.
+
+After all these are solved, the player can go into the cave and grab the bucket and take it to the pond. Dropping it in the pond will fill it with water. 
+Setting the bucket by the campfire will then allow the player to put the campfire out. 
+
+

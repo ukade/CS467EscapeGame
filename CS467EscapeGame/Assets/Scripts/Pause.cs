@@ -12,7 +12,8 @@ public class Pause : MonoBehaviour
 
     void Start()
     {
-        
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     void Update()
@@ -24,6 +25,9 @@ public class Pause : MonoBehaviour
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
         }
+        Debug.Log("TimesUp active: " + TimesUp.activeInHierarchy);
+
+
     }
 
 

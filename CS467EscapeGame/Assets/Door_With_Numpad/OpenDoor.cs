@@ -37,10 +37,7 @@ public class OpenDoor : MonoBehaviour
         {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
-        } else
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-        }
+        } 
 
         codeText.text = codeTextValue;
 
@@ -48,9 +45,11 @@ public class OpenDoor : MonoBehaviour
         {
             anim.SetTrigger("OpenDoor");
             CodePanel.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
+
         }
 
-        if(codeTextValue.Length >= 9)
+        if (codeTextValue.Length >= 9)
         {
             codeTextValue = "";
         }
